@@ -1,0 +1,9835 @@
+$date
+	Thu Apr 11 16:25:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb $end
+$var wire 64 ! sum [63:0] $end
+$var reg 64 " A [63:0] $end
+$var reg 64 # B [63:0] $end
+$scope module nBitRcpanst $end
+$var wire 64 $ A [63:0] $end
+$var wire 64 % B [63:0] $end
+$var wire 64 & sum [63:0] $end
+$var wire 65 ' carry [64:0] $end
+$var wire 65 ( F [64:0] $end
+$scope begin rcpaLoop[0] $end
+$scope module rcpfa_inst $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 + cIn $end
+$var wire 1 , fIn $end
+$var wire 1 - fOut $end
+$var wire 1 . s $end
+$var wire 1 / notFIn $end
+$var wire 1 0 notCOut $end
+$var wire 1 1 notCIn $end
+$var wire 1 2 cOut $end
+$var wire 1 3 Y $end
+$var wire 1 4 X $end
+$scope module AO1 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 4 out $end
+$var wire 1 5 node2 $end
+$var wire 1 6 node1 $end
+$var wire 1 1 c $end
+$scope module nand1 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 6 out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 4 out $end
+$var wire 1 1 b $end
+$var wire 1 5 a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 6 a $end
+$var wire 1 5 out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 , a $end
+$var wire 1 4 c $end
+$var wire 1 0 out $end
+$var wire 1 7 node2 $end
+$var wire 1 8 node1 $end
+$var wire 1 3 b $end
+$scope module nand1 $end
+$var wire 1 , a $end
+$var wire 1 8 out $end
+$var wire 1 3 b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 4 b $end
+$var wire 1 0 out $end
+$var wire 1 7 a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 8 a $end
+$var wire 1 7 out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 3 out $end
+$var wire 1 9 node2 $end
+$var wire 1 : node1 $end
+$var wire 1 1 c $end
+$scope module nand1 $end
+$var wire 1 3 out $end
+$var wire 1 1 b $end
+$var wire 1 9 a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 : out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 : a $end
+$var wire 1 9 out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 4 b $end
+$var wire 1 3 c $end
+$var wire 1 . out $end
+$var wire 1 ; node2 $end
+$var wire 1 < node1 $end
+$var wire 1 / a $end
+$scope module nand1 $end
+$var wire 1 3 b $end
+$var wire 1 . out $end
+$var wire 1 ; a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 4 b $end
+$var wire 1 < out $end
+$var wire 1 / a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 < a $end
+$var wire 1 ; out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 + a $end
+$var wire 1 1 out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 , a $end
+$var wire 1 / out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 0 a $end
+$var wire 1 2 out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[1] $end
+$scope module rcpfa_inst $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 ? cIn $end
+$var wire 1 @ fIn $end
+$var wire 1 A fOut $end
+$var wire 1 B s $end
+$var wire 1 C notFIn $end
+$var wire 1 D notCOut $end
+$var wire 1 E notCIn $end
+$var wire 1 F cOut $end
+$var wire 1 G Y $end
+$var wire 1 H X $end
+$scope module AO1 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 H out $end
+$var wire 1 I node2 $end
+$var wire 1 J node1 $end
+$var wire 1 E c $end
+$scope module nand1 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 J out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 H out $end
+$var wire 1 E b $end
+$var wire 1 I a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 J a $end
+$var wire 1 I out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 @ a $end
+$var wire 1 H c $end
+$var wire 1 D out $end
+$var wire 1 K node2 $end
+$var wire 1 L node1 $end
+$var wire 1 G b $end
+$scope module nand1 $end
+$var wire 1 @ a $end
+$var wire 1 L out $end
+$var wire 1 G b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 H b $end
+$var wire 1 D out $end
+$var wire 1 K a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 L a $end
+$var wire 1 K out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 G out $end
+$var wire 1 M node2 $end
+$var wire 1 N node1 $end
+$var wire 1 E c $end
+$scope module nand1 $end
+$var wire 1 G out $end
+$var wire 1 E b $end
+$var wire 1 M a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 N out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 N a $end
+$var wire 1 M out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 H b $end
+$var wire 1 G c $end
+$var wire 1 B out $end
+$var wire 1 O node2 $end
+$var wire 1 P node1 $end
+$var wire 1 C a $end
+$scope module nand1 $end
+$var wire 1 G b $end
+$var wire 1 B out $end
+$var wire 1 O a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 H b $end
+$var wire 1 P out $end
+$var wire 1 C a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 P a $end
+$var wire 1 O out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ? a $end
+$var wire 1 E out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 @ a $end
+$var wire 1 C out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 D a $end
+$var wire 1 F out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[2] $end
+$scope module rcpfa_inst $end
+$var wire 1 Q a $end
+$var wire 1 R b $end
+$var wire 1 S cIn $end
+$var wire 1 T fIn $end
+$var wire 1 U fOut $end
+$var wire 1 V s $end
+$var wire 1 W notFIn $end
+$var wire 1 X notCOut $end
+$var wire 1 Y notCIn $end
+$var wire 1 Z cOut $end
+$var wire 1 [ Y $end
+$var wire 1 \ X $end
+$scope module AO1 $end
+$var wire 1 Q a $end
+$var wire 1 R b $end
+$var wire 1 \ out $end
+$var wire 1 ] node2 $end
+$var wire 1 ^ node1 $end
+$var wire 1 Y c $end
+$scope module nand1 $end
+$var wire 1 Q a $end
+$var wire 1 R b $end
+$var wire 1 ^ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 \ out $end
+$var wire 1 Y b $end
+$var wire 1 ] a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ^ a $end
+$var wire 1 ] out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 T a $end
+$var wire 1 \ c $end
+$var wire 1 X out $end
+$var wire 1 _ node2 $end
+$var wire 1 ` node1 $end
+$var wire 1 [ b $end
+$scope module nand1 $end
+$var wire 1 T a $end
+$var wire 1 ` out $end
+$var wire 1 [ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 \ b $end
+$var wire 1 X out $end
+$var wire 1 _ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ` a $end
+$var wire 1 _ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 Q a $end
+$var wire 1 R b $end
+$var wire 1 [ out $end
+$var wire 1 a node2 $end
+$var wire 1 b node1 $end
+$var wire 1 Y c $end
+$scope module nand1 $end
+$var wire 1 [ out $end
+$var wire 1 Y b $end
+$var wire 1 a a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Q a $end
+$var wire 1 R b $end
+$var wire 1 b out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 b a $end
+$var wire 1 a out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 \ b $end
+$var wire 1 [ c $end
+$var wire 1 V out $end
+$var wire 1 c node2 $end
+$var wire 1 d node1 $end
+$var wire 1 W a $end
+$scope module nand1 $end
+$var wire 1 [ b $end
+$var wire 1 V out $end
+$var wire 1 c a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 \ b $end
+$var wire 1 d out $end
+$var wire 1 W a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 d a $end
+$var wire 1 c out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 S a $end
+$var wire 1 Y out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 T a $end
+$var wire 1 W out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 X a $end
+$var wire 1 Z out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[3] $end
+$scope module rcpfa_inst $end
+$var wire 1 e a $end
+$var wire 1 f b $end
+$var wire 1 g cIn $end
+$var wire 1 h fIn $end
+$var wire 1 i fOut $end
+$var wire 1 j s $end
+$var wire 1 k notFIn $end
+$var wire 1 l notCOut $end
+$var wire 1 m notCIn $end
+$var wire 1 n cOut $end
+$var wire 1 o Y $end
+$var wire 1 p X $end
+$scope module AO1 $end
+$var wire 1 e a $end
+$var wire 1 f b $end
+$var wire 1 p out $end
+$var wire 1 q node2 $end
+$var wire 1 r node1 $end
+$var wire 1 m c $end
+$scope module nand1 $end
+$var wire 1 e a $end
+$var wire 1 f b $end
+$var wire 1 r out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 p out $end
+$var wire 1 m b $end
+$var wire 1 q a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 r a $end
+$var wire 1 q out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 h a $end
+$var wire 1 p c $end
+$var wire 1 l out $end
+$var wire 1 s node2 $end
+$var wire 1 t node1 $end
+$var wire 1 o b $end
+$scope module nand1 $end
+$var wire 1 h a $end
+$var wire 1 t out $end
+$var wire 1 o b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 p b $end
+$var wire 1 l out $end
+$var wire 1 s a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 t a $end
+$var wire 1 s out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 e a $end
+$var wire 1 f b $end
+$var wire 1 o out $end
+$var wire 1 u node2 $end
+$var wire 1 v node1 $end
+$var wire 1 m c $end
+$scope module nand1 $end
+$var wire 1 o out $end
+$var wire 1 m b $end
+$var wire 1 u a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 e a $end
+$var wire 1 f b $end
+$var wire 1 v out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 v a $end
+$var wire 1 u out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 p b $end
+$var wire 1 o c $end
+$var wire 1 j out $end
+$var wire 1 w node2 $end
+$var wire 1 x node1 $end
+$var wire 1 k a $end
+$scope module nand1 $end
+$var wire 1 o b $end
+$var wire 1 j out $end
+$var wire 1 w a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 p b $end
+$var wire 1 x out $end
+$var wire 1 k a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 x a $end
+$var wire 1 w out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 g a $end
+$var wire 1 m out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 h a $end
+$var wire 1 k out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 l a $end
+$var wire 1 n out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[4] $end
+$scope module rcpfa_inst $end
+$var wire 1 y a $end
+$var wire 1 z b $end
+$var wire 1 { cIn $end
+$var wire 1 | fIn $end
+$var wire 1 } fOut $end
+$var wire 1 ~ s $end
+$var wire 1 !" notFIn $end
+$var wire 1 "" notCOut $end
+$var wire 1 #" notCIn $end
+$var wire 1 $" cOut $end
+$var wire 1 %" Y $end
+$var wire 1 &" X $end
+$scope module AO1 $end
+$var wire 1 y a $end
+$var wire 1 z b $end
+$var wire 1 &" out $end
+$var wire 1 '" node2 $end
+$var wire 1 (" node1 $end
+$var wire 1 #" c $end
+$scope module nand1 $end
+$var wire 1 y a $end
+$var wire 1 z b $end
+$var wire 1 (" out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 &" out $end
+$var wire 1 #" b $end
+$var wire 1 '" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 (" a $end
+$var wire 1 '" out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 | a $end
+$var wire 1 &" c $end
+$var wire 1 "" out $end
+$var wire 1 )" node2 $end
+$var wire 1 *" node1 $end
+$var wire 1 %" b $end
+$scope module nand1 $end
+$var wire 1 | a $end
+$var wire 1 *" out $end
+$var wire 1 %" b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 &" b $end
+$var wire 1 "" out $end
+$var wire 1 )" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 *" a $end
+$var wire 1 )" out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 y a $end
+$var wire 1 z b $end
+$var wire 1 %" out $end
+$var wire 1 +" node2 $end
+$var wire 1 ," node1 $end
+$var wire 1 #" c $end
+$scope module nand1 $end
+$var wire 1 %" out $end
+$var wire 1 #" b $end
+$var wire 1 +" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 y a $end
+$var wire 1 z b $end
+$var wire 1 ," out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ," a $end
+$var wire 1 +" out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 &" b $end
+$var wire 1 %" c $end
+$var wire 1 ~ out $end
+$var wire 1 -" node2 $end
+$var wire 1 ." node1 $end
+$var wire 1 !" a $end
+$scope module nand1 $end
+$var wire 1 %" b $end
+$var wire 1 ~ out $end
+$var wire 1 -" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 &" b $end
+$var wire 1 ." out $end
+$var wire 1 !" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ." a $end
+$var wire 1 -" out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 { a $end
+$var wire 1 #" out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 | a $end
+$var wire 1 !" out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 "" a $end
+$var wire 1 $" out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[5] $end
+$scope module rcpfa_inst $end
+$var wire 1 /" a $end
+$var wire 1 0" b $end
+$var wire 1 1" cIn $end
+$var wire 1 2" fIn $end
+$var wire 1 3" fOut $end
+$var wire 1 4" s $end
+$var wire 1 5" notFIn $end
+$var wire 1 6" notCOut $end
+$var wire 1 7" notCIn $end
+$var wire 1 8" cOut $end
+$var wire 1 9" Y $end
+$var wire 1 :" X $end
+$scope module AO1 $end
+$var wire 1 /" a $end
+$var wire 1 0" b $end
+$var wire 1 :" out $end
+$var wire 1 ;" node2 $end
+$var wire 1 <" node1 $end
+$var wire 1 7" c $end
+$scope module nand1 $end
+$var wire 1 /" a $end
+$var wire 1 0" b $end
+$var wire 1 <" out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 :" out $end
+$var wire 1 7" b $end
+$var wire 1 ;" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 <" a $end
+$var wire 1 ;" out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 2" a $end
+$var wire 1 :" c $end
+$var wire 1 6" out $end
+$var wire 1 =" node2 $end
+$var wire 1 >" node1 $end
+$var wire 1 9" b $end
+$scope module nand1 $end
+$var wire 1 2" a $end
+$var wire 1 >" out $end
+$var wire 1 9" b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 :" b $end
+$var wire 1 6" out $end
+$var wire 1 =" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 >" a $end
+$var wire 1 =" out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 /" a $end
+$var wire 1 0" b $end
+$var wire 1 9" out $end
+$var wire 1 ?" node2 $end
+$var wire 1 @" node1 $end
+$var wire 1 7" c $end
+$scope module nand1 $end
+$var wire 1 9" out $end
+$var wire 1 7" b $end
+$var wire 1 ?" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 /" a $end
+$var wire 1 0" b $end
+$var wire 1 @" out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 @" a $end
+$var wire 1 ?" out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 :" b $end
+$var wire 1 9" c $end
+$var wire 1 4" out $end
+$var wire 1 A" node2 $end
+$var wire 1 B" node1 $end
+$var wire 1 5" a $end
+$scope module nand1 $end
+$var wire 1 9" b $end
+$var wire 1 4" out $end
+$var wire 1 A" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 :" b $end
+$var wire 1 B" out $end
+$var wire 1 5" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 B" a $end
+$var wire 1 A" out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 1" a $end
+$var wire 1 7" out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 2" a $end
+$var wire 1 5" out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 6" a $end
+$var wire 1 8" out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[6] $end
+$scope module rcpfa_inst $end
+$var wire 1 C" a $end
+$var wire 1 D" b $end
+$var wire 1 E" cIn $end
+$var wire 1 F" fIn $end
+$var wire 1 G" fOut $end
+$var wire 1 H" s $end
+$var wire 1 I" notFIn $end
+$var wire 1 J" notCOut $end
+$var wire 1 K" notCIn $end
+$var wire 1 L" cOut $end
+$var wire 1 M" Y $end
+$var wire 1 N" X $end
+$scope module AO1 $end
+$var wire 1 C" a $end
+$var wire 1 D" b $end
+$var wire 1 N" out $end
+$var wire 1 O" node2 $end
+$var wire 1 P" node1 $end
+$var wire 1 K" c $end
+$scope module nand1 $end
+$var wire 1 C" a $end
+$var wire 1 D" b $end
+$var wire 1 P" out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 N" out $end
+$var wire 1 K" b $end
+$var wire 1 O" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 P" a $end
+$var wire 1 O" out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 F" a $end
+$var wire 1 N" c $end
+$var wire 1 J" out $end
+$var wire 1 Q" node2 $end
+$var wire 1 R" node1 $end
+$var wire 1 M" b $end
+$scope module nand1 $end
+$var wire 1 F" a $end
+$var wire 1 R" out $end
+$var wire 1 M" b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 N" b $end
+$var wire 1 J" out $end
+$var wire 1 Q" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 R" a $end
+$var wire 1 Q" out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 C" a $end
+$var wire 1 D" b $end
+$var wire 1 M" out $end
+$var wire 1 S" node2 $end
+$var wire 1 T" node1 $end
+$var wire 1 K" c $end
+$scope module nand1 $end
+$var wire 1 M" out $end
+$var wire 1 K" b $end
+$var wire 1 S" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 C" a $end
+$var wire 1 D" b $end
+$var wire 1 T" out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 T" a $end
+$var wire 1 S" out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 N" b $end
+$var wire 1 M" c $end
+$var wire 1 H" out $end
+$var wire 1 U" node2 $end
+$var wire 1 V" node1 $end
+$var wire 1 I" a $end
+$scope module nand1 $end
+$var wire 1 M" b $end
+$var wire 1 H" out $end
+$var wire 1 U" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 N" b $end
+$var wire 1 V" out $end
+$var wire 1 I" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 V" a $end
+$var wire 1 U" out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 E" a $end
+$var wire 1 K" out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 F" a $end
+$var wire 1 I" out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 J" a $end
+$var wire 1 L" out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[7] $end
+$scope module rcpfa_inst $end
+$var wire 1 W" a $end
+$var wire 1 X" b $end
+$var wire 1 Y" cIn $end
+$var wire 1 Z" fIn $end
+$var wire 1 [" fOut $end
+$var wire 1 \" s $end
+$var wire 1 ]" notFIn $end
+$var wire 1 ^" notCOut $end
+$var wire 1 _" notCIn $end
+$var wire 1 `" cOut $end
+$var wire 1 a" Y $end
+$var wire 1 b" X $end
+$scope module AO1 $end
+$var wire 1 W" a $end
+$var wire 1 X" b $end
+$var wire 1 b" out $end
+$var wire 1 c" node2 $end
+$var wire 1 d" node1 $end
+$var wire 1 _" c $end
+$scope module nand1 $end
+$var wire 1 W" a $end
+$var wire 1 X" b $end
+$var wire 1 d" out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 b" out $end
+$var wire 1 _" b $end
+$var wire 1 c" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 d" a $end
+$var wire 1 c" out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 Z" a $end
+$var wire 1 b" c $end
+$var wire 1 ^" out $end
+$var wire 1 e" node2 $end
+$var wire 1 f" node1 $end
+$var wire 1 a" b $end
+$scope module nand1 $end
+$var wire 1 Z" a $end
+$var wire 1 f" out $end
+$var wire 1 a" b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 b" b $end
+$var wire 1 ^" out $end
+$var wire 1 e" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 f" a $end
+$var wire 1 e" out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 W" a $end
+$var wire 1 X" b $end
+$var wire 1 a" out $end
+$var wire 1 g" node2 $end
+$var wire 1 h" node1 $end
+$var wire 1 _" c $end
+$scope module nand1 $end
+$var wire 1 a" out $end
+$var wire 1 _" b $end
+$var wire 1 g" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 W" a $end
+$var wire 1 X" b $end
+$var wire 1 h" out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 h" a $end
+$var wire 1 g" out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 b" b $end
+$var wire 1 a" c $end
+$var wire 1 \" out $end
+$var wire 1 i" node2 $end
+$var wire 1 j" node1 $end
+$var wire 1 ]" a $end
+$scope module nand1 $end
+$var wire 1 a" b $end
+$var wire 1 \" out $end
+$var wire 1 i" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 b" b $end
+$var wire 1 j" out $end
+$var wire 1 ]" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 j" a $end
+$var wire 1 i" out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Y" a $end
+$var wire 1 _" out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 Z" a $end
+$var wire 1 ]" out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 ^" a $end
+$var wire 1 `" out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[8] $end
+$scope module rcpfa_inst $end
+$var wire 1 k" a $end
+$var wire 1 l" b $end
+$var wire 1 m" cIn $end
+$var wire 1 n" fIn $end
+$var wire 1 o" fOut $end
+$var wire 1 p" s $end
+$var wire 1 q" notFIn $end
+$var wire 1 r" notCOut $end
+$var wire 1 s" notCIn $end
+$var wire 1 t" cOut $end
+$var wire 1 u" Y $end
+$var wire 1 v" X $end
+$scope module AO1 $end
+$var wire 1 k" a $end
+$var wire 1 l" b $end
+$var wire 1 v" out $end
+$var wire 1 w" node2 $end
+$var wire 1 x" node1 $end
+$var wire 1 s" c $end
+$scope module nand1 $end
+$var wire 1 k" a $end
+$var wire 1 l" b $end
+$var wire 1 x" out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 v" out $end
+$var wire 1 s" b $end
+$var wire 1 w" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 x" a $end
+$var wire 1 w" out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 n" a $end
+$var wire 1 v" c $end
+$var wire 1 r" out $end
+$var wire 1 y" node2 $end
+$var wire 1 z" node1 $end
+$var wire 1 u" b $end
+$scope module nand1 $end
+$var wire 1 n" a $end
+$var wire 1 z" out $end
+$var wire 1 u" b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 v" b $end
+$var wire 1 r" out $end
+$var wire 1 y" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 z" a $end
+$var wire 1 y" out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 k" a $end
+$var wire 1 l" b $end
+$var wire 1 u" out $end
+$var wire 1 {" node2 $end
+$var wire 1 |" node1 $end
+$var wire 1 s" c $end
+$scope module nand1 $end
+$var wire 1 u" out $end
+$var wire 1 s" b $end
+$var wire 1 {" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 k" a $end
+$var wire 1 l" b $end
+$var wire 1 |" out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 |" a $end
+$var wire 1 {" out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 v" b $end
+$var wire 1 u" c $end
+$var wire 1 p" out $end
+$var wire 1 }" node2 $end
+$var wire 1 ~" node1 $end
+$var wire 1 q" a $end
+$scope module nand1 $end
+$var wire 1 u" b $end
+$var wire 1 p" out $end
+$var wire 1 }" a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 v" b $end
+$var wire 1 ~" out $end
+$var wire 1 q" a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ~" a $end
+$var wire 1 }" out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 m" a $end
+$var wire 1 s" out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 n" a $end
+$var wire 1 q" out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 r" a $end
+$var wire 1 t" out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[9] $end
+$scope module rcpfa_inst $end
+$var wire 1 !# a $end
+$var wire 1 "# b $end
+$var wire 1 ## cIn $end
+$var wire 1 $# fIn $end
+$var wire 1 %# fOut $end
+$var wire 1 &# s $end
+$var wire 1 '# notFIn $end
+$var wire 1 (# notCOut $end
+$var wire 1 )# notCIn $end
+$var wire 1 *# cOut $end
+$var wire 1 +# Y $end
+$var wire 1 ,# X $end
+$scope module AO1 $end
+$var wire 1 !# a $end
+$var wire 1 "# b $end
+$var wire 1 ,# out $end
+$var wire 1 -# node2 $end
+$var wire 1 .# node1 $end
+$var wire 1 )# c $end
+$scope module nand1 $end
+$var wire 1 !# a $end
+$var wire 1 "# b $end
+$var wire 1 .# out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ,# out $end
+$var wire 1 )# b $end
+$var wire 1 -# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 .# a $end
+$var wire 1 -# out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 $# a $end
+$var wire 1 ,# c $end
+$var wire 1 (# out $end
+$var wire 1 /# node2 $end
+$var wire 1 0# node1 $end
+$var wire 1 +# b $end
+$scope module nand1 $end
+$var wire 1 $# a $end
+$var wire 1 0# out $end
+$var wire 1 +# b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ,# b $end
+$var wire 1 (# out $end
+$var wire 1 /# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 0# a $end
+$var wire 1 /# out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 !# a $end
+$var wire 1 "# b $end
+$var wire 1 +# out $end
+$var wire 1 1# node2 $end
+$var wire 1 2# node1 $end
+$var wire 1 )# c $end
+$scope module nand1 $end
+$var wire 1 +# out $end
+$var wire 1 )# b $end
+$var wire 1 1# a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 !# a $end
+$var wire 1 "# b $end
+$var wire 1 2# out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 2# a $end
+$var wire 1 1# out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 ,# b $end
+$var wire 1 +# c $end
+$var wire 1 &# out $end
+$var wire 1 3# node2 $end
+$var wire 1 4# node1 $end
+$var wire 1 '# a $end
+$scope module nand1 $end
+$var wire 1 +# b $end
+$var wire 1 &# out $end
+$var wire 1 3# a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ,# b $end
+$var wire 1 4# out $end
+$var wire 1 '# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 4# a $end
+$var wire 1 3# out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ## a $end
+$var wire 1 )# out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 $# a $end
+$var wire 1 '# out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 (# a $end
+$var wire 1 *# out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[10] $end
+$scope module rcpfa_inst $end
+$var wire 1 5# a $end
+$var wire 1 6# b $end
+$var wire 1 7# cIn $end
+$var wire 1 8# fIn $end
+$var wire 1 9# fOut $end
+$var wire 1 :# s $end
+$var wire 1 ;# notFIn $end
+$var wire 1 <# notCOut $end
+$var wire 1 =# notCIn $end
+$var wire 1 ># cOut $end
+$var wire 1 ?# Y $end
+$var wire 1 @# X $end
+$scope module AO1 $end
+$var wire 1 5# a $end
+$var wire 1 6# b $end
+$var wire 1 @# out $end
+$var wire 1 A# node2 $end
+$var wire 1 B# node1 $end
+$var wire 1 =# c $end
+$scope module nand1 $end
+$var wire 1 5# a $end
+$var wire 1 6# b $end
+$var wire 1 B# out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 @# out $end
+$var wire 1 =# b $end
+$var wire 1 A# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 B# a $end
+$var wire 1 A# out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 8# a $end
+$var wire 1 @# c $end
+$var wire 1 <# out $end
+$var wire 1 C# node2 $end
+$var wire 1 D# node1 $end
+$var wire 1 ?# b $end
+$scope module nand1 $end
+$var wire 1 8# a $end
+$var wire 1 D# out $end
+$var wire 1 ?# b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 @# b $end
+$var wire 1 <# out $end
+$var wire 1 C# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 D# a $end
+$var wire 1 C# out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 5# a $end
+$var wire 1 6# b $end
+$var wire 1 ?# out $end
+$var wire 1 E# node2 $end
+$var wire 1 F# node1 $end
+$var wire 1 =# c $end
+$scope module nand1 $end
+$var wire 1 ?# out $end
+$var wire 1 =# b $end
+$var wire 1 E# a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 5# a $end
+$var wire 1 6# b $end
+$var wire 1 F# out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 F# a $end
+$var wire 1 E# out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 @# b $end
+$var wire 1 ?# c $end
+$var wire 1 :# out $end
+$var wire 1 G# node2 $end
+$var wire 1 H# node1 $end
+$var wire 1 ;# a $end
+$scope module nand1 $end
+$var wire 1 ?# b $end
+$var wire 1 :# out $end
+$var wire 1 G# a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 @# b $end
+$var wire 1 H# out $end
+$var wire 1 ;# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 H# a $end
+$var wire 1 G# out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 7# a $end
+$var wire 1 =# out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 8# a $end
+$var wire 1 ;# out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 <# a $end
+$var wire 1 ># out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[11] $end
+$scope module rcpfa_inst $end
+$var wire 1 I# a $end
+$var wire 1 J# b $end
+$var wire 1 K# cIn $end
+$var wire 1 L# fIn $end
+$var wire 1 M# fOut $end
+$var wire 1 N# s $end
+$var wire 1 O# notFIn $end
+$var wire 1 P# notCOut $end
+$var wire 1 Q# notCIn $end
+$var wire 1 R# cOut $end
+$var wire 1 S# Y $end
+$var wire 1 T# X $end
+$scope module AO1 $end
+$var wire 1 I# a $end
+$var wire 1 J# b $end
+$var wire 1 T# out $end
+$var wire 1 U# node2 $end
+$var wire 1 V# node1 $end
+$var wire 1 Q# c $end
+$scope module nand1 $end
+$var wire 1 I# a $end
+$var wire 1 J# b $end
+$var wire 1 V# out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 T# out $end
+$var wire 1 Q# b $end
+$var wire 1 U# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 V# a $end
+$var wire 1 U# out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 L# a $end
+$var wire 1 T# c $end
+$var wire 1 P# out $end
+$var wire 1 W# node2 $end
+$var wire 1 X# node1 $end
+$var wire 1 S# b $end
+$scope module nand1 $end
+$var wire 1 L# a $end
+$var wire 1 X# out $end
+$var wire 1 S# b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 T# b $end
+$var wire 1 P# out $end
+$var wire 1 W# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 X# a $end
+$var wire 1 W# out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 I# a $end
+$var wire 1 J# b $end
+$var wire 1 S# out $end
+$var wire 1 Y# node2 $end
+$var wire 1 Z# node1 $end
+$var wire 1 Q# c $end
+$scope module nand1 $end
+$var wire 1 S# out $end
+$var wire 1 Q# b $end
+$var wire 1 Y# a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 I# a $end
+$var wire 1 J# b $end
+$var wire 1 Z# out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Z# a $end
+$var wire 1 Y# out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 T# b $end
+$var wire 1 S# c $end
+$var wire 1 N# out $end
+$var wire 1 [# node2 $end
+$var wire 1 \# node1 $end
+$var wire 1 O# a $end
+$scope module nand1 $end
+$var wire 1 S# b $end
+$var wire 1 N# out $end
+$var wire 1 [# a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 T# b $end
+$var wire 1 \# out $end
+$var wire 1 O# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 \# a $end
+$var wire 1 [# out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 K# a $end
+$var wire 1 Q# out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 L# a $end
+$var wire 1 O# out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 P# a $end
+$var wire 1 R# out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[12] $end
+$scope module rcpfa_inst $end
+$var wire 1 ]# a $end
+$var wire 1 ^# b $end
+$var wire 1 _# cIn $end
+$var wire 1 `# fIn $end
+$var wire 1 a# fOut $end
+$var wire 1 b# s $end
+$var wire 1 c# notFIn $end
+$var wire 1 d# notCOut $end
+$var wire 1 e# notCIn $end
+$var wire 1 f# cOut $end
+$var wire 1 g# Y $end
+$var wire 1 h# X $end
+$scope module AO1 $end
+$var wire 1 ]# a $end
+$var wire 1 ^# b $end
+$var wire 1 h# out $end
+$var wire 1 i# node2 $end
+$var wire 1 j# node1 $end
+$var wire 1 e# c $end
+$scope module nand1 $end
+$var wire 1 ]# a $end
+$var wire 1 ^# b $end
+$var wire 1 j# out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 h# out $end
+$var wire 1 e# b $end
+$var wire 1 i# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 j# a $end
+$var wire 1 i# out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 `# a $end
+$var wire 1 h# c $end
+$var wire 1 d# out $end
+$var wire 1 k# node2 $end
+$var wire 1 l# node1 $end
+$var wire 1 g# b $end
+$scope module nand1 $end
+$var wire 1 `# a $end
+$var wire 1 l# out $end
+$var wire 1 g# b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 h# b $end
+$var wire 1 d# out $end
+$var wire 1 k# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 l# a $end
+$var wire 1 k# out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 ]# a $end
+$var wire 1 ^# b $end
+$var wire 1 g# out $end
+$var wire 1 m# node2 $end
+$var wire 1 n# node1 $end
+$var wire 1 e# c $end
+$scope module nand1 $end
+$var wire 1 g# out $end
+$var wire 1 e# b $end
+$var wire 1 m# a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ]# a $end
+$var wire 1 ^# b $end
+$var wire 1 n# out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 n# a $end
+$var wire 1 m# out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 h# b $end
+$var wire 1 g# c $end
+$var wire 1 b# out $end
+$var wire 1 o# node2 $end
+$var wire 1 p# node1 $end
+$var wire 1 c# a $end
+$scope module nand1 $end
+$var wire 1 g# b $end
+$var wire 1 b# out $end
+$var wire 1 o# a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 h# b $end
+$var wire 1 p# out $end
+$var wire 1 c# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 p# a $end
+$var wire 1 o# out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 _# a $end
+$var wire 1 e# out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 `# a $end
+$var wire 1 c# out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 d# a $end
+$var wire 1 f# out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[13] $end
+$scope module rcpfa_inst $end
+$var wire 1 q# a $end
+$var wire 1 r# b $end
+$var wire 1 s# cIn $end
+$var wire 1 t# fIn $end
+$var wire 1 u# fOut $end
+$var wire 1 v# s $end
+$var wire 1 w# notFIn $end
+$var wire 1 x# notCOut $end
+$var wire 1 y# notCIn $end
+$var wire 1 z# cOut $end
+$var wire 1 {# Y $end
+$var wire 1 |# X $end
+$scope module AO1 $end
+$var wire 1 q# a $end
+$var wire 1 r# b $end
+$var wire 1 |# out $end
+$var wire 1 }# node2 $end
+$var wire 1 ~# node1 $end
+$var wire 1 y# c $end
+$scope module nand1 $end
+$var wire 1 q# a $end
+$var wire 1 r# b $end
+$var wire 1 ~# out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 |# out $end
+$var wire 1 y# b $end
+$var wire 1 }# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ~# a $end
+$var wire 1 }# out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 t# a $end
+$var wire 1 |# c $end
+$var wire 1 x# out $end
+$var wire 1 !$ node2 $end
+$var wire 1 "$ node1 $end
+$var wire 1 {# b $end
+$scope module nand1 $end
+$var wire 1 t# a $end
+$var wire 1 "$ out $end
+$var wire 1 {# b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 |# b $end
+$var wire 1 x# out $end
+$var wire 1 !$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 "$ a $end
+$var wire 1 !$ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 q# a $end
+$var wire 1 r# b $end
+$var wire 1 {# out $end
+$var wire 1 #$ node2 $end
+$var wire 1 $$ node1 $end
+$var wire 1 y# c $end
+$scope module nand1 $end
+$var wire 1 {# out $end
+$var wire 1 y# b $end
+$var wire 1 #$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 q# a $end
+$var wire 1 r# b $end
+$var wire 1 $$ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 $$ a $end
+$var wire 1 #$ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 |# b $end
+$var wire 1 {# c $end
+$var wire 1 v# out $end
+$var wire 1 %$ node2 $end
+$var wire 1 &$ node1 $end
+$var wire 1 w# a $end
+$scope module nand1 $end
+$var wire 1 {# b $end
+$var wire 1 v# out $end
+$var wire 1 %$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 |# b $end
+$var wire 1 &$ out $end
+$var wire 1 w# a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 &$ a $end
+$var wire 1 %$ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 s# a $end
+$var wire 1 y# out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 t# a $end
+$var wire 1 w# out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 x# a $end
+$var wire 1 z# out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[14] $end
+$scope module rcpfa_inst $end
+$var wire 1 '$ a $end
+$var wire 1 ($ b $end
+$var wire 1 )$ cIn $end
+$var wire 1 *$ fIn $end
+$var wire 1 +$ fOut $end
+$var wire 1 ,$ s $end
+$var wire 1 -$ notFIn $end
+$var wire 1 .$ notCOut $end
+$var wire 1 /$ notCIn $end
+$var wire 1 0$ cOut $end
+$var wire 1 1$ Y $end
+$var wire 1 2$ X $end
+$scope module AO1 $end
+$var wire 1 '$ a $end
+$var wire 1 ($ b $end
+$var wire 1 2$ out $end
+$var wire 1 3$ node2 $end
+$var wire 1 4$ node1 $end
+$var wire 1 /$ c $end
+$scope module nand1 $end
+$var wire 1 '$ a $end
+$var wire 1 ($ b $end
+$var wire 1 4$ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 2$ out $end
+$var wire 1 /$ b $end
+$var wire 1 3$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 4$ a $end
+$var wire 1 3$ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 *$ a $end
+$var wire 1 2$ c $end
+$var wire 1 .$ out $end
+$var wire 1 5$ node2 $end
+$var wire 1 6$ node1 $end
+$var wire 1 1$ b $end
+$scope module nand1 $end
+$var wire 1 *$ a $end
+$var wire 1 6$ out $end
+$var wire 1 1$ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 2$ b $end
+$var wire 1 .$ out $end
+$var wire 1 5$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 6$ a $end
+$var wire 1 5$ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 '$ a $end
+$var wire 1 ($ b $end
+$var wire 1 1$ out $end
+$var wire 1 7$ node2 $end
+$var wire 1 8$ node1 $end
+$var wire 1 /$ c $end
+$scope module nand1 $end
+$var wire 1 1$ out $end
+$var wire 1 /$ b $end
+$var wire 1 7$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 '$ a $end
+$var wire 1 ($ b $end
+$var wire 1 8$ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 8$ a $end
+$var wire 1 7$ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 2$ b $end
+$var wire 1 1$ c $end
+$var wire 1 ,$ out $end
+$var wire 1 9$ node2 $end
+$var wire 1 :$ node1 $end
+$var wire 1 -$ a $end
+$scope module nand1 $end
+$var wire 1 1$ b $end
+$var wire 1 ,$ out $end
+$var wire 1 9$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 2$ b $end
+$var wire 1 :$ out $end
+$var wire 1 -$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 :$ a $end
+$var wire 1 9$ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 )$ a $end
+$var wire 1 /$ out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 *$ a $end
+$var wire 1 -$ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 .$ a $end
+$var wire 1 0$ out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[15] $end
+$scope module rcpfa_inst $end
+$var wire 1 ;$ a $end
+$var wire 1 <$ b $end
+$var wire 1 =$ cIn $end
+$var wire 1 >$ fIn $end
+$var wire 1 ?$ fOut $end
+$var wire 1 @$ s $end
+$var wire 1 A$ notFIn $end
+$var wire 1 B$ notCOut $end
+$var wire 1 C$ notCIn $end
+$var wire 1 D$ cOut $end
+$var wire 1 E$ Y $end
+$var wire 1 F$ X $end
+$scope module AO1 $end
+$var wire 1 ;$ a $end
+$var wire 1 <$ b $end
+$var wire 1 F$ out $end
+$var wire 1 G$ node2 $end
+$var wire 1 H$ node1 $end
+$var wire 1 C$ c $end
+$scope module nand1 $end
+$var wire 1 ;$ a $end
+$var wire 1 <$ b $end
+$var wire 1 H$ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 F$ out $end
+$var wire 1 C$ b $end
+$var wire 1 G$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 H$ a $end
+$var wire 1 G$ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 >$ a $end
+$var wire 1 F$ c $end
+$var wire 1 B$ out $end
+$var wire 1 I$ node2 $end
+$var wire 1 J$ node1 $end
+$var wire 1 E$ b $end
+$scope module nand1 $end
+$var wire 1 >$ a $end
+$var wire 1 J$ out $end
+$var wire 1 E$ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 F$ b $end
+$var wire 1 B$ out $end
+$var wire 1 I$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 J$ a $end
+$var wire 1 I$ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 ;$ a $end
+$var wire 1 <$ b $end
+$var wire 1 E$ out $end
+$var wire 1 K$ node2 $end
+$var wire 1 L$ node1 $end
+$var wire 1 C$ c $end
+$scope module nand1 $end
+$var wire 1 E$ out $end
+$var wire 1 C$ b $end
+$var wire 1 K$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ;$ a $end
+$var wire 1 <$ b $end
+$var wire 1 L$ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 L$ a $end
+$var wire 1 K$ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 F$ b $end
+$var wire 1 E$ c $end
+$var wire 1 @$ out $end
+$var wire 1 M$ node2 $end
+$var wire 1 N$ node1 $end
+$var wire 1 A$ a $end
+$scope module nand1 $end
+$var wire 1 E$ b $end
+$var wire 1 @$ out $end
+$var wire 1 M$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 F$ b $end
+$var wire 1 N$ out $end
+$var wire 1 A$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 N$ a $end
+$var wire 1 M$ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 =$ a $end
+$var wire 1 C$ out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 >$ a $end
+$var wire 1 A$ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 B$ a $end
+$var wire 1 D$ out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[16] $end
+$scope module rcpfa_inst $end
+$var wire 1 O$ a $end
+$var wire 1 P$ b $end
+$var wire 1 Q$ cIn $end
+$var wire 1 R$ fIn $end
+$var wire 1 S$ fOut $end
+$var wire 1 T$ s $end
+$var wire 1 U$ notFIn $end
+$var wire 1 V$ notCOut $end
+$var wire 1 W$ notCIn $end
+$var wire 1 X$ cOut $end
+$var wire 1 Y$ Y $end
+$var wire 1 Z$ X $end
+$scope module AO1 $end
+$var wire 1 O$ a $end
+$var wire 1 P$ b $end
+$var wire 1 Z$ out $end
+$var wire 1 [$ node2 $end
+$var wire 1 \$ node1 $end
+$var wire 1 W$ c $end
+$scope module nand1 $end
+$var wire 1 O$ a $end
+$var wire 1 P$ b $end
+$var wire 1 \$ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Z$ out $end
+$var wire 1 W$ b $end
+$var wire 1 [$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 \$ a $end
+$var wire 1 [$ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 R$ a $end
+$var wire 1 Z$ c $end
+$var wire 1 V$ out $end
+$var wire 1 ]$ node2 $end
+$var wire 1 ^$ node1 $end
+$var wire 1 Y$ b $end
+$scope module nand1 $end
+$var wire 1 R$ a $end
+$var wire 1 ^$ out $end
+$var wire 1 Y$ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Z$ b $end
+$var wire 1 V$ out $end
+$var wire 1 ]$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ^$ a $end
+$var wire 1 ]$ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 O$ a $end
+$var wire 1 P$ b $end
+$var wire 1 Y$ out $end
+$var wire 1 _$ node2 $end
+$var wire 1 `$ node1 $end
+$var wire 1 W$ c $end
+$scope module nand1 $end
+$var wire 1 Y$ out $end
+$var wire 1 W$ b $end
+$var wire 1 _$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 O$ a $end
+$var wire 1 P$ b $end
+$var wire 1 `$ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 `$ a $end
+$var wire 1 _$ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 Z$ b $end
+$var wire 1 Y$ c $end
+$var wire 1 T$ out $end
+$var wire 1 a$ node2 $end
+$var wire 1 b$ node1 $end
+$var wire 1 U$ a $end
+$scope module nand1 $end
+$var wire 1 Y$ b $end
+$var wire 1 T$ out $end
+$var wire 1 a$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Z$ b $end
+$var wire 1 b$ out $end
+$var wire 1 U$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 b$ a $end
+$var wire 1 a$ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Q$ a $end
+$var wire 1 W$ out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 R$ a $end
+$var wire 1 U$ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 V$ a $end
+$var wire 1 X$ out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[17] $end
+$scope module rcpfa_inst $end
+$var wire 1 c$ a $end
+$var wire 1 d$ b $end
+$var wire 1 e$ cIn $end
+$var wire 1 f$ fIn $end
+$var wire 1 g$ fOut $end
+$var wire 1 h$ s $end
+$var wire 1 i$ notFIn $end
+$var wire 1 j$ notCOut $end
+$var wire 1 k$ notCIn $end
+$var wire 1 l$ cOut $end
+$var wire 1 m$ Y $end
+$var wire 1 n$ X $end
+$scope module AO1 $end
+$var wire 1 c$ a $end
+$var wire 1 d$ b $end
+$var wire 1 n$ out $end
+$var wire 1 o$ node2 $end
+$var wire 1 p$ node1 $end
+$var wire 1 k$ c $end
+$scope module nand1 $end
+$var wire 1 c$ a $end
+$var wire 1 d$ b $end
+$var wire 1 p$ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 n$ out $end
+$var wire 1 k$ b $end
+$var wire 1 o$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 p$ a $end
+$var wire 1 o$ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 f$ a $end
+$var wire 1 n$ c $end
+$var wire 1 j$ out $end
+$var wire 1 q$ node2 $end
+$var wire 1 r$ node1 $end
+$var wire 1 m$ b $end
+$scope module nand1 $end
+$var wire 1 f$ a $end
+$var wire 1 r$ out $end
+$var wire 1 m$ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 n$ b $end
+$var wire 1 j$ out $end
+$var wire 1 q$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 r$ a $end
+$var wire 1 q$ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 c$ a $end
+$var wire 1 d$ b $end
+$var wire 1 m$ out $end
+$var wire 1 s$ node2 $end
+$var wire 1 t$ node1 $end
+$var wire 1 k$ c $end
+$scope module nand1 $end
+$var wire 1 m$ out $end
+$var wire 1 k$ b $end
+$var wire 1 s$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 c$ a $end
+$var wire 1 d$ b $end
+$var wire 1 t$ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 t$ a $end
+$var wire 1 s$ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 n$ b $end
+$var wire 1 m$ c $end
+$var wire 1 h$ out $end
+$var wire 1 u$ node2 $end
+$var wire 1 v$ node1 $end
+$var wire 1 i$ a $end
+$scope module nand1 $end
+$var wire 1 m$ b $end
+$var wire 1 h$ out $end
+$var wire 1 u$ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 n$ b $end
+$var wire 1 v$ out $end
+$var wire 1 i$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 v$ a $end
+$var wire 1 u$ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 e$ a $end
+$var wire 1 k$ out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 f$ a $end
+$var wire 1 i$ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 j$ a $end
+$var wire 1 l$ out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[18] $end
+$scope module rcpfa_inst $end
+$var wire 1 w$ a $end
+$var wire 1 x$ b $end
+$var wire 1 y$ cIn $end
+$var wire 1 z$ fIn $end
+$var wire 1 {$ fOut $end
+$var wire 1 |$ s $end
+$var wire 1 }$ notFIn $end
+$var wire 1 ~$ notCOut $end
+$var wire 1 !% notCIn $end
+$var wire 1 "% cOut $end
+$var wire 1 #% Y $end
+$var wire 1 $% X $end
+$scope module AO1 $end
+$var wire 1 w$ a $end
+$var wire 1 x$ b $end
+$var wire 1 $% out $end
+$var wire 1 %% node2 $end
+$var wire 1 &% node1 $end
+$var wire 1 !% c $end
+$scope module nand1 $end
+$var wire 1 w$ a $end
+$var wire 1 x$ b $end
+$var wire 1 &% out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 $% out $end
+$var wire 1 !% b $end
+$var wire 1 %% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 &% a $end
+$var wire 1 %% out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 z$ a $end
+$var wire 1 $% c $end
+$var wire 1 ~$ out $end
+$var wire 1 '% node2 $end
+$var wire 1 (% node1 $end
+$var wire 1 #% b $end
+$scope module nand1 $end
+$var wire 1 z$ a $end
+$var wire 1 (% out $end
+$var wire 1 #% b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 $% b $end
+$var wire 1 ~$ out $end
+$var wire 1 '% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 (% a $end
+$var wire 1 '% out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 w$ a $end
+$var wire 1 x$ b $end
+$var wire 1 #% out $end
+$var wire 1 )% node2 $end
+$var wire 1 *% node1 $end
+$var wire 1 !% c $end
+$scope module nand1 $end
+$var wire 1 #% out $end
+$var wire 1 !% b $end
+$var wire 1 )% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 w$ a $end
+$var wire 1 x$ b $end
+$var wire 1 *% out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 *% a $end
+$var wire 1 )% out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 $% b $end
+$var wire 1 #% c $end
+$var wire 1 |$ out $end
+$var wire 1 +% node2 $end
+$var wire 1 ,% node1 $end
+$var wire 1 }$ a $end
+$scope module nand1 $end
+$var wire 1 #% b $end
+$var wire 1 |$ out $end
+$var wire 1 +% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 $% b $end
+$var wire 1 ,% out $end
+$var wire 1 }$ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ,% a $end
+$var wire 1 +% out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 y$ a $end
+$var wire 1 !% out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 z$ a $end
+$var wire 1 }$ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 ~$ a $end
+$var wire 1 "% out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[19] $end
+$scope module rcpfa_inst $end
+$var wire 1 -% a $end
+$var wire 1 .% b $end
+$var wire 1 /% cIn $end
+$var wire 1 0% fIn $end
+$var wire 1 1% fOut $end
+$var wire 1 2% s $end
+$var wire 1 3% notFIn $end
+$var wire 1 4% notCOut $end
+$var wire 1 5% notCIn $end
+$var wire 1 6% cOut $end
+$var wire 1 7% Y $end
+$var wire 1 8% X $end
+$scope module AO1 $end
+$var wire 1 -% a $end
+$var wire 1 .% b $end
+$var wire 1 8% out $end
+$var wire 1 9% node2 $end
+$var wire 1 :% node1 $end
+$var wire 1 5% c $end
+$scope module nand1 $end
+$var wire 1 -% a $end
+$var wire 1 .% b $end
+$var wire 1 :% out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 8% out $end
+$var wire 1 5% b $end
+$var wire 1 9% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 :% a $end
+$var wire 1 9% out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 0% a $end
+$var wire 1 8% c $end
+$var wire 1 4% out $end
+$var wire 1 ;% node2 $end
+$var wire 1 <% node1 $end
+$var wire 1 7% b $end
+$scope module nand1 $end
+$var wire 1 0% a $end
+$var wire 1 <% out $end
+$var wire 1 7% b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 8% b $end
+$var wire 1 4% out $end
+$var wire 1 ;% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 <% a $end
+$var wire 1 ;% out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 -% a $end
+$var wire 1 .% b $end
+$var wire 1 7% out $end
+$var wire 1 =% node2 $end
+$var wire 1 >% node1 $end
+$var wire 1 5% c $end
+$scope module nand1 $end
+$var wire 1 7% out $end
+$var wire 1 5% b $end
+$var wire 1 =% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 -% a $end
+$var wire 1 .% b $end
+$var wire 1 >% out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 >% a $end
+$var wire 1 =% out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 8% b $end
+$var wire 1 7% c $end
+$var wire 1 2% out $end
+$var wire 1 ?% node2 $end
+$var wire 1 @% node1 $end
+$var wire 1 3% a $end
+$scope module nand1 $end
+$var wire 1 7% b $end
+$var wire 1 2% out $end
+$var wire 1 ?% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 8% b $end
+$var wire 1 @% out $end
+$var wire 1 3% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 @% a $end
+$var wire 1 ?% out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 /% a $end
+$var wire 1 5% out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 0% a $end
+$var wire 1 3% out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 4% a $end
+$var wire 1 6% out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[20] $end
+$scope module rcpfa_inst $end
+$var wire 1 A% a $end
+$var wire 1 B% b $end
+$var wire 1 C% cIn $end
+$var wire 1 D% fIn $end
+$var wire 1 E% fOut $end
+$var wire 1 F% s $end
+$var wire 1 G% notFIn $end
+$var wire 1 H% notCOut $end
+$var wire 1 I% notCIn $end
+$var wire 1 J% cOut $end
+$var wire 1 K% Y $end
+$var wire 1 L% X $end
+$scope module AO1 $end
+$var wire 1 A% a $end
+$var wire 1 B% b $end
+$var wire 1 L% out $end
+$var wire 1 M% node2 $end
+$var wire 1 N% node1 $end
+$var wire 1 I% c $end
+$scope module nand1 $end
+$var wire 1 A% a $end
+$var wire 1 B% b $end
+$var wire 1 N% out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 L% out $end
+$var wire 1 I% b $end
+$var wire 1 M% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 N% a $end
+$var wire 1 M% out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 D% a $end
+$var wire 1 L% c $end
+$var wire 1 H% out $end
+$var wire 1 O% node2 $end
+$var wire 1 P% node1 $end
+$var wire 1 K% b $end
+$scope module nand1 $end
+$var wire 1 D% a $end
+$var wire 1 P% out $end
+$var wire 1 K% b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 L% b $end
+$var wire 1 H% out $end
+$var wire 1 O% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 P% a $end
+$var wire 1 O% out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 A% a $end
+$var wire 1 B% b $end
+$var wire 1 K% out $end
+$var wire 1 Q% node2 $end
+$var wire 1 R% node1 $end
+$var wire 1 I% c $end
+$scope module nand1 $end
+$var wire 1 K% out $end
+$var wire 1 I% b $end
+$var wire 1 Q% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 A% a $end
+$var wire 1 B% b $end
+$var wire 1 R% out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 R% a $end
+$var wire 1 Q% out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 L% b $end
+$var wire 1 K% c $end
+$var wire 1 F% out $end
+$var wire 1 S% node2 $end
+$var wire 1 T% node1 $end
+$var wire 1 G% a $end
+$scope module nand1 $end
+$var wire 1 K% b $end
+$var wire 1 F% out $end
+$var wire 1 S% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 L% b $end
+$var wire 1 T% out $end
+$var wire 1 G% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 T% a $end
+$var wire 1 S% out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 C% a $end
+$var wire 1 I% out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 D% a $end
+$var wire 1 G% out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 H% a $end
+$var wire 1 J% out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[21] $end
+$scope module rcpfa_inst $end
+$var wire 1 U% a $end
+$var wire 1 V% b $end
+$var wire 1 W% cIn $end
+$var wire 1 X% fIn $end
+$var wire 1 Y% fOut $end
+$var wire 1 Z% s $end
+$var wire 1 [% notFIn $end
+$var wire 1 \% notCOut $end
+$var wire 1 ]% notCIn $end
+$var wire 1 ^% cOut $end
+$var wire 1 _% Y $end
+$var wire 1 `% X $end
+$scope module AO1 $end
+$var wire 1 U% a $end
+$var wire 1 V% b $end
+$var wire 1 `% out $end
+$var wire 1 a% node2 $end
+$var wire 1 b% node1 $end
+$var wire 1 ]% c $end
+$scope module nand1 $end
+$var wire 1 U% a $end
+$var wire 1 V% b $end
+$var wire 1 b% out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 `% out $end
+$var wire 1 ]% b $end
+$var wire 1 a% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 b% a $end
+$var wire 1 a% out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 X% a $end
+$var wire 1 `% c $end
+$var wire 1 \% out $end
+$var wire 1 c% node2 $end
+$var wire 1 d% node1 $end
+$var wire 1 _% b $end
+$scope module nand1 $end
+$var wire 1 X% a $end
+$var wire 1 d% out $end
+$var wire 1 _% b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 `% b $end
+$var wire 1 \% out $end
+$var wire 1 c% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 d% a $end
+$var wire 1 c% out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 U% a $end
+$var wire 1 V% b $end
+$var wire 1 _% out $end
+$var wire 1 e% node2 $end
+$var wire 1 f% node1 $end
+$var wire 1 ]% c $end
+$scope module nand1 $end
+$var wire 1 _% out $end
+$var wire 1 ]% b $end
+$var wire 1 e% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 U% a $end
+$var wire 1 V% b $end
+$var wire 1 f% out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 f% a $end
+$var wire 1 e% out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 `% b $end
+$var wire 1 _% c $end
+$var wire 1 Z% out $end
+$var wire 1 g% node2 $end
+$var wire 1 h% node1 $end
+$var wire 1 [% a $end
+$scope module nand1 $end
+$var wire 1 _% b $end
+$var wire 1 Z% out $end
+$var wire 1 g% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 `% b $end
+$var wire 1 h% out $end
+$var wire 1 [% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 h% a $end
+$var wire 1 g% out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 W% a $end
+$var wire 1 ]% out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 X% a $end
+$var wire 1 [% out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 \% a $end
+$var wire 1 ^% out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[22] $end
+$scope module rcpfa_inst $end
+$var wire 1 i% a $end
+$var wire 1 j% b $end
+$var wire 1 k% cIn $end
+$var wire 1 l% fIn $end
+$var wire 1 m% fOut $end
+$var wire 1 n% s $end
+$var wire 1 o% notFIn $end
+$var wire 1 p% notCOut $end
+$var wire 1 q% notCIn $end
+$var wire 1 r% cOut $end
+$var wire 1 s% Y $end
+$var wire 1 t% X $end
+$scope module AO1 $end
+$var wire 1 i% a $end
+$var wire 1 j% b $end
+$var wire 1 t% out $end
+$var wire 1 u% node2 $end
+$var wire 1 v% node1 $end
+$var wire 1 q% c $end
+$scope module nand1 $end
+$var wire 1 i% a $end
+$var wire 1 j% b $end
+$var wire 1 v% out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 t% out $end
+$var wire 1 q% b $end
+$var wire 1 u% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 v% a $end
+$var wire 1 u% out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 l% a $end
+$var wire 1 t% c $end
+$var wire 1 p% out $end
+$var wire 1 w% node2 $end
+$var wire 1 x% node1 $end
+$var wire 1 s% b $end
+$scope module nand1 $end
+$var wire 1 l% a $end
+$var wire 1 x% out $end
+$var wire 1 s% b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 t% b $end
+$var wire 1 p% out $end
+$var wire 1 w% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 x% a $end
+$var wire 1 w% out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 i% a $end
+$var wire 1 j% b $end
+$var wire 1 s% out $end
+$var wire 1 y% node2 $end
+$var wire 1 z% node1 $end
+$var wire 1 q% c $end
+$scope module nand1 $end
+$var wire 1 s% out $end
+$var wire 1 q% b $end
+$var wire 1 y% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 i% a $end
+$var wire 1 j% b $end
+$var wire 1 z% out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 z% a $end
+$var wire 1 y% out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 t% b $end
+$var wire 1 s% c $end
+$var wire 1 n% out $end
+$var wire 1 {% node2 $end
+$var wire 1 |% node1 $end
+$var wire 1 o% a $end
+$scope module nand1 $end
+$var wire 1 s% b $end
+$var wire 1 n% out $end
+$var wire 1 {% a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 t% b $end
+$var wire 1 |% out $end
+$var wire 1 o% a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 |% a $end
+$var wire 1 {% out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 k% a $end
+$var wire 1 q% out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 l% a $end
+$var wire 1 o% out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 p% a $end
+$var wire 1 r% out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[23] $end
+$scope module rcpfa_inst $end
+$var wire 1 }% a $end
+$var wire 1 ~% b $end
+$var wire 1 !& cIn $end
+$var wire 1 "& fIn $end
+$var wire 1 #& fOut $end
+$var wire 1 $& s $end
+$var wire 1 %& notFIn $end
+$var wire 1 && notCOut $end
+$var wire 1 '& notCIn $end
+$var wire 1 (& cOut $end
+$var wire 1 )& Y $end
+$var wire 1 *& X $end
+$scope module AO1 $end
+$var wire 1 }% a $end
+$var wire 1 ~% b $end
+$var wire 1 *& out $end
+$var wire 1 +& node2 $end
+$var wire 1 ,& node1 $end
+$var wire 1 '& c $end
+$scope module nand1 $end
+$var wire 1 }% a $end
+$var wire 1 ~% b $end
+$var wire 1 ,& out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 *& out $end
+$var wire 1 '& b $end
+$var wire 1 +& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ,& a $end
+$var wire 1 +& out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 "& a $end
+$var wire 1 *& c $end
+$var wire 1 && out $end
+$var wire 1 -& node2 $end
+$var wire 1 .& node1 $end
+$var wire 1 )& b $end
+$scope module nand1 $end
+$var wire 1 "& a $end
+$var wire 1 .& out $end
+$var wire 1 )& b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 *& b $end
+$var wire 1 && out $end
+$var wire 1 -& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 .& a $end
+$var wire 1 -& out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 }% a $end
+$var wire 1 ~% b $end
+$var wire 1 )& out $end
+$var wire 1 /& node2 $end
+$var wire 1 0& node1 $end
+$var wire 1 '& c $end
+$scope module nand1 $end
+$var wire 1 )& out $end
+$var wire 1 '& b $end
+$var wire 1 /& a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 }% a $end
+$var wire 1 ~% b $end
+$var wire 1 0& out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 0& a $end
+$var wire 1 /& out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 *& b $end
+$var wire 1 )& c $end
+$var wire 1 $& out $end
+$var wire 1 1& node2 $end
+$var wire 1 2& node1 $end
+$var wire 1 %& a $end
+$scope module nand1 $end
+$var wire 1 )& b $end
+$var wire 1 $& out $end
+$var wire 1 1& a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 *& b $end
+$var wire 1 2& out $end
+$var wire 1 %& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 2& a $end
+$var wire 1 1& out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 !& a $end
+$var wire 1 '& out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 "& a $end
+$var wire 1 %& out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 && a $end
+$var wire 1 (& out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[24] $end
+$scope module rcpfa_inst $end
+$var wire 1 3& a $end
+$var wire 1 4& b $end
+$var wire 1 5& cIn $end
+$var wire 1 6& fIn $end
+$var wire 1 7& fOut $end
+$var wire 1 8& s $end
+$var wire 1 9& notFIn $end
+$var wire 1 :& notCOut $end
+$var wire 1 ;& notCIn $end
+$var wire 1 <& cOut $end
+$var wire 1 =& Y $end
+$var wire 1 >& X $end
+$scope module AO1 $end
+$var wire 1 3& a $end
+$var wire 1 4& b $end
+$var wire 1 >& out $end
+$var wire 1 ?& node2 $end
+$var wire 1 @& node1 $end
+$var wire 1 ;& c $end
+$scope module nand1 $end
+$var wire 1 3& a $end
+$var wire 1 4& b $end
+$var wire 1 @& out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 >& out $end
+$var wire 1 ;& b $end
+$var wire 1 ?& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 @& a $end
+$var wire 1 ?& out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 6& a $end
+$var wire 1 >& c $end
+$var wire 1 :& out $end
+$var wire 1 A& node2 $end
+$var wire 1 B& node1 $end
+$var wire 1 =& b $end
+$scope module nand1 $end
+$var wire 1 6& a $end
+$var wire 1 B& out $end
+$var wire 1 =& b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 >& b $end
+$var wire 1 :& out $end
+$var wire 1 A& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 B& a $end
+$var wire 1 A& out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 3& a $end
+$var wire 1 4& b $end
+$var wire 1 =& out $end
+$var wire 1 C& node2 $end
+$var wire 1 D& node1 $end
+$var wire 1 ;& c $end
+$scope module nand1 $end
+$var wire 1 =& out $end
+$var wire 1 ;& b $end
+$var wire 1 C& a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 3& a $end
+$var wire 1 4& b $end
+$var wire 1 D& out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 D& a $end
+$var wire 1 C& out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 >& b $end
+$var wire 1 =& c $end
+$var wire 1 8& out $end
+$var wire 1 E& node2 $end
+$var wire 1 F& node1 $end
+$var wire 1 9& a $end
+$scope module nand1 $end
+$var wire 1 =& b $end
+$var wire 1 8& out $end
+$var wire 1 E& a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 >& b $end
+$var wire 1 F& out $end
+$var wire 1 9& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 F& a $end
+$var wire 1 E& out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 5& a $end
+$var wire 1 ;& out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 6& a $end
+$var wire 1 9& out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 :& a $end
+$var wire 1 <& out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[25] $end
+$scope module rcpfa_inst $end
+$var wire 1 G& a $end
+$var wire 1 H& b $end
+$var wire 1 I& cIn $end
+$var wire 1 J& fIn $end
+$var wire 1 K& fOut $end
+$var wire 1 L& s $end
+$var wire 1 M& notFIn $end
+$var wire 1 N& notCOut $end
+$var wire 1 O& notCIn $end
+$var wire 1 P& cOut $end
+$var wire 1 Q& Y $end
+$var wire 1 R& X $end
+$scope module AO1 $end
+$var wire 1 G& a $end
+$var wire 1 H& b $end
+$var wire 1 R& out $end
+$var wire 1 S& node2 $end
+$var wire 1 T& node1 $end
+$var wire 1 O& c $end
+$scope module nand1 $end
+$var wire 1 G& a $end
+$var wire 1 H& b $end
+$var wire 1 T& out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 R& out $end
+$var wire 1 O& b $end
+$var wire 1 S& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 T& a $end
+$var wire 1 S& out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 J& a $end
+$var wire 1 R& c $end
+$var wire 1 N& out $end
+$var wire 1 U& node2 $end
+$var wire 1 V& node1 $end
+$var wire 1 Q& b $end
+$scope module nand1 $end
+$var wire 1 J& a $end
+$var wire 1 V& out $end
+$var wire 1 Q& b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 R& b $end
+$var wire 1 N& out $end
+$var wire 1 U& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 V& a $end
+$var wire 1 U& out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 G& a $end
+$var wire 1 H& b $end
+$var wire 1 Q& out $end
+$var wire 1 W& node2 $end
+$var wire 1 X& node1 $end
+$var wire 1 O& c $end
+$scope module nand1 $end
+$var wire 1 Q& out $end
+$var wire 1 O& b $end
+$var wire 1 W& a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 G& a $end
+$var wire 1 H& b $end
+$var wire 1 X& out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 X& a $end
+$var wire 1 W& out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 R& b $end
+$var wire 1 Q& c $end
+$var wire 1 L& out $end
+$var wire 1 Y& node2 $end
+$var wire 1 Z& node1 $end
+$var wire 1 M& a $end
+$scope module nand1 $end
+$var wire 1 Q& b $end
+$var wire 1 L& out $end
+$var wire 1 Y& a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 R& b $end
+$var wire 1 Z& out $end
+$var wire 1 M& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Z& a $end
+$var wire 1 Y& out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 I& a $end
+$var wire 1 O& out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 J& a $end
+$var wire 1 M& out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 N& a $end
+$var wire 1 P& out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[26] $end
+$scope module rcpfa_inst $end
+$var wire 1 [& a $end
+$var wire 1 \& b $end
+$var wire 1 ]& cIn $end
+$var wire 1 ^& fIn $end
+$var wire 1 _& fOut $end
+$var wire 1 `& s $end
+$var wire 1 a& notFIn $end
+$var wire 1 b& notCOut $end
+$var wire 1 c& notCIn $end
+$var wire 1 d& cOut $end
+$var wire 1 e& Y $end
+$var wire 1 f& X $end
+$scope module AO1 $end
+$var wire 1 [& a $end
+$var wire 1 \& b $end
+$var wire 1 f& out $end
+$var wire 1 g& node2 $end
+$var wire 1 h& node1 $end
+$var wire 1 c& c $end
+$scope module nand1 $end
+$var wire 1 [& a $end
+$var wire 1 \& b $end
+$var wire 1 h& out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 f& out $end
+$var wire 1 c& b $end
+$var wire 1 g& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 h& a $end
+$var wire 1 g& out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 ^& a $end
+$var wire 1 f& c $end
+$var wire 1 b& out $end
+$var wire 1 i& node2 $end
+$var wire 1 j& node1 $end
+$var wire 1 e& b $end
+$scope module nand1 $end
+$var wire 1 ^& a $end
+$var wire 1 j& out $end
+$var wire 1 e& b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 f& b $end
+$var wire 1 b& out $end
+$var wire 1 i& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 j& a $end
+$var wire 1 i& out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 [& a $end
+$var wire 1 \& b $end
+$var wire 1 e& out $end
+$var wire 1 k& node2 $end
+$var wire 1 l& node1 $end
+$var wire 1 c& c $end
+$scope module nand1 $end
+$var wire 1 e& out $end
+$var wire 1 c& b $end
+$var wire 1 k& a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 [& a $end
+$var wire 1 \& b $end
+$var wire 1 l& out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 l& a $end
+$var wire 1 k& out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 f& b $end
+$var wire 1 e& c $end
+$var wire 1 `& out $end
+$var wire 1 m& node2 $end
+$var wire 1 n& node1 $end
+$var wire 1 a& a $end
+$scope module nand1 $end
+$var wire 1 e& b $end
+$var wire 1 `& out $end
+$var wire 1 m& a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 f& b $end
+$var wire 1 n& out $end
+$var wire 1 a& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 n& a $end
+$var wire 1 m& out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ]& a $end
+$var wire 1 c& out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 ^& a $end
+$var wire 1 a& out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 b& a $end
+$var wire 1 d& out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[27] $end
+$scope module rcpfa_inst $end
+$var wire 1 o& a $end
+$var wire 1 p& b $end
+$var wire 1 q& cIn $end
+$var wire 1 r& fIn $end
+$var wire 1 s& fOut $end
+$var wire 1 t& s $end
+$var wire 1 u& notFIn $end
+$var wire 1 v& notCOut $end
+$var wire 1 w& notCIn $end
+$var wire 1 x& cOut $end
+$var wire 1 y& Y $end
+$var wire 1 z& X $end
+$scope module AO1 $end
+$var wire 1 o& a $end
+$var wire 1 p& b $end
+$var wire 1 z& out $end
+$var wire 1 {& node2 $end
+$var wire 1 |& node1 $end
+$var wire 1 w& c $end
+$scope module nand1 $end
+$var wire 1 o& a $end
+$var wire 1 p& b $end
+$var wire 1 |& out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 z& out $end
+$var wire 1 w& b $end
+$var wire 1 {& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 |& a $end
+$var wire 1 {& out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 r& a $end
+$var wire 1 z& c $end
+$var wire 1 v& out $end
+$var wire 1 }& node2 $end
+$var wire 1 ~& node1 $end
+$var wire 1 y& b $end
+$scope module nand1 $end
+$var wire 1 r& a $end
+$var wire 1 ~& out $end
+$var wire 1 y& b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 z& b $end
+$var wire 1 v& out $end
+$var wire 1 }& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ~& a $end
+$var wire 1 }& out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 o& a $end
+$var wire 1 p& b $end
+$var wire 1 y& out $end
+$var wire 1 !' node2 $end
+$var wire 1 "' node1 $end
+$var wire 1 w& c $end
+$scope module nand1 $end
+$var wire 1 y& out $end
+$var wire 1 w& b $end
+$var wire 1 !' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 o& a $end
+$var wire 1 p& b $end
+$var wire 1 "' out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 "' a $end
+$var wire 1 !' out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 z& b $end
+$var wire 1 y& c $end
+$var wire 1 t& out $end
+$var wire 1 #' node2 $end
+$var wire 1 $' node1 $end
+$var wire 1 u& a $end
+$scope module nand1 $end
+$var wire 1 y& b $end
+$var wire 1 t& out $end
+$var wire 1 #' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 z& b $end
+$var wire 1 $' out $end
+$var wire 1 u& a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 $' a $end
+$var wire 1 #' out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 q& a $end
+$var wire 1 w& out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 r& a $end
+$var wire 1 u& out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 v& a $end
+$var wire 1 x& out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[28] $end
+$scope module rcpfa_inst $end
+$var wire 1 %' a $end
+$var wire 1 &' b $end
+$var wire 1 '' cIn $end
+$var wire 1 (' fIn $end
+$var wire 1 )' fOut $end
+$var wire 1 *' s $end
+$var wire 1 +' notFIn $end
+$var wire 1 ,' notCOut $end
+$var wire 1 -' notCIn $end
+$var wire 1 .' cOut $end
+$var wire 1 /' Y $end
+$var wire 1 0' X $end
+$scope module AO1 $end
+$var wire 1 %' a $end
+$var wire 1 &' b $end
+$var wire 1 0' out $end
+$var wire 1 1' node2 $end
+$var wire 1 2' node1 $end
+$var wire 1 -' c $end
+$scope module nand1 $end
+$var wire 1 %' a $end
+$var wire 1 &' b $end
+$var wire 1 2' out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 0' out $end
+$var wire 1 -' b $end
+$var wire 1 1' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 2' a $end
+$var wire 1 1' out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 (' a $end
+$var wire 1 0' c $end
+$var wire 1 ,' out $end
+$var wire 1 3' node2 $end
+$var wire 1 4' node1 $end
+$var wire 1 /' b $end
+$scope module nand1 $end
+$var wire 1 (' a $end
+$var wire 1 4' out $end
+$var wire 1 /' b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 0' b $end
+$var wire 1 ,' out $end
+$var wire 1 3' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 4' a $end
+$var wire 1 3' out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 %' a $end
+$var wire 1 &' b $end
+$var wire 1 /' out $end
+$var wire 1 5' node2 $end
+$var wire 1 6' node1 $end
+$var wire 1 -' c $end
+$scope module nand1 $end
+$var wire 1 /' out $end
+$var wire 1 -' b $end
+$var wire 1 5' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 %' a $end
+$var wire 1 &' b $end
+$var wire 1 6' out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 6' a $end
+$var wire 1 5' out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 0' b $end
+$var wire 1 /' c $end
+$var wire 1 *' out $end
+$var wire 1 7' node2 $end
+$var wire 1 8' node1 $end
+$var wire 1 +' a $end
+$scope module nand1 $end
+$var wire 1 /' b $end
+$var wire 1 *' out $end
+$var wire 1 7' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 0' b $end
+$var wire 1 8' out $end
+$var wire 1 +' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 8' a $end
+$var wire 1 7' out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 '' a $end
+$var wire 1 -' out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 (' a $end
+$var wire 1 +' out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 ,' a $end
+$var wire 1 .' out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[29] $end
+$scope module rcpfa_inst $end
+$var wire 1 9' a $end
+$var wire 1 :' b $end
+$var wire 1 ;' cIn $end
+$var wire 1 <' fIn $end
+$var wire 1 =' fOut $end
+$var wire 1 >' s $end
+$var wire 1 ?' notFIn $end
+$var wire 1 @' notCOut $end
+$var wire 1 A' notCIn $end
+$var wire 1 B' cOut $end
+$var wire 1 C' Y $end
+$var wire 1 D' X $end
+$scope module AO1 $end
+$var wire 1 9' a $end
+$var wire 1 :' b $end
+$var wire 1 D' out $end
+$var wire 1 E' node2 $end
+$var wire 1 F' node1 $end
+$var wire 1 A' c $end
+$scope module nand1 $end
+$var wire 1 9' a $end
+$var wire 1 :' b $end
+$var wire 1 F' out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 D' out $end
+$var wire 1 A' b $end
+$var wire 1 E' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 F' a $end
+$var wire 1 E' out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 <' a $end
+$var wire 1 D' c $end
+$var wire 1 @' out $end
+$var wire 1 G' node2 $end
+$var wire 1 H' node1 $end
+$var wire 1 C' b $end
+$scope module nand1 $end
+$var wire 1 <' a $end
+$var wire 1 H' out $end
+$var wire 1 C' b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 D' b $end
+$var wire 1 @' out $end
+$var wire 1 G' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 H' a $end
+$var wire 1 G' out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 9' a $end
+$var wire 1 :' b $end
+$var wire 1 C' out $end
+$var wire 1 I' node2 $end
+$var wire 1 J' node1 $end
+$var wire 1 A' c $end
+$scope module nand1 $end
+$var wire 1 C' out $end
+$var wire 1 A' b $end
+$var wire 1 I' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 9' a $end
+$var wire 1 :' b $end
+$var wire 1 J' out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 J' a $end
+$var wire 1 I' out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 D' b $end
+$var wire 1 C' c $end
+$var wire 1 >' out $end
+$var wire 1 K' node2 $end
+$var wire 1 L' node1 $end
+$var wire 1 ?' a $end
+$scope module nand1 $end
+$var wire 1 C' b $end
+$var wire 1 >' out $end
+$var wire 1 K' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 D' b $end
+$var wire 1 L' out $end
+$var wire 1 ?' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 L' a $end
+$var wire 1 K' out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ;' a $end
+$var wire 1 A' out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 <' a $end
+$var wire 1 ?' out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 @' a $end
+$var wire 1 B' out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[30] $end
+$scope module rcpfa_inst $end
+$var wire 1 M' a $end
+$var wire 1 N' b $end
+$var wire 1 O' cIn $end
+$var wire 1 P' fIn $end
+$var wire 1 Q' fOut $end
+$var wire 1 R' s $end
+$var wire 1 S' notFIn $end
+$var wire 1 T' notCOut $end
+$var wire 1 U' notCIn $end
+$var wire 1 V' cOut $end
+$var wire 1 W' Y $end
+$var wire 1 X' X $end
+$scope module AO1 $end
+$var wire 1 M' a $end
+$var wire 1 N' b $end
+$var wire 1 X' out $end
+$var wire 1 Y' node2 $end
+$var wire 1 Z' node1 $end
+$var wire 1 U' c $end
+$scope module nand1 $end
+$var wire 1 M' a $end
+$var wire 1 N' b $end
+$var wire 1 Z' out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 X' out $end
+$var wire 1 U' b $end
+$var wire 1 Y' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Z' a $end
+$var wire 1 Y' out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 P' a $end
+$var wire 1 X' c $end
+$var wire 1 T' out $end
+$var wire 1 [' node2 $end
+$var wire 1 \' node1 $end
+$var wire 1 W' b $end
+$scope module nand1 $end
+$var wire 1 P' a $end
+$var wire 1 \' out $end
+$var wire 1 W' b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 X' b $end
+$var wire 1 T' out $end
+$var wire 1 [' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 \' a $end
+$var wire 1 [' out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 M' a $end
+$var wire 1 N' b $end
+$var wire 1 W' out $end
+$var wire 1 ]' node2 $end
+$var wire 1 ^' node1 $end
+$var wire 1 U' c $end
+$scope module nand1 $end
+$var wire 1 W' out $end
+$var wire 1 U' b $end
+$var wire 1 ]' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 M' a $end
+$var wire 1 N' b $end
+$var wire 1 ^' out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ^' a $end
+$var wire 1 ]' out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 X' b $end
+$var wire 1 W' c $end
+$var wire 1 R' out $end
+$var wire 1 _' node2 $end
+$var wire 1 `' node1 $end
+$var wire 1 S' a $end
+$scope module nand1 $end
+$var wire 1 W' b $end
+$var wire 1 R' out $end
+$var wire 1 _' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 X' b $end
+$var wire 1 `' out $end
+$var wire 1 S' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 `' a $end
+$var wire 1 _' out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 O' a $end
+$var wire 1 U' out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 P' a $end
+$var wire 1 S' out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 T' a $end
+$var wire 1 V' out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[31] $end
+$scope module rcpfa_inst $end
+$var wire 1 a' a $end
+$var wire 1 b' b $end
+$var wire 1 c' cIn $end
+$var wire 1 d' fIn $end
+$var wire 1 e' fOut $end
+$var wire 1 f' s $end
+$var wire 1 g' notFIn $end
+$var wire 1 h' notCOut $end
+$var wire 1 i' notCIn $end
+$var wire 1 j' cOut $end
+$var wire 1 k' Y $end
+$var wire 1 l' X $end
+$scope module AO1 $end
+$var wire 1 a' a $end
+$var wire 1 b' b $end
+$var wire 1 l' out $end
+$var wire 1 m' node2 $end
+$var wire 1 n' node1 $end
+$var wire 1 i' c $end
+$scope module nand1 $end
+$var wire 1 a' a $end
+$var wire 1 b' b $end
+$var wire 1 n' out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 l' out $end
+$var wire 1 i' b $end
+$var wire 1 m' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 n' a $end
+$var wire 1 m' out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 d' a $end
+$var wire 1 l' c $end
+$var wire 1 h' out $end
+$var wire 1 o' node2 $end
+$var wire 1 p' node1 $end
+$var wire 1 k' b $end
+$scope module nand1 $end
+$var wire 1 d' a $end
+$var wire 1 p' out $end
+$var wire 1 k' b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 l' b $end
+$var wire 1 h' out $end
+$var wire 1 o' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 p' a $end
+$var wire 1 o' out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 a' a $end
+$var wire 1 b' b $end
+$var wire 1 k' out $end
+$var wire 1 q' node2 $end
+$var wire 1 r' node1 $end
+$var wire 1 i' c $end
+$scope module nand1 $end
+$var wire 1 k' out $end
+$var wire 1 i' b $end
+$var wire 1 q' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 a' a $end
+$var wire 1 b' b $end
+$var wire 1 r' out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 r' a $end
+$var wire 1 q' out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 l' b $end
+$var wire 1 k' c $end
+$var wire 1 f' out $end
+$var wire 1 s' node2 $end
+$var wire 1 t' node1 $end
+$var wire 1 g' a $end
+$scope module nand1 $end
+$var wire 1 k' b $end
+$var wire 1 f' out $end
+$var wire 1 s' a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 l' b $end
+$var wire 1 t' out $end
+$var wire 1 g' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 t' a $end
+$var wire 1 s' out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 c' a $end
+$var wire 1 i' out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 d' a $end
+$var wire 1 g' out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 h' a $end
+$var wire 1 j' out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[32] $end
+$scope module rcpfa_inst $end
+$var wire 1 u' a $end
+$var wire 1 v' b $end
+$var wire 1 w' cIn $end
+$var wire 1 x' fIn $end
+$var wire 1 y' fOut $end
+$var wire 1 z' s $end
+$var wire 1 {' notFIn $end
+$var wire 1 |' notCOut $end
+$var wire 1 }' notCIn $end
+$var wire 1 ~' cOut $end
+$var wire 1 !( Y $end
+$var wire 1 "( X $end
+$scope module AO1 $end
+$var wire 1 u' a $end
+$var wire 1 v' b $end
+$var wire 1 "( out $end
+$var wire 1 #( node2 $end
+$var wire 1 $( node1 $end
+$var wire 1 }' c $end
+$scope module nand1 $end
+$var wire 1 u' a $end
+$var wire 1 v' b $end
+$var wire 1 $( out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 "( out $end
+$var wire 1 }' b $end
+$var wire 1 #( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 $( a $end
+$var wire 1 #( out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 x' a $end
+$var wire 1 "( c $end
+$var wire 1 |' out $end
+$var wire 1 %( node2 $end
+$var wire 1 &( node1 $end
+$var wire 1 !( b $end
+$scope module nand1 $end
+$var wire 1 x' a $end
+$var wire 1 &( out $end
+$var wire 1 !( b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 "( b $end
+$var wire 1 |' out $end
+$var wire 1 %( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 &( a $end
+$var wire 1 %( out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 u' a $end
+$var wire 1 v' b $end
+$var wire 1 !( out $end
+$var wire 1 '( node2 $end
+$var wire 1 (( node1 $end
+$var wire 1 }' c $end
+$scope module nand1 $end
+$var wire 1 !( out $end
+$var wire 1 }' b $end
+$var wire 1 '( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 u' a $end
+$var wire 1 v' b $end
+$var wire 1 (( out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 (( a $end
+$var wire 1 '( out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 "( b $end
+$var wire 1 !( c $end
+$var wire 1 z' out $end
+$var wire 1 )( node2 $end
+$var wire 1 *( node1 $end
+$var wire 1 {' a $end
+$scope module nand1 $end
+$var wire 1 !( b $end
+$var wire 1 z' out $end
+$var wire 1 )( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 "( b $end
+$var wire 1 *( out $end
+$var wire 1 {' a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 *( a $end
+$var wire 1 )( out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 w' a $end
+$var wire 1 }' out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 x' a $end
+$var wire 1 {' out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 |' a $end
+$var wire 1 ~' out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[33] $end
+$scope module rcpfa_inst $end
+$var wire 1 +( a $end
+$var wire 1 ,( b $end
+$var wire 1 -( cIn $end
+$var wire 1 .( fIn $end
+$var wire 1 /( fOut $end
+$var wire 1 0( s $end
+$var wire 1 1( notFIn $end
+$var wire 1 2( notCOut $end
+$var wire 1 3( notCIn $end
+$var wire 1 4( cOut $end
+$var wire 1 5( Y $end
+$var wire 1 6( X $end
+$scope module AO1 $end
+$var wire 1 +( a $end
+$var wire 1 ,( b $end
+$var wire 1 6( out $end
+$var wire 1 7( node2 $end
+$var wire 1 8( node1 $end
+$var wire 1 3( c $end
+$scope module nand1 $end
+$var wire 1 +( a $end
+$var wire 1 ,( b $end
+$var wire 1 8( out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 6( out $end
+$var wire 1 3( b $end
+$var wire 1 7( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 8( a $end
+$var wire 1 7( out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 .( a $end
+$var wire 1 6( c $end
+$var wire 1 2( out $end
+$var wire 1 9( node2 $end
+$var wire 1 :( node1 $end
+$var wire 1 5( b $end
+$scope module nand1 $end
+$var wire 1 .( a $end
+$var wire 1 :( out $end
+$var wire 1 5( b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 6( b $end
+$var wire 1 2( out $end
+$var wire 1 9( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 :( a $end
+$var wire 1 9( out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 +( a $end
+$var wire 1 ,( b $end
+$var wire 1 5( out $end
+$var wire 1 ;( node2 $end
+$var wire 1 <( node1 $end
+$var wire 1 3( c $end
+$scope module nand1 $end
+$var wire 1 5( out $end
+$var wire 1 3( b $end
+$var wire 1 ;( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 +( a $end
+$var wire 1 ,( b $end
+$var wire 1 <( out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 <( a $end
+$var wire 1 ;( out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 6( b $end
+$var wire 1 5( c $end
+$var wire 1 0( out $end
+$var wire 1 =( node2 $end
+$var wire 1 >( node1 $end
+$var wire 1 1( a $end
+$scope module nand1 $end
+$var wire 1 5( b $end
+$var wire 1 0( out $end
+$var wire 1 =( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 6( b $end
+$var wire 1 >( out $end
+$var wire 1 1( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 >( a $end
+$var wire 1 =( out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 -( a $end
+$var wire 1 3( out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 .( a $end
+$var wire 1 1( out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 2( a $end
+$var wire 1 4( out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[34] $end
+$scope module rcpfa_inst $end
+$var wire 1 ?( a $end
+$var wire 1 @( b $end
+$var wire 1 A( cIn $end
+$var wire 1 B( fIn $end
+$var wire 1 C( fOut $end
+$var wire 1 D( s $end
+$var wire 1 E( notFIn $end
+$var wire 1 F( notCOut $end
+$var wire 1 G( notCIn $end
+$var wire 1 H( cOut $end
+$var wire 1 I( Y $end
+$var wire 1 J( X $end
+$scope module AO1 $end
+$var wire 1 ?( a $end
+$var wire 1 @( b $end
+$var wire 1 J( out $end
+$var wire 1 K( node2 $end
+$var wire 1 L( node1 $end
+$var wire 1 G( c $end
+$scope module nand1 $end
+$var wire 1 ?( a $end
+$var wire 1 @( b $end
+$var wire 1 L( out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 J( out $end
+$var wire 1 G( b $end
+$var wire 1 K( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 L( a $end
+$var wire 1 K( out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 B( a $end
+$var wire 1 J( c $end
+$var wire 1 F( out $end
+$var wire 1 M( node2 $end
+$var wire 1 N( node1 $end
+$var wire 1 I( b $end
+$scope module nand1 $end
+$var wire 1 B( a $end
+$var wire 1 N( out $end
+$var wire 1 I( b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 J( b $end
+$var wire 1 F( out $end
+$var wire 1 M( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 N( a $end
+$var wire 1 M( out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 ?( a $end
+$var wire 1 @( b $end
+$var wire 1 I( out $end
+$var wire 1 O( node2 $end
+$var wire 1 P( node1 $end
+$var wire 1 G( c $end
+$scope module nand1 $end
+$var wire 1 I( out $end
+$var wire 1 G( b $end
+$var wire 1 O( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ?( a $end
+$var wire 1 @( b $end
+$var wire 1 P( out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 P( a $end
+$var wire 1 O( out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 J( b $end
+$var wire 1 I( c $end
+$var wire 1 D( out $end
+$var wire 1 Q( node2 $end
+$var wire 1 R( node1 $end
+$var wire 1 E( a $end
+$scope module nand1 $end
+$var wire 1 I( b $end
+$var wire 1 D( out $end
+$var wire 1 Q( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 J( b $end
+$var wire 1 R( out $end
+$var wire 1 E( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 R( a $end
+$var wire 1 Q( out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 A( a $end
+$var wire 1 G( out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 B( a $end
+$var wire 1 E( out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 F( a $end
+$var wire 1 H( out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[35] $end
+$scope module rcpfa_inst $end
+$var wire 1 S( a $end
+$var wire 1 T( b $end
+$var wire 1 U( cIn $end
+$var wire 1 V( fIn $end
+$var wire 1 W( fOut $end
+$var wire 1 X( s $end
+$var wire 1 Y( notFIn $end
+$var wire 1 Z( notCOut $end
+$var wire 1 [( notCIn $end
+$var wire 1 \( cOut $end
+$var wire 1 ]( Y $end
+$var wire 1 ^( X $end
+$scope module AO1 $end
+$var wire 1 S( a $end
+$var wire 1 T( b $end
+$var wire 1 ^( out $end
+$var wire 1 _( node2 $end
+$var wire 1 `( node1 $end
+$var wire 1 [( c $end
+$scope module nand1 $end
+$var wire 1 S( a $end
+$var wire 1 T( b $end
+$var wire 1 `( out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ^( out $end
+$var wire 1 [( b $end
+$var wire 1 _( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 `( a $end
+$var wire 1 _( out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 V( a $end
+$var wire 1 ^( c $end
+$var wire 1 Z( out $end
+$var wire 1 a( node2 $end
+$var wire 1 b( node1 $end
+$var wire 1 ]( b $end
+$scope module nand1 $end
+$var wire 1 V( a $end
+$var wire 1 b( out $end
+$var wire 1 ]( b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ^( b $end
+$var wire 1 Z( out $end
+$var wire 1 a( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 b( a $end
+$var wire 1 a( out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 S( a $end
+$var wire 1 T( b $end
+$var wire 1 ]( out $end
+$var wire 1 c( node2 $end
+$var wire 1 d( node1 $end
+$var wire 1 [( c $end
+$scope module nand1 $end
+$var wire 1 ]( out $end
+$var wire 1 [( b $end
+$var wire 1 c( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 S( a $end
+$var wire 1 T( b $end
+$var wire 1 d( out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 d( a $end
+$var wire 1 c( out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 ^( b $end
+$var wire 1 ]( c $end
+$var wire 1 X( out $end
+$var wire 1 e( node2 $end
+$var wire 1 f( node1 $end
+$var wire 1 Y( a $end
+$scope module nand1 $end
+$var wire 1 ]( b $end
+$var wire 1 X( out $end
+$var wire 1 e( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ^( b $end
+$var wire 1 f( out $end
+$var wire 1 Y( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 f( a $end
+$var wire 1 e( out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 U( a $end
+$var wire 1 [( out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 V( a $end
+$var wire 1 Y( out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 Z( a $end
+$var wire 1 \( out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[36] $end
+$scope module rcpfa_inst $end
+$var wire 1 g( a $end
+$var wire 1 h( b $end
+$var wire 1 i( cIn $end
+$var wire 1 j( fIn $end
+$var wire 1 k( fOut $end
+$var wire 1 l( s $end
+$var wire 1 m( notFIn $end
+$var wire 1 n( notCOut $end
+$var wire 1 o( notCIn $end
+$var wire 1 p( cOut $end
+$var wire 1 q( Y $end
+$var wire 1 r( X $end
+$scope module AO1 $end
+$var wire 1 g( a $end
+$var wire 1 h( b $end
+$var wire 1 r( out $end
+$var wire 1 s( node2 $end
+$var wire 1 t( node1 $end
+$var wire 1 o( c $end
+$scope module nand1 $end
+$var wire 1 g( a $end
+$var wire 1 h( b $end
+$var wire 1 t( out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 r( out $end
+$var wire 1 o( b $end
+$var wire 1 s( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 t( a $end
+$var wire 1 s( out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 j( a $end
+$var wire 1 r( c $end
+$var wire 1 n( out $end
+$var wire 1 u( node2 $end
+$var wire 1 v( node1 $end
+$var wire 1 q( b $end
+$scope module nand1 $end
+$var wire 1 j( a $end
+$var wire 1 v( out $end
+$var wire 1 q( b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 r( b $end
+$var wire 1 n( out $end
+$var wire 1 u( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 v( a $end
+$var wire 1 u( out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 g( a $end
+$var wire 1 h( b $end
+$var wire 1 q( out $end
+$var wire 1 w( node2 $end
+$var wire 1 x( node1 $end
+$var wire 1 o( c $end
+$scope module nand1 $end
+$var wire 1 q( out $end
+$var wire 1 o( b $end
+$var wire 1 w( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 g( a $end
+$var wire 1 h( b $end
+$var wire 1 x( out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 x( a $end
+$var wire 1 w( out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 r( b $end
+$var wire 1 q( c $end
+$var wire 1 l( out $end
+$var wire 1 y( node2 $end
+$var wire 1 z( node1 $end
+$var wire 1 m( a $end
+$scope module nand1 $end
+$var wire 1 q( b $end
+$var wire 1 l( out $end
+$var wire 1 y( a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 r( b $end
+$var wire 1 z( out $end
+$var wire 1 m( a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 z( a $end
+$var wire 1 y( out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 i( a $end
+$var wire 1 o( out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 j( a $end
+$var wire 1 m( out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 n( a $end
+$var wire 1 p( out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[37] $end
+$scope module rcpfa_inst $end
+$var wire 1 {( a $end
+$var wire 1 |( b $end
+$var wire 1 }( cIn $end
+$var wire 1 ~( fIn $end
+$var wire 1 !) fOut $end
+$var wire 1 ") s $end
+$var wire 1 #) notFIn $end
+$var wire 1 $) notCOut $end
+$var wire 1 %) notCIn $end
+$var wire 1 &) cOut $end
+$var wire 1 ') Y $end
+$var wire 1 () X $end
+$scope module AO1 $end
+$var wire 1 {( a $end
+$var wire 1 |( b $end
+$var wire 1 () out $end
+$var wire 1 )) node2 $end
+$var wire 1 *) node1 $end
+$var wire 1 %) c $end
+$scope module nand1 $end
+$var wire 1 {( a $end
+$var wire 1 |( b $end
+$var wire 1 *) out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 () out $end
+$var wire 1 %) b $end
+$var wire 1 )) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 *) a $end
+$var wire 1 )) out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 ~( a $end
+$var wire 1 () c $end
+$var wire 1 $) out $end
+$var wire 1 +) node2 $end
+$var wire 1 ,) node1 $end
+$var wire 1 ') b $end
+$scope module nand1 $end
+$var wire 1 ~( a $end
+$var wire 1 ,) out $end
+$var wire 1 ') b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 () b $end
+$var wire 1 $) out $end
+$var wire 1 +) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ,) a $end
+$var wire 1 +) out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 {( a $end
+$var wire 1 |( b $end
+$var wire 1 ') out $end
+$var wire 1 -) node2 $end
+$var wire 1 .) node1 $end
+$var wire 1 %) c $end
+$scope module nand1 $end
+$var wire 1 ') out $end
+$var wire 1 %) b $end
+$var wire 1 -) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 {( a $end
+$var wire 1 |( b $end
+$var wire 1 .) out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 .) a $end
+$var wire 1 -) out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 () b $end
+$var wire 1 ') c $end
+$var wire 1 ") out $end
+$var wire 1 /) node2 $end
+$var wire 1 0) node1 $end
+$var wire 1 #) a $end
+$scope module nand1 $end
+$var wire 1 ') b $end
+$var wire 1 ") out $end
+$var wire 1 /) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 () b $end
+$var wire 1 0) out $end
+$var wire 1 #) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 0) a $end
+$var wire 1 /) out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 }( a $end
+$var wire 1 %) out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 ~( a $end
+$var wire 1 #) out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 $) a $end
+$var wire 1 &) out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[38] $end
+$scope module rcpfa_inst $end
+$var wire 1 1) a $end
+$var wire 1 2) b $end
+$var wire 1 3) cIn $end
+$var wire 1 4) fIn $end
+$var wire 1 5) fOut $end
+$var wire 1 6) s $end
+$var wire 1 7) notFIn $end
+$var wire 1 8) notCOut $end
+$var wire 1 9) notCIn $end
+$var wire 1 :) cOut $end
+$var wire 1 ;) Y $end
+$var wire 1 <) X $end
+$scope module AO1 $end
+$var wire 1 1) a $end
+$var wire 1 2) b $end
+$var wire 1 <) out $end
+$var wire 1 =) node2 $end
+$var wire 1 >) node1 $end
+$var wire 1 9) c $end
+$scope module nand1 $end
+$var wire 1 1) a $end
+$var wire 1 2) b $end
+$var wire 1 >) out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 <) out $end
+$var wire 1 9) b $end
+$var wire 1 =) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 >) a $end
+$var wire 1 =) out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 4) a $end
+$var wire 1 <) c $end
+$var wire 1 8) out $end
+$var wire 1 ?) node2 $end
+$var wire 1 @) node1 $end
+$var wire 1 ;) b $end
+$scope module nand1 $end
+$var wire 1 4) a $end
+$var wire 1 @) out $end
+$var wire 1 ;) b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 <) b $end
+$var wire 1 8) out $end
+$var wire 1 ?) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 @) a $end
+$var wire 1 ?) out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 1) a $end
+$var wire 1 2) b $end
+$var wire 1 ;) out $end
+$var wire 1 A) node2 $end
+$var wire 1 B) node1 $end
+$var wire 1 9) c $end
+$scope module nand1 $end
+$var wire 1 ;) out $end
+$var wire 1 9) b $end
+$var wire 1 A) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 1) a $end
+$var wire 1 2) b $end
+$var wire 1 B) out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 B) a $end
+$var wire 1 A) out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 <) b $end
+$var wire 1 ;) c $end
+$var wire 1 6) out $end
+$var wire 1 C) node2 $end
+$var wire 1 D) node1 $end
+$var wire 1 7) a $end
+$scope module nand1 $end
+$var wire 1 ;) b $end
+$var wire 1 6) out $end
+$var wire 1 C) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 <) b $end
+$var wire 1 D) out $end
+$var wire 1 7) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 D) a $end
+$var wire 1 C) out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 3) a $end
+$var wire 1 9) out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 4) a $end
+$var wire 1 7) out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 8) a $end
+$var wire 1 :) out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[39] $end
+$scope module rcpfa_inst $end
+$var wire 1 E) a $end
+$var wire 1 F) b $end
+$var wire 1 G) cIn $end
+$var wire 1 H) fIn $end
+$var wire 1 I) fOut $end
+$var wire 1 J) s $end
+$var wire 1 K) notFIn $end
+$var wire 1 L) notCOut $end
+$var wire 1 M) notCIn $end
+$var wire 1 N) cOut $end
+$var wire 1 O) Y $end
+$var wire 1 P) X $end
+$scope module AO1 $end
+$var wire 1 E) a $end
+$var wire 1 F) b $end
+$var wire 1 P) out $end
+$var wire 1 Q) node2 $end
+$var wire 1 R) node1 $end
+$var wire 1 M) c $end
+$scope module nand1 $end
+$var wire 1 E) a $end
+$var wire 1 F) b $end
+$var wire 1 R) out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 P) out $end
+$var wire 1 M) b $end
+$var wire 1 Q) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 R) a $end
+$var wire 1 Q) out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 H) a $end
+$var wire 1 P) c $end
+$var wire 1 L) out $end
+$var wire 1 S) node2 $end
+$var wire 1 T) node1 $end
+$var wire 1 O) b $end
+$scope module nand1 $end
+$var wire 1 H) a $end
+$var wire 1 T) out $end
+$var wire 1 O) b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 P) b $end
+$var wire 1 L) out $end
+$var wire 1 S) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 T) a $end
+$var wire 1 S) out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 E) a $end
+$var wire 1 F) b $end
+$var wire 1 O) out $end
+$var wire 1 U) node2 $end
+$var wire 1 V) node1 $end
+$var wire 1 M) c $end
+$scope module nand1 $end
+$var wire 1 O) out $end
+$var wire 1 M) b $end
+$var wire 1 U) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 E) a $end
+$var wire 1 F) b $end
+$var wire 1 V) out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 V) a $end
+$var wire 1 U) out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 P) b $end
+$var wire 1 O) c $end
+$var wire 1 J) out $end
+$var wire 1 W) node2 $end
+$var wire 1 X) node1 $end
+$var wire 1 K) a $end
+$scope module nand1 $end
+$var wire 1 O) b $end
+$var wire 1 J) out $end
+$var wire 1 W) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 P) b $end
+$var wire 1 X) out $end
+$var wire 1 K) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 X) a $end
+$var wire 1 W) out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 G) a $end
+$var wire 1 M) out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 H) a $end
+$var wire 1 K) out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 L) a $end
+$var wire 1 N) out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[40] $end
+$scope module rcpfa_inst $end
+$var wire 1 Y) a $end
+$var wire 1 Z) b $end
+$var wire 1 [) cIn $end
+$var wire 1 \) fIn $end
+$var wire 1 ]) fOut $end
+$var wire 1 ^) s $end
+$var wire 1 _) notFIn $end
+$var wire 1 `) notCOut $end
+$var wire 1 a) notCIn $end
+$var wire 1 b) cOut $end
+$var wire 1 c) Y $end
+$var wire 1 d) X $end
+$scope module AO1 $end
+$var wire 1 Y) a $end
+$var wire 1 Z) b $end
+$var wire 1 d) out $end
+$var wire 1 e) node2 $end
+$var wire 1 f) node1 $end
+$var wire 1 a) c $end
+$scope module nand1 $end
+$var wire 1 Y) a $end
+$var wire 1 Z) b $end
+$var wire 1 f) out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 d) out $end
+$var wire 1 a) b $end
+$var wire 1 e) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 f) a $end
+$var wire 1 e) out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 \) a $end
+$var wire 1 d) c $end
+$var wire 1 `) out $end
+$var wire 1 g) node2 $end
+$var wire 1 h) node1 $end
+$var wire 1 c) b $end
+$scope module nand1 $end
+$var wire 1 \) a $end
+$var wire 1 h) out $end
+$var wire 1 c) b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 d) b $end
+$var wire 1 `) out $end
+$var wire 1 g) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 h) a $end
+$var wire 1 g) out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 Y) a $end
+$var wire 1 Z) b $end
+$var wire 1 c) out $end
+$var wire 1 i) node2 $end
+$var wire 1 j) node1 $end
+$var wire 1 a) c $end
+$scope module nand1 $end
+$var wire 1 c) out $end
+$var wire 1 a) b $end
+$var wire 1 i) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Y) a $end
+$var wire 1 Z) b $end
+$var wire 1 j) out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 j) a $end
+$var wire 1 i) out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 d) b $end
+$var wire 1 c) c $end
+$var wire 1 ^) out $end
+$var wire 1 k) node2 $end
+$var wire 1 l) node1 $end
+$var wire 1 _) a $end
+$scope module nand1 $end
+$var wire 1 c) b $end
+$var wire 1 ^) out $end
+$var wire 1 k) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 d) b $end
+$var wire 1 l) out $end
+$var wire 1 _) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 l) a $end
+$var wire 1 k) out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 [) a $end
+$var wire 1 a) out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 \) a $end
+$var wire 1 _) out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 `) a $end
+$var wire 1 b) out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[41] $end
+$scope module rcpfa_inst $end
+$var wire 1 m) a $end
+$var wire 1 n) b $end
+$var wire 1 o) cIn $end
+$var wire 1 p) fIn $end
+$var wire 1 q) fOut $end
+$var wire 1 r) s $end
+$var wire 1 s) notFIn $end
+$var wire 1 t) notCOut $end
+$var wire 1 u) notCIn $end
+$var wire 1 v) cOut $end
+$var wire 1 w) Y $end
+$var wire 1 x) X $end
+$scope module AO1 $end
+$var wire 1 m) a $end
+$var wire 1 n) b $end
+$var wire 1 x) out $end
+$var wire 1 y) node2 $end
+$var wire 1 z) node1 $end
+$var wire 1 u) c $end
+$scope module nand1 $end
+$var wire 1 m) a $end
+$var wire 1 n) b $end
+$var wire 1 z) out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 x) out $end
+$var wire 1 u) b $end
+$var wire 1 y) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 z) a $end
+$var wire 1 y) out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 p) a $end
+$var wire 1 x) c $end
+$var wire 1 t) out $end
+$var wire 1 {) node2 $end
+$var wire 1 |) node1 $end
+$var wire 1 w) b $end
+$scope module nand1 $end
+$var wire 1 p) a $end
+$var wire 1 |) out $end
+$var wire 1 w) b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 x) b $end
+$var wire 1 t) out $end
+$var wire 1 {) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 |) a $end
+$var wire 1 {) out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 m) a $end
+$var wire 1 n) b $end
+$var wire 1 w) out $end
+$var wire 1 }) node2 $end
+$var wire 1 ~) node1 $end
+$var wire 1 u) c $end
+$scope module nand1 $end
+$var wire 1 w) out $end
+$var wire 1 u) b $end
+$var wire 1 }) a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 m) a $end
+$var wire 1 n) b $end
+$var wire 1 ~) out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ~) a $end
+$var wire 1 }) out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 x) b $end
+$var wire 1 w) c $end
+$var wire 1 r) out $end
+$var wire 1 !* node2 $end
+$var wire 1 "* node1 $end
+$var wire 1 s) a $end
+$scope module nand1 $end
+$var wire 1 w) b $end
+$var wire 1 r) out $end
+$var wire 1 !* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 x) b $end
+$var wire 1 "* out $end
+$var wire 1 s) a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 "* a $end
+$var wire 1 !* out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 o) a $end
+$var wire 1 u) out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 p) a $end
+$var wire 1 s) out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 t) a $end
+$var wire 1 v) out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[42] $end
+$scope module rcpfa_inst $end
+$var wire 1 #* a $end
+$var wire 1 $* b $end
+$var wire 1 %* cIn $end
+$var wire 1 &* fIn $end
+$var wire 1 '* fOut $end
+$var wire 1 (* s $end
+$var wire 1 )* notFIn $end
+$var wire 1 ** notCOut $end
+$var wire 1 +* notCIn $end
+$var wire 1 ,* cOut $end
+$var wire 1 -* Y $end
+$var wire 1 .* X $end
+$scope module AO1 $end
+$var wire 1 #* a $end
+$var wire 1 $* b $end
+$var wire 1 .* out $end
+$var wire 1 /* node2 $end
+$var wire 1 0* node1 $end
+$var wire 1 +* c $end
+$scope module nand1 $end
+$var wire 1 #* a $end
+$var wire 1 $* b $end
+$var wire 1 0* out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 .* out $end
+$var wire 1 +* b $end
+$var wire 1 /* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 0* a $end
+$var wire 1 /* out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 &* a $end
+$var wire 1 .* c $end
+$var wire 1 ** out $end
+$var wire 1 1* node2 $end
+$var wire 1 2* node1 $end
+$var wire 1 -* b $end
+$scope module nand1 $end
+$var wire 1 &* a $end
+$var wire 1 2* out $end
+$var wire 1 -* b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 .* b $end
+$var wire 1 ** out $end
+$var wire 1 1* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 2* a $end
+$var wire 1 1* out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 #* a $end
+$var wire 1 $* b $end
+$var wire 1 -* out $end
+$var wire 1 3* node2 $end
+$var wire 1 4* node1 $end
+$var wire 1 +* c $end
+$scope module nand1 $end
+$var wire 1 -* out $end
+$var wire 1 +* b $end
+$var wire 1 3* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 #* a $end
+$var wire 1 $* b $end
+$var wire 1 4* out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 4* a $end
+$var wire 1 3* out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 .* b $end
+$var wire 1 -* c $end
+$var wire 1 (* out $end
+$var wire 1 5* node2 $end
+$var wire 1 6* node1 $end
+$var wire 1 )* a $end
+$scope module nand1 $end
+$var wire 1 -* b $end
+$var wire 1 (* out $end
+$var wire 1 5* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 .* b $end
+$var wire 1 6* out $end
+$var wire 1 )* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 6* a $end
+$var wire 1 5* out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 %* a $end
+$var wire 1 +* out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 &* a $end
+$var wire 1 )* out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 ** a $end
+$var wire 1 ,* out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[43] $end
+$scope module rcpfa_inst $end
+$var wire 1 7* a $end
+$var wire 1 8* b $end
+$var wire 1 9* cIn $end
+$var wire 1 :* fIn $end
+$var wire 1 ;* fOut $end
+$var wire 1 <* s $end
+$var wire 1 =* notFIn $end
+$var wire 1 >* notCOut $end
+$var wire 1 ?* notCIn $end
+$var wire 1 @* cOut $end
+$var wire 1 A* Y $end
+$var wire 1 B* X $end
+$scope module AO1 $end
+$var wire 1 7* a $end
+$var wire 1 8* b $end
+$var wire 1 B* out $end
+$var wire 1 C* node2 $end
+$var wire 1 D* node1 $end
+$var wire 1 ?* c $end
+$scope module nand1 $end
+$var wire 1 7* a $end
+$var wire 1 8* b $end
+$var wire 1 D* out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 B* out $end
+$var wire 1 ?* b $end
+$var wire 1 C* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 D* a $end
+$var wire 1 C* out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 :* a $end
+$var wire 1 B* c $end
+$var wire 1 >* out $end
+$var wire 1 E* node2 $end
+$var wire 1 F* node1 $end
+$var wire 1 A* b $end
+$scope module nand1 $end
+$var wire 1 :* a $end
+$var wire 1 F* out $end
+$var wire 1 A* b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 B* b $end
+$var wire 1 >* out $end
+$var wire 1 E* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 F* a $end
+$var wire 1 E* out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 7* a $end
+$var wire 1 8* b $end
+$var wire 1 A* out $end
+$var wire 1 G* node2 $end
+$var wire 1 H* node1 $end
+$var wire 1 ?* c $end
+$scope module nand1 $end
+$var wire 1 A* out $end
+$var wire 1 ?* b $end
+$var wire 1 G* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 7* a $end
+$var wire 1 8* b $end
+$var wire 1 H* out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 H* a $end
+$var wire 1 G* out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 B* b $end
+$var wire 1 A* c $end
+$var wire 1 <* out $end
+$var wire 1 I* node2 $end
+$var wire 1 J* node1 $end
+$var wire 1 =* a $end
+$scope module nand1 $end
+$var wire 1 A* b $end
+$var wire 1 <* out $end
+$var wire 1 I* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 B* b $end
+$var wire 1 J* out $end
+$var wire 1 =* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 J* a $end
+$var wire 1 I* out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 9* a $end
+$var wire 1 ?* out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 :* a $end
+$var wire 1 =* out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 >* a $end
+$var wire 1 @* out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[44] $end
+$scope module rcpfa_inst $end
+$var wire 1 K* a $end
+$var wire 1 L* b $end
+$var wire 1 M* cIn $end
+$var wire 1 N* fIn $end
+$var wire 1 O* fOut $end
+$var wire 1 P* s $end
+$var wire 1 Q* notFIn $end
+$var wire 1 R* notCOut $end
+$var wire 1 S* notCIn $end
+$var wire 1 T* cOut $end
+$var wire 1 U* Y $end
+$var wire 1 V* X $end
+$scope module AO1 $end
+$var wire 1 K* a $end
+$var wire 1 L* b $end
+$var wire 1 V* out $end
+$var wire 1 W* node2 $end
+$var wire 1 X* node1 $end
+$var wire 1 S* c $end
+$scope module nand1 $end
+$var wire 1 K* a $end
+$var wire 1 L* b $end
+$var wire 1 X* out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 V* out $end
+$var wire 1 S* b $end
+$var wire 1 W* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 X* a $end
+$var wire 1 W* out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 N* a $end
+$var wire 1 V* c $end
+$var wire 1 R* out $end
+$var wire 1 Y* node2 $end
+$var wire 1 Z* node1 $end
+$var wire 1 U* b $end
+$scope module nand1 $end
+$var wire 1 N* a $end
+$var wire 1 Z* out $end
+$var wire 1 U* b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 V* b $end
+$var wire 1 R* out $end
+$var wire 1 Y* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Z* a $end
+$var wire 1 Y* out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 K* a $end
+$var wire 1 L* b $end
+$var wire 1 U* out $end
+$var wire 1 [* node2 $end
+$var wire 1 \* node1 $end
+$var wire 1 S* c $end
+$scope module nand1 $end
+$var wire 1 U* out $end
+$var wire 1 S* b $end
+$var wire 1 [* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 K* a $end
+$var wire 1 L* b $end
+$var wire 1 \* out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 \* a $end
+$var wire 1 [* out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 V* b $end
+$var wire 1 U* c $end
+$var wire 1 P* out $end
+$var wire 1 ]* node2 $end
+$var wire 1 ^* node1 $end
+$var wire 1 Q* a $end
+$scope module nand1 $end
+$var wire 1 U* b $end
+$var wire 1 P* out $end
+$var wire 1 ]* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 V* b $end
+$var wire 1 ^* out $end
+$var wire 1 Q* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ^* a $end
+$var wire 1 ]* out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 M* a $end
+$var wire 1 S* out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 N* a $end
+$var wire 1 Q* out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 R* a $end
+$var wire 1 T* out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[45] $end
+$scope module rcpfa_inst $end
+$var wire 1 _* a $end
+$var wire 1 `* b $end
+$var wire 1 a* cIn $end
+$var wire 1 b* fIn $end
+$var wire 1 c* fOut $end
+$var wire 1 d* s $end
+$var wire 1 e* notFIn $end
+$var wire 1 f* notCOut $end
+$var wire 1 g* notCIn $end
+$var wire 1 h* cOut $end
+$var wire 1 i* Y $end
+$var wire 1 j* X $end
+$scope module AO1 $end
+$var wire 1 _* a $end
+$var wire 1 `* b $end
+$var wire 1 j* out $end
+$var wire 1 k* node2 $end
+$var wire 1 l* node1 $end
+$var wire 1 g* c $end
+$scope module nand1 $end
+$var wire 1 _* a $end
+$var wire 1 `* b $end
+$var wire 1 l* out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 j* out $end
+$var wire 1 g* b $end
+$var wire 1 k* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 l* a $end
+$var wire 1 k* out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 b* a $end
+$var wire 1 j* c $end
+$var wire 1 f* out $end
+$var wire 1 m* node2 $end
+$var wire 1 n* node1 $end
+$var wire 1 i* b $end
+$scope module nand1 $end
+$var wire 1 b* a $end
+$var wire 1 n* out $end
+$var wire 1 i* b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 j* b $end
+$var wire 1 f* out $end
+$var wire 1 m* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 n* a $end
+$var wire 1 m* out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 _* a $end
+$var wire 1 `* b $end
+$var wire 1 i* out $end
+$var wire 1 o* node2 $end
+$var wire 1 p* node1 $end
+$var wire 1 g* c $end
+$scope module nand1 $end
+$var wire 1 i* out $end
+$var wire 1 g* b $end
+$var wire 1 o* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 _* a $end
+$var wire 1 `* b $end
+$var wire 1 p* out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 p* a $end
+$var wire 1 o* out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 j* b $end
+$var wire 1 i* c $end
+$var wire 1 d* out $end
+$var wire 1 q* node2 $end
+$var wire 1 r* node1 $end
+$var wire 1 e* a $end
+$scope module nand1 $end
+$var wire 1 i* b $end
+$var wire 1 d* out $end
+$var wire 1 q* a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 j* b $end
+$var wire 1 r* out $end
+$var wire 1 e* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 r* a $end
+$var wire 1 q* out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 a* a $end
+$var wire 1 g* out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 b* a $end
+$var wire 1 e* out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 f* a $end
+$var wire 1 h* out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[46] $end
+$scope module rcpfa_inst $end
+$var wire 1 s* a $end
+$var wire 1 t* b $end
+$var wire 1 u* cIn $end
+$var wire 1 v* fIn $end
+$var wire 1 w* fOut $end
+$var wire 1 x* s $end
+$var wire 1 y* notFIn $end
+$var wire 1 z* notCOut $end
+$var wire 1 {* notCIn $end
+$var wire 1 |* cOut $end
+$var wire 1 }* Y $end
+$var wire 1 ~* X $end
+$scope module AO1 $end
+$var wire 1 s* a $end
+$var wire 1 t* b $end
+$var wire 1 ~* out $end
+$var wire 1 !+ node2 $end
+$var wire 1 "+ node1 $end
+$var wire 1 {* c $end
+$scope module nand1 $end
+$var wire 1 s* a $end
+$var wire 1 t* b $end
+$var wire 1 "+ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ~* out $end
+$var wire 1 {* b $end
+$var wire 1 !+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 "+ a $end
+$var wire 1 !+ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 v* a $end
+$var wire 1 ~* c $end
+$var wire 1 z* out $end
+$var wire 1 #+ node2 $end
+$var wire 1 $+ node1 $end
+$var wire 1 }* b $end
+$scope module nand1 $end
+$var wire 1 v* a $end
+$var wire 1 $+ out $end
+$var wire 1 }* b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ~* b $end
+$var wire 1 z* out $end
+$var wire 1 #+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 $+ a $end
+$var wire 1 #+ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 s* a $end
+$var wire 1 t* b $end
+$var wire 1 }* out $end
+$var wire 1 %+ node2 $end
+$var wire 1 &+ node1 $end
+$var wire 1 {* c $end
+$scope module nand1 $end
+$var wire 1 }* out $end
+$var wire 1 {* b $end
+$var wire 1 %+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 s* a $end
+$var wire 1 t* b $end
+$var wire 1 &+ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 &+ a $end
+$var wire 1 %+ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 ~* b $end
+$var wire 1 }* c $end
+$var wire 1 x* out $end
+$var wire 1 '+ node2 $end
+$var wire 1 (+ node1 $end
+$var wire 1 y* a $end
+$scope module nand1 $end
+$var wire 1 }* b $end
+$var wire 1 x* out $end
+$var wire 1 '+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ~* b $end
+$var wire 1 (+ out $end
+$var wire 1 y* a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 (+ a $end
+$var wire 1 '+ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 u* a $end
+$var wire 1 {* out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 v* a $end
+$var wire 1 y* out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 z* a $end
+$var wire 1 |* out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[47] $end
+$scope module rcpfa_inst $end
+$var wire 1 )+ a $end
+$var wire 1 *+ b $end
+$var wire 1 ++ cIn $end
+$var wire 1 ,+ fIn $end
+$var wire 1 -+ fOut $end
+$var wire 1 .+ s $end
+$var wire 1 /+ notFIn $end
+$var wire 1 0+ notCOut $end
+$var wire 1 1+ notCIn $end
+$var wire 1 2+ cOut $end
+$var wire 1 3+ Y $end
+$var wire 1 4+ X $end
+$scope module AO1 $end
+$var wire 1 )+ a $end
+$var wire 1 *+ b $end
+$var wire 1 4+ out $end
+$var wire 1 5+ node2 $end
+$var wire 1 6+ node1 $end
+$var wire 1 1+ c $end
+$scope module nand1 $end
+$var wire 1 )+ a $end
+$var wire 1 *+ b $end
+$var wire 1 6+ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 4+ out $end
+$var wire 1 1+ b $end
+$var wire 1 5+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 6+ a $end
+$var wire 1 5+ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 ,+ a $end
+$var wire 1 4+ c $end
+$var wire 1 0+ out $end
+$var wire 1 7+ node2 $end
+$var wire 1 8+ node1 $end
+$var wire 1 3+ b $end
+$scope module nand1 $end
+$var wire 1 ,+ a $end
+$var wire 1 8+ out $end
+$var wire 1 3+ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 4+ b $end
+$var wire 1 0+ out $end
+$var wire 1 7+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 8+ a $end
+$var wire 1 7+ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 )+ a $end
+$var wire 1 *+ b $end
+$var wire 1 3+ out $end
+$var wire 1 9+ node2 $end
+$var wire 1 :+ node1 $end
+$var wire 1 1+ c $end
+$scope module nand1 $end
+$var wire 1 3+ out $end
+$var wire 1 1+ b $end
+$var wire 1 9+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 )+ a $end
+$var wire 1 *+ b $end
+$var wire 1 :+ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 :+ a $end
+$var wire 1 9+ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 4+ b $end
+$var wire 1 3+ c $end
+$var wire 1 .+ out $end
+$var wire 1 ;+ node2 $end
+$var wire 1 <+ node1 $end
+$var wire 1 /+ a $end
+$scope module nand1 $end
+$var wire 1 3+ b $end
+$var wire 1 .+ out $end
+$var wire 1 ;+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 4+ b $end
+$var wire 1 <+ out $end
+$var wire 1 /+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 <+ a $end
+$var wire 1 ;+ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ++ a $end
+$var wire 1 1+ out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 ,+ a $end
+$var wire 1 /+ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 0+ a $end
+$var wire 1 2+ out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[48] $end
+$scope module rcpfa_inst $end
+$var wire 1 =+ a $end
+$var wire 1 >+ b $end
+$var wire 1 ?+ cIn $end
+$var wire 1 @+ fIn $end
+$var wire 1 A+ fOut $end
+$var wire 1 B+ s $end
+$var wire 1 C+ notFIn $end
+$var wire 1 D+ notCOut $end
+$var wire 1 E+ notCIn $end
+$var wire 1 F+ cOut $end
+$var wire 1 G+ Y $end
+$var wire 1 H+ X $end
+$scope module AO1 $end
+$var wire 1 =+ a $end
+$var wire 1 >+ b $end
+$var wire 1 H+ out $end
+$var wire 1 I+ node2 $end
+$var wire 1 J+ node1 $end
+$var wire 1 E+ c $end
+$scope module nand1 $end
+$var wire 1 =+ a $end
+$var wire 1 >+ b $end
+$var wire 1 J+ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 H+ out $end
+$var wire 1 E+ b $end
+$var wire 1 I+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 J+ a $end
+$var wire 1 I+ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 @+ a $end
+$var wire 1 H+ c $end
+$var wire 1 D+ out $end
+$var wire 1 K+ node2 $end
+$var wire 1 L+ node1 $end
+$var wire 1 G+ b $end
+$scope module nand1 $end
+$var wire 1 @+ a $end
+$var wire 1 L+ out $end
+$var wire 1 G+ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 H+ b $end
+$var wire 1 D+ out $end
+$var wire 1 K+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 L+ a $end
+$var wire 1 K+ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 =+ a $end
+$var wire 1 >+ b $end
+$var wire 1 G+ out $end
+$var wire 1 M+ node2 $end
+$var wire 1 N+ node1 $end
+$var wire 1 E+ c $end
+$scope module nand1 $end
+$var wire 1 G+ out $end
+$var wire 1 E+ b $end
+$var wire 1 M+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 =+ a $end
+$var wire 1 >+ b $end
+$var wire 1 N+ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 N+ a $end
+$var wire 1 M+ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 H+ b $end
+$var wire 1 G+ c $end
+$var wire 1 B+ out $end
+$var wire 1 O+ node2 $end
+$var wire 1 P+ node1 $end
+$var wire 1 C+ a $end
+$scope module nand1 $end
+$var wire 1 G+ b $end
+$var wire 1 B+ out $end
+$var wire 1 O+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 H+ b $end
+$var wire 1 P+ out $end
+$var wire 1 C+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 P+ a $end
+$var wire 1 O+ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ?+ a $end
+$var wire 1 E+ out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 @+ a $end
+$var wire 1 C+ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 D+ a $end
+$var wire 1 F+ out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[49] $end
+$scope module rcpfa_inst $end
+$var wire 1 Q+ a $end
+$var wire 1 R+ b $end
+$var wire 1 S+ cIn $end
+$var wire 1 T+ fIn $end
+$var wire 1 U+ fOut $end
+$var wire 1 V+ s $end
+$var wire 1 W+ notFIn $end
+$var wire 1 X+ notCOut $end
+$var wire 1 Y+ notCIn $end
+$var wire 1 Z+ cOut $end
+$var wire 1 [+ Y $end
+$var wire 1 \+ X $end
+$scope module AO1 $end
+$var wire 1 Q+ a $end
+$var wire 1 R+ b $end
+$var wire 1 \+ out $end
+$var wire 1 ]+ node2 $end
+$var wire 1 ^+ node1 $end
+$var wire 1 Y+ c $end
+$scope module nand1 $end
+$var wire 1 Q+ a $end
+$var wire 1 R+ b $end
+$var wire 1 ^+ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 \+ out $end
+$var wire 1 Y+ b $end
+$var wire 1 ]+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ^+ a $end
+$var wire 1 ]+ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 T+ a $end
+$var wire 1 \+ c $end
+$var wire 1 X+ out $end
+$var wire 1 _+ node2 $end
+$var wire 1 `+ node1 $end
+$var wire 1 [+ b $end
+$scope module nand1 $end
+$var wire 1 T+ a $end
+$var wire 1 `+ out $end
+$var wire 1 [+ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 \+ b $end
+$var wire 1 X+ out $end
+$var wire 1 _+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 `+ a $end
+$var wire 1 _+ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 Q+ a $end
+$var wire 1 R+ b $end
+$var wire 1 [+ out $end
+$var wire 1 a+ node2 $end
+$var wire 1 b+ node1 $end
+$var wire 1 Y+ c $end
+$scope module nand1 $end
+$var wire 1 [+ out $end
+$var wire 1 Y+ b $end
+$var wire 1 a+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Q+ a $end
+$var wire 1 R+ b $end
+$var wire 1 b+ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 b+ a $end
+$var wire 1 a+ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 \+ b $end
+$var wire 1 [+ c $end
+$var wire 1 V+ out $end
+$var wire 1 c+ node2 $end
+$var wire 1 d+ node1 $end
+$var wire 1 W+ a $end
+$scope module nand1 $end
+$var wire 1 [+ b $end
+$var wire 1 V+ out $end
+$var wire 1 c+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 \+ b $end
+$var wire 1 d+ out $end
+$var wire 1 W+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 d+ a $end
+$var wire 1 c+ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 S+ a $end
+$var wire 1 Y+ out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 T+ a $end
+$var wire 1 W+ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 X+ a $end
+$var wire 1 Z+ out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[50] $end
+$scope module rcpfa_inst $end
+$var wire 1 e+ a $end
+$var wire 1 f+ b $end
+$var wire 1 g+ cIn $end
+$var wire 1 h+ fIn $end
+$var wire 1 i+ fOut $end
+$var wire 1 j+ s $end
+$var wire 1 k+ notFIn $end
+$var wire 1 l+ notCOut $end
+$var wire 1 m+ notCIn $end
+$var wire 1 n+ cOut $end
+$var wire 1 o+ Y $end
+$var wire 1 p+ X $end
+$scope module AO1 $end
+$var wire 1 e+ a $end
+$var wire 1 f+ b $end
+$var wire 1 p+ out $end
+$var wire 1 q+ node2 $end
+$var wire 1 r+ node1 $end
+$var wire 1 m+ c $end
+$scope module nand1 $end
+$var wire 1 e+ a $end
+$var wire 1 f+ b $end
+$var wire 1 r+ out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 p+ out $end
+$var wire 1 m+ b $end
+$var wire 1 q+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 r+ a $end
+$var wire 1 q+ out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 h+ a $end
+$var wire 1 p+ c $end
+$var wire 1 l+ out $end
+$var wire 1 s+ node2 $end
+$var wire 1 t+ node1 $end
+$var wire 1 o+ b $end
+$scope module nand1 $end
+$var wire 1 h+ a $end
+$var wire 1 t+ out $end
+$var wire 1 o+ b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 p+ b $end
+$var wire 1 l+ out $end
+$var wire 1 s+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 t+ a $end
+$var wire 1 s+ out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 e+ a $end
+$var wire 1 f+ b $end
+$var wire 1 o+ out $end
+$var wire 1 u+ node2 $end
+$var wire 1 v+ node1 $end
+$var wire 1 m+ c $end
+$scope module nand1 $end
+$var wire 1 o+ out $end
+$var wire 1 m+ b $end
+$var wire 1 u+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 e+ a $end
+$var wire 1 f+ b $end
+$var wire 1 v+ out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 v+ a $end
+$var wire 1 u+ out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 p+ b $end
+$var wire 1 o+ c $end
+$var wire 1 j+ out $end
+$var wire 1 w+ node2 $end
+$var wire 1 x+ node1 $end
+$var wire 1 k+ a $end
+$scope module nand1 $end
+$var wire 1 o+ b $end
+$var wire 1 j+ out $end
+$var wire 1 w+ a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 p+ b $end
+$var wire 1 x+ out $end
+$var wire 1 k+ a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 x+ a $end
+$var wire 1 w+ out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 g+ a $end
+$var wire 1 m+ out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 h+ a $end
+$var wire 1 k+ out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 l+ a $end
+$var wire 1 n+ out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[51] $end
+$scope module rcpfa_inst $end
+$var wire 1 y+ a $end
+$var wire 1 z+ b $end
+$var wire 1 {+ cIn $end
+$var wire 1 |+ fIn $end
+$var wire 1 }+ fOut $end
+$var wire 1 ~+ s $end
+$var wire 1 !, notFIn $end
+$var wire 1 ", notCOut $end
+$var wire 1 #, notCIn $end
+$var wire 1 $, cOut $end
+$var wire 1 %, Y $end
+$var wire 1 &, X $end
+$scope module AO1 $end
+$var wire 1 y+ a $end
+$var wire 1 z+ b $end
+$var wire 1 &, out $end
+$var wire 1 ', node2 $end
+$var wire 1 (, node1 $end
+$var wire 1 #, c $end
+$scope module nand1 $end
+$var wire 1 y+ a $end
+$var wire 1 z+ b $end
+$var wire 1 (, out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 &, out $end
+$var wire 1 #, b $end
+$var wire 1 ', a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 (, a $end
+$var wire 1 ', out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 |+ a $end
+$var wire 1 &, c $end
+$var wire 1 ", out $end
+$var wire 1 ), node2 $end
+$var wire 1 *, node1 $end
+$var wire 1 %, b $end
+$scope module nand1 $end
+$var wire 1 |+ a $end
+$var wire 1 *, out $end
+$var wire 1 %, b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 &, b $end
+$var wire 1 ", out $end
+$var wire 1 ), a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 *, a $end
+$var wire 1 ), out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 y+ a $end
+$var wire 1 z+ b $end
+$var wire 1 %, out $end
+$var wire 1 +, node2 $end
+$var wire 1 ,, node1 $end
+$var wire 1 #, c $end
+$scope module nand1 $end
+$var wire 1 %, out $end
+$var wire 1 #, b $end
+$var wire 1 +, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 y+ a $end
+$var wire 1 z+ b $end
+$var wire 1 ,, out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ,, a $end
+$var wire 1 +, out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 &, b $end
+$var wire 1 %, c $end
+$var wire 1 ~+ out $end
+$var wire 1 -, node2 $end
+$var wire 1 ., node1 $end
+$var wire 1 !, a $end
+$scope module nand1 $end
+$var wire 1 %, b $end
+$var wire 1 ~+ out $end
+$var wire 1 -, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 &, b $end
+$var wire 1 ., out $end
+$var wire 1 !, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ., a $end
+$var wire 1 -, out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 {+ a $end
+$var wire 1 #, out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 |+ a $end
+$var wire 1 !, out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 ", a $end
+$var wire 1 $, out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[52] $end
+$scope module rcpfa_inst $end
+$var wire 1 /, a $end
+$var wire 1 0, b $end
+$var wire 1 1, cIn $end
+$var wire 1 2, fIn $end
+$var wire 1 3, fOut $end
+$var wire 1 4, s $end
+$var wire 1 5, notFIn $end
+$var wire 1 6, notCOut $end
+$var wire 1 7, notCIn $end
+$var wire 1 8, cOut $end
+$var wire 1 9, Y $end
+$var wire 1 :, X $end
+$scope module AO1 $end
+$var wire 1 /, a $end
+$var wire 1 0, b $end
+$var wire 1 :, out $end
+$var wire 1 ;, node2 $end
+$var wire 1 <, node1 $end
+$var wire 1 7, c $end
+$scope module nand1 $end
+$var wire 1 /, a $end
+$var wire 1 0, b $end
+$var wire 1 <, out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 :, out $end
+$var wire 1 7, b $end
+$var wire 1 ;, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 <, a $end
+$var wire 1 ;, out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 2, a $end
+$var wire 1 :, c $end
+$var wire 1 6, out $end
+$var wire 1 =, node2 $end
+$var wire 1 >, node1 $end
+$var wire 1 9, b $end
+$scope module nand1 $end
+$var wire 1 2, a $end
+$var wire 1 >, out $end
+$var wire 1 9, b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 :, b $end
+$var wire 1 6, out $end
+$var wire 1 =, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 >, a $end
+$var wire 1 =, out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 /, a $end
+$var wire 1 0, b $end
+$var wire 1 9, out $end
+$var wire 1 ?, node2 $end
+$var wire 1 @, node1 $end
+$var wire 1 7, c $end
+$scope module nand1 $end
+$var wire 1 9, out $end
+$var wire 1 7, b $end
+$var wire 1 ?, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 /, a $end
+$var wire 1 0, b $end
+$var wire 1 @, out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 @, a $end
+$var wire 1 ?, out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 :, b $end
+$var wire 1 9, c $end
+$var wire 1 4, out $end
+$var wire 1 A, node2 $end
+$var wire 1 B, node1 $end
+$var wire 1 5, a $end
+$scope module nand1 $end
+$var wire 1 9, b $end
+$var wire 1 4, out $end
+$var wire 1 A, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 :, b $end
+$var wire 1 B, out $end
+$var wire 1 5, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 B, a $end
+$var wire 1 A, out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 1, a $end
+$var wire 1 7, out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 2, a $end
+$var wire 1 5, out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 6, a $end
+$var wire 1 8, out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[53] $end
+$scope module rcpfa_inst $end
+$var wire 1 C, a $end
+$var wire 1 D, b $end
+$var wire 1 E, cIn $end
+$var wire 1 F, fIn $end
+$var wire 1 G, fOut $end
+$var wire 1 H, s $end
+$var wire 1 I, notFIn $end
+$var wire 1 J, notCOut $end
+$var wire 1 K, notCIn $end
+$var wire 1 L, cOut $end
+$var wire 1 M, Y $end
+$var wire 1 N, X $end
+$scope module AO1 $end
+$var wire 1 C, a $end
+$var wire 1 D, b $end
+$var wire 1 N, out $end
+$var wire 1 O, node2 $end
+$var wire 1 P, node1 $end
+$var wire 1 K, c $end
+$scope module nand1 $end
+$var wire 1 C, a $end
+$var wire 1 D, b $end
+$var wire 1 P, out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 N, out $end
+$var wire 1 K, b $end
+$var wire 1 O, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 P, a $end
+$var wire 1 O, out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 F, a $end
+$var wire 1 N, c $end
+$var wire 1 J, out $end
+$var wire 1 Q, node2 $end
+$var wire 1 R, node1 $end
+$var wire 1 M, b $end
+$scope module nand1 $end
+$var wire 1 F, a $end
+$var wire 1 R, out $end
+$var wire 1 M, b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 N, b $end
+$var wire 1 J, out $end
+$var wire 1 Q, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 R, a $end
+$var wire 1 Q, out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 C, a $end
+$var wire 1 D, b $end
+$var wire 1 M, out $end
+$var wire 1 S, node2 $end
+$var wire 1 T, node1 $end
+$var wire 1 K, c $end
+$scope module nand1 $end
+$var wire 1 M, out $end
+$var wire 1 K, b $end
+$var wire 1 S, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 C, a $end
+$var wire 1 D, b $end
+$var wire 1 T, out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 T, a $end
+$var wire 1 S, out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 N, b $end
+$var wire 1 M, c $end
+$var wire 1 H, out $end
+$var wire 1 U, node2 $end
+$var wire 1 V, node1 $end
+$var wire 1 I, a $end
+$scope module nand1 $end
+$var wire 1 M, b $end
+$var wire 1 H, out $end
+$var wire 1 U, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 N, b $end
+$var wire 1 V, out $end
+$var wire 1 I, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 V, a $end
+$var wire 1 U, out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 E, a $end
+$var wire 1 K, out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 F, a $end
+$var wire 1 I, out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 J, a $end
+$var wire 1 L, out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[54] $end
+$scope module rcpfa_inst $end
+$var wire 1 W, a $end
+$var wire 1 X, b $end
+$var wire 1 Y, cIn $end
+$var wire 1 Z, fIn $end
+$var wire 1 [, fOut $end
+$var wire 1 \, s $end
+$var wire 1 ], notFIn $end
+$var wire 1 ^, notCOut $end
+$var wire 1 _, notCIn $end
+$var wire 1 `, cOut $end
+$var wire 1 a, Y $end
+$var wire 1 b, X $end
+$scope module AO1 $end
+$var wire 1 W, a $end
+$var wire 1 X, b $end
+$var wire 1 b, out $end
+$var wire 1 c, node2 $end
+$var wire 1 d, node1 $end
+$var wire 1 _, c $end
+$scope module nand1 $end
+$var wire 1 W, a $end
+$var wire 1 X, b $end
+$var wire 1 d, out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 b, out $end
+$var wire 1 _, b $end
+$var wire 1 c, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 d, a $end
+$var wire 1 c, out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 Z, a $end
+$var wire 1 b, c $end
+$var wire 1 ^, out $end
+$var wire 1 e, node2 $end
+$var wire 1 f, node1 $end
+$var wire 1 a, b $end
+$scope module nand1 $end
+$var wire 1 Z, a $end
+$var wire 1 f, out $end
+$var wire 1 a, b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 b, b $end
+$var wire 1 ^, out $end
+$var wire 1 e, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 f, a $end
+$var wire 1 e, out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 W, a $end
+$var wire 1 X, b $end
+$var wire 1 a, out $end
+$var wire 1 g, node2 $end
+$var wire 1 h, node1 $end
+$var wire 1 _, c $end
+$scope module nand1 $end
+$var wire 1 a, out $end
+$var wire 1 _, b $end
+$var wire 1 g, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 W, a $end
+$var wire 1 X, b $end
+$var wire 1 h, out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 h, a $end
+$var wire 1 g, out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 b, b $end
+$var wire 1 a, c $end
+$var wire 1 \, out $end
+$var wire 1 i, node2 $end
+$var wire 1 j, node1 $end
+$var wire 1 ], a $end
+$scope module nand1 $end
+$var wire 1 a, b $end
+$var wire 1 \, out $end
+$var wire 1 i, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 b, b $end
+$var wire 1 j, out $end
+$var wire 1 ], a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 j, a $end
+$var wire 1 i, out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Y, a $end
+$var wire 1 _, out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 Z, a $end
+$var wire 1 ], out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 ^, a $end
+$var wire 1 `, out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[55] $end
+$scope module rcpfa_inst $end
+$var wire 1 k, a $end
+$var wire 1 l, b $end
+$var wire 1 m, cIn $end
+$var wire 1 n, fIn $end
+$var wire 1 o, fOut $end
+$var wire 1 p, s $end
+$var wire 1 q, notFIn $end
+$var wire 1 r, notCOut $end
+$var wire 1 s, notCIn $end
+$var wire 1 t, cOut $end
+$var wire 1 u, Y $end
+$var wire 1 v, X $end
+$scope module AO1 $end
+$var wire 1 k, a $end
+$var wire 1 l, b $end
+$var wire 1 v, out $end
+$var wire 1 w, node2 $end
+$var wire 1 x, node1 $end
+$var wire 1 s, c $end
+$scope module nand1 $end
+$var wire 1 k, a $end
+$var wire 1 l, b $end
+$var wire 1 x, out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 v, out $end
+$var wire 1 s, b $end
+$var wire 1 w, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 x, a $end
+$var wire 1 w, out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 n, a $end
+$var wire 1 v, c $end
+$var wire 1 r, out $end
+$var wire 1 y, node2 $end
+$var wire 1 z, node1 $end
+$var wire 1 u, b $end
+$scope module nand1 $end
+$var wire 1 n, a $end
+$var wire 1 z, out $end
+$var wire 1 u, b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 v, b $end
+$var wire 1 r, out $end
+$var wire 1 y, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 z, a $end
+$var wire 1 y, out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 k, a $end
+$var wire 1 l, b $end
+$var wire 1 u, out $end
+$var wire 1 {, node2 $end
+$var wire 1 |, node1 $end
+$var wire 1 s, c $end
+$scope module nand1 $end
+$var wire 1 u, out $end
+$var wire 1 s, b $end
+$var wire 1 {, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 k, a $end
+$var wire 1 l, b $end
+$var wire 1 |, out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 |, a $end
+$var wire 1 {, out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 v, b $end
+$var wire 1 u, c $end
+$var wire 1 p, out $end
+$var wire 1 }, node2 $end
+$var wire 1 ~, node1 $end
+$var wire 1 q, a $end
+$scope module nand1 $end
+$var wire 1 u, b $end
+$var wire 1 p, out $end
+$var wire 1 }, a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 v, b $end
+$var wire 1 ~, out $end
+$var wire 1 q, a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ~, a $end
+$var wire 1 }, out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 m, a $end
+$var wire 1 s, out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 n, a $end
+$var wire 1 q, out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 r, a $end
+$var wire 1 t, out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[56] $end
+$scope module rcpfa_inst $end
+$var wire 1 !- a $end
+$var wire 1 "- b $end
+$var wire 1 #- cIn $end
+$var wire 1 $- fIn $end
+$var wire 1 %- fOut $end
+$var wire 1 &- s $end
+$var wire 1 '- notFIn $end
+$var wire 1 (- notCOut $end
+$var wire 1 )- notCIn $end
+$var wire 1 *- cOut $end
+$var wire 1 +- Y $end
+$var wire 1 ,- X $end
+$scope module AO1 $end
+$var wire 1 !- a $end
+$var wire 1 "- b $end
+$var wire 1 ,- out $end
+$var wire 1 -- node2 $end
+$var wire 1 .- node1 $end
+$var wire 1 )- c $end
+$scope module nand1 $end
+$var wire 1 !- a $end
+$var wire 1 "- b $end
+$var wire 1 .- out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ,- out $end
+$var wire 1 )- b $end
+$var wire 1 -- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 .- a $end
+$var wire 1 -- out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 $- a $end
+$var wire 1 ,- c $end
+$var wire 1 (- out $end
+$var wire 1 /- node2 $end
+$var wire 1 0- node1 $end
+$var wire 1 +- b $end
+$scope module nand1 $end
+$var wire 1 $- a $end
+$var wire 1 0- out $end
+$var wire 1 +- b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ,- b $end
+$var wire 1 (- out $end
+$var wire 1 /- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 0- a $end
+$var wire 1 /- out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 !- a $end
+$var wire 1 "- b $end
+$var wire 1 +- out $end
+$var wire 1 1- node2 $end
+$var wire 1 2- node1 $end
+$var wire 1 )- c $end
+$scope module nand1 $end
+$var wire 1 +- out $end
+$var wire 1 )- b $end
+$var wire 1 1- a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 !- a $end
+$var wire 1 "- b $end
+$var wire 1 2- out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 2- a $end
+$var wire 1 1- out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 ,- b $end
+$var wire 1 +- c $end
+$var wire 1 &- out $end
+$var wire 1 3- node2 $end
+$var wire 1 4- node1 $end
+$var wire 1 '- a $end
+$scope module nand1 $end
+$var wire 1 +- b $end
+$var wire 1 &- out $end
+$var wire 1 3- a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ,- b $end
+$var wire 1 4- out $end
+$var wire 1 '- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 4- a $end
+$var wire 1 3- out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 #- a $end
+$var wire 1 )- out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 $- a $end
+$var wire 1 '- out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 (- a $end
+$var wire 1 *- out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[57] $end
+$scope module rcpfa_inst $end
+$var wire 1 5- a $end
+$var wire 1 6- b $end
+$var wire 1 7- cIn $end
+$var wire 1 8- fIn $end
+$var wire 1 9- fOut $end
+$var wire 1 :- s $end
+$var wire 1 ;- notFIn $end
+$var wire 1 <- notCOut $end
+$var wire 1 =- notCIn $end
+$var wire 1 >- cOut $end
+$var wire 1 ?- Y $end
+$var wire 1 @- X $end
+$scope module AO1 $end
+$var wire 1 5- a $end
+$var wire 1 6- b $end
+$var wire 1 @- out $end
+$var wire 1 A- node2 $end
+$var wire 1 B- node1 $end
+$var wire 1 =- c $end
+$scope module nand1 $end
+$var wire 1 5- a $end
+$var wire 1 6- b $end
+$var wire 1 B- out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 @- out $end
+$var wire 1 =- b $end
+$var wire 1 A- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 B- a $end
+$var wire 1 A- out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 8- a $end
+$var wire 1 @- c $end
+$var wire 1 <- out $end
+$var wire 1 C- node2 $end
+$var wire 1 D- node1 $end
+$var wire 1 ?- b $end
+$scope module nand1 $end
+$var wire 1 8- a $end
+$var wire 1 D- out $end
+$var wire 1 ?- b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 @- b $end
+$var wire 1 <- out $end
+$var wire 1 C- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 D- a $end
+$var wire 1 C- out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 5- a $end
+$var wire 1 6- b $end
+$var wire 1 ?- out $end
+$var wire 1 E- node2 $end
+$var wire 1 F- node1 $end
+$var wire 1 =- c $end
+$scope module nand1 $end
+$var wire 1 ?- out $end
+$var wire 1 =- b $end
+$var wire 1 E- a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 5- a $end
+$var wire 1 6- b $end
+$var wire 1 F- out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 F- a $end
+$var wire 1 E- out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 @- b $end
+$var wire 1 ?- c $end
+$var wire 1 :- out $end
+$var wire 1 G- node2 $end
+$var wire 1 H- node1 $end
+$var wire 1 ;- a $end
+$scope module nand1 $end
+$var wire 1 ?- b $end
+$var wire 1 :- out $end
+$var wire 1 G- a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 @- b $end
+$var wire 1 H- out $end
+$var wire 1 ;- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 H- a $end
+$var wire 1 G- out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 7- a $end
+$var wire 1 =- out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 8- a $end
+$var wire 1 ;- out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 <- a $end
+$var wire 1 >- out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[58] $end
+$scope module rcpfa_inst $end
+$var wire 1 I- a $end
+$var wire 1 J- b $end
+$var wire 1 K- cIn $end
+$var wire 1 L- fIn $end
+$var wire 1 M- fOut $end
+$var wire 1 N- s $end
+$var wire 1 O- notFIn $end
+$var wire 1 P- notCOut $end
+$var wire 1 Q- notCIn $end
+$var wire 1 R- cOut $end
+$var wire 1 S- Y $end
+$var wire 1 T- X $end
+$scope module AO1 $end
+$var wire 1 I- a $end
+$var wire 1 J- b $end
+$var wire 1 T- out $end
+$var wire 1 U- node2 $end
+$var wire 1 V- node1 $end
+$var wire 1 Q- c $end
+$scope module nand1 $end
+$var wire 1 I- a $end
+$var wire 1 J- b $end
+$var wire 1 V- out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 T- out $end
+$var wire 1 Q- b $end
+$var wire 1 U- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 V- a $end
+$var wire 1 U- out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 L- a $end
+$var wire 1 T- c $end
+$var wire 1 P- out $end
+$var wire 1 W- node2 $end
+$var wire 1 X- node1 $end
+$var wire 1 S- b $end
+$scope module nand1 $end
+$var wire 1 L- a $end
+$var wire 1 X- out $end
+$var wire 1 S- b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 T- b $end
+$var wire 1 P- out $end
+$var wire 1 W- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 X- a $end
+$var wire 1 W- out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 I- a $end
+$var wire 1 J- b $end
+$var wire 1 S- out $end
+$var wire 1 Y- node2 $end
+$var wire 1 Z- node1 $end
+$var wire 1 Q- c $end
+$scope module nand1 $end
+$var wire 1 S- out $end
+$var wire 1 Q- b $end
+$var wire 1 Y- a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 I- a $end
+$var wire 1 J- b $end
+$var wire 1 Z- out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Z- a $end
+$var wire 1 Y- out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 T- b $end
+$var wire 1 S- c $end
+$var wire 1 N- out $end
+$var wire 1 [- node2 $end
+$var wire 1 \- node1 $end
+$var wire 1 O- a $end
+$scope module nand1 $end
+$var wire 1 S- b $end
+$var wire 1 N- out $end
+$var wire 1 [- a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 T- b $end
+$var wire 1 \- out $end
+$var wire 1 O- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 \- a $end
+$var wire 1 [- out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 K- a $end
+$var wire 1 Q- out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 L- a $end
+$var wire 1 O- out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 P- a $end
+$var wire 1 R- out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[59] $end
+$scope module rcpfa_inst $end
+$var wire 1 ]- a $end
+$var wire 1 ^- b $end
+$var wire 1 _- cIn $end
+$var wire 1 `- fIn $end
+$var wire 1 a- fOut $end
+$var wire 1 b- s $end
+$var wire 1 c- notFIn $end
+$var wire 1 d- notCOut $end
+$var wire 1 e- notCIn $end
+$var wire 1 f- cOut $end
+$var wire 1 g- Y $end
+$var wire 1 h- X $end
+$scope module AO1 $end
+$var wire 1 ]- a $end
+$var wire 1 ^- b $end
+$var wire 1 h- out $end
+$var wire 1 i- node2 $end
+$var wire 1 j- node1 $end
+$var wire 1 e- c $end
+$scope module nand1 $end
+$var wire 1 ]- a $end
+$var wire 1 ^- b $end
+$var wire 1 j- out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 h- out $end
+$var wire 1 e- b $end
+$var wire 1 i- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 j- a $end
+$var wire 1 i- out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 `- a $end
+$var wire 1 h- c $end
+$var wire 1 d- out $end
+$var wire 1 k- node2 $end
+$var wire 1 l- node1 $end
+$var wire 1 g- b $end
+$scope module nand1 $end
+$var wire 1 `- a $end
+$var wire 1 l- out $end
+$var wire 1 g- b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 h- b $end
+$var wire 1 d- out $end
+$var wire 1 k- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 l- a $end
+$var wire 1 k- out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 ]- a $end
+$var wire 1 ^- b $end
+$var wire 1 g- out $end
+$var wire 1 m- node2 $end
+$var wire 1 n- node1 $end
+$var wire 1 e- c $end
+$scope module nand1 $end
+$var wire 1 g- out $end
+$var wire 1 e- b $end
+$var wire 1 m- a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ]- a $end
+$var wire 1 ^- b $end
+$var wire 1 n- out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 n- a $end
+$var wire 1 m- out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 h- b $end
+$var wire 1 g- c $end
+$var wire 1 b- out $end
+$var wire 1 o- node2 $end
+$var wire 1 p- node1 $end
+$var wire 1 c- a $end
+$scope module nand1 $end
+$var wire 1 g- b $end
+$var wire 1 b- out $end
+$var wire 1 o- a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 h- b $end
+$var wire 1 p- out $end
+$var wire 1 c- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 p- a $end
+$var wire 1 o- out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 _- a $end
+$var wire 1 e- out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 `- a $end
+$var wire 1 c- out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 d- a $end
+$var wire 1 f- out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[60] $end
+$scope module rcpfa_inst $end
+$var wire 1 q- a $end
+$var wire 1 r- b $end
+$var wire 1 s- cIn $end
+$var wire 1 t- fIn $end
+$var wire 1 u- fOut $end
+$var wire 1 v- s $end
+$var wire 1 w- notFIn $end
+$var wire 1 x- notCOut $end
+$var wire 1 y- notCIn $end
+$var wire 1 z- cOut $end
+$var wire 1 {- Y $end
+$var wire 1 |- X $end
+$scope module AO1 $end
+$var wire 1 q- a $end
+$var wire 1 r- b $end
+$var wire 1 |- out $end
+$var wire 1 }- node2 $end
+$var wire 1 ~- node1 $end
+$var wire 1 y- c $end
+$scope module nand1 $end
+$var wire 1 q- a $end
+$var wire 1 r- b $end
+$var wire 1 ~- out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 |- out $end
+$var wire 1 y- b $end
+$var wire 1 }- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ~- a $end
+$var wire 1 }- out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 t- a $end
+$var wire 1 |- c $end
+$var wire 1 x- out $end
+$var wire 1 !. node2 $end
+$var wire 1 ". node1 $end
+$var wire 1 {- b $end
+$scope module nand1 $end
+$var wire 1 t- a $end
+$var wire 1 ". out $end
+$var wire 1 {- b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 |- b $end
+$var wire 1 x- out $end
+$var wire 1 !. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ". a $end
+$var wire 1 !. out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 q- a $end
+$var wire 1 r- b $end
+$var wire 1 {- out $end
+$var wire 1 #. node2 $end
+$var wire 1 $. node1 $end
+$var wire 1 y- c $end
+$scope module nand1 $end
+$var wire 1 {- out $end
+$var wire 1 y- b $end
+$var wire 1 #. a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 q- a $end
+$var wire 1 r- b $end
+$var wire 1 $. out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 $. a $end
+$var wire 1 #. out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 |- b $end
+$var wire 1 {- c $end
+$var wire 1 v- out $end
+$var wire 1 %. node2 $end
+$var wire 1 &. node1 $end
+$var wire 1 w- a $end
+$scope module nand1 $end
+$var wire 1 {- b $end
+$var wire 1 v- out $end
+$var wire 1 %. a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 |- b $end
+$var wire 1 &. out $end
+$var wire 1 w- a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 &. a $end
+$var wire 1 %. out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 s- a $end
+$var wire 1 y- out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 t- a $end
+$var wire 1 w- out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 x- a $end
+$var wire 1 z- out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[61] $end
+$scope module rcpfa_inst $end
+$var wire 1 '. a $end
+$var wire 1 (. b $end
+$var wire 1 ). cIn $end
+$var wire 1 *. fIn $end
+$var wire 1 +. fOut $end
+$var wire 1 ,. s $end
+$var wire 1 -. notFIn $end
+$var wire 1 .. notCOut $end
+$var wire 1 /. notCIn $end
+$var wire 1 0. cOut $end
+$var wire 1 1. Y $end
+$var wire 1 2. X $end
+$scope module AO1 $end
+$var wire 1 '. a $end
+$var wire 1 (. b $end
+$var wire 1 2. out $end
+$var wire 1 3. node2 $end
+$var wire 1 4. node1 $end
+$var wire 1 /. c $end
+$scope module nand1 $end
+$var wire 1 '. a $end
+$var wire 1 (. b $end
+$var wire 1 4. out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 2. out $end
+$var wire 1 /. b $end
+$var wire 1 3. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 4. a $end
+$var wire 1 3. out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 *. a $end
+$var wire 1 2. c $end
+$var wire 1 .. out $end
+$var wire 1 5. node2 $end
+$var wire 1 6. node1 $end
+$var wire 1 1. b $end
+$scope module nand1 $end
+$var wire 1 *. a $end
+$var wire 1 6. out $end
+$var wire 1 1. b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 2. b $end
+$var wire 1 .. out $end
+$var wire 1 5. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 6. a $end
+$var wire 1 5. out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 '. a $end
+$var wire 1 (. b $end
+$var wire 1 1. out $end
+$var wire 1 7. node2 $end
+$var wire 1 8. node1 $end
+$var wire 1 /. c $end
+$scope module nand1 $end
+$var wire 1 1. out $end
+$var wire 1 /. b $end
+$var wire 1 7. a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 '. a $end
+$var wire 1 (. b $end
+$var wire 1 8. out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 8. a $end
+$var wire 1 7. out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 2. b $end
+$var wire 1 1. c $end
+$var wire 1 ,. out $end
+$var wire 1 9. node2 $end
+$var wire 1 :. node1 $end
+$var wire 1 -. a $end
+$scope module nand1 $end
+$var wire 1 1. b $end
+$var wire 1 ,. out $end
+$var wire 1 9. a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 2. b $end
+$var wire 1 :. out $end
+$var wire 1 -. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 :. a $end
+$var wire 1 9. out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ). a $end
+$var wire 1 /. out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 *. a $end
+$var wire 1 -. out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 .. a $end
+$var wire 1 0. out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[62] $end
+$scope module rcpfa_inst $end
+$var wire 1 ;. a $end
+$var wire 1 <. b $end
+$var wire 1 =. cIn $end
+$var wire 1 >. fIn $end
+$var wire 1 ?. fOut $end
+$var wire 1 @. s $end
+$var wire 1 A. notFIn $end
+$var wire 1 B. notCOut $end
+$var wire 1 C. notCIn $end
+$var wire 1 D. cOut $end
+$var wire 1 E. Y $end
+$var wire 1 F. X $end
+$scope module AO1 $end
+$var wire 1 ;. a $end
+$var wire 1 <. b $end
+$var wire 1 F. out $end
+$var wire 1 G. node2 $end
+$var wire 1 H. node1 $end
+$var wire 1 C. c $end
+$scope module nand1 $end
+$var wire 1 ;. a $end
+$var wire 1 <. b $end
+$var wire 1 H. out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 F. out $end
+$var wire 1 C. b $end
+$var wire 1 G. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 H. a $end
+$var wire 1 G. out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 >. a $end
+$var wire 1 F. c $end
+$var wire 1 B. out $end
+$var wire 1 I. node2 $end
+$var wire 1 J. node1 $end
+$var wire 1 E. b $end
+$scope module nand1 $end
+$var wire 1 >. a $end
+$var wire 1 J. out $end
+$var wire 1 E. b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 F. b $end
+$var wire 1 B. out $end
+$var wire 1 I. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 J. a $end
+$var wire 1 I. out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 ;. a $end
+$var wire 1 <. b $end
+$var wire 1 E. out $end
+$var wire 1 K. node2 $end
+$var wire 1 L. node1 $end
+$var wire 1 C. c $end
+$scope module nand1 $end
+$var wire 1 E. out $end
+$var wire 1 C. b $end
+$var wire 1 K. a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ;. a $end
+$var wire 1 <. b $end
+$var wire 1 L. out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 L. a $end
+$var wire 1 K. out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 F. b $end
+$var wire 1 E. c $end
+$var wire 1 @. out $end
+$var wire 1 M. node2 $end
+$var wire 1 N. node1 $end
+$var wire 1 A. a $end
+$scope module nand1 $end
+$var wire 1 E. b $end
+$var wire 1 @. out $end
+$var wire 1 M. a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 F. b $end
+$var wire 1 N. out $end
+$var wire 1 A. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 N. a $end
+$var wire 1 M. out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 =. a $end
+$var wire 1 C. out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 >. a $end
+$var wire 1 A. out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 B. a $end
+$var wire 1 D. out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rcpaLoop[63] $end
+$scope module rcpfa_inst $end
+$var wire 1 O. a $end
+$var wire 1 P. b $end
+$var wire 1 Q. cIn $end
+$var wire 1 R. fIn $end
+$var wire 1 S. fOut $end
+$var wire 1 T. s $end
+$var wire 1 U. notFIn $end
+$var wire 1 V. notCOut $end
+$var wire 1 W. notCIn $end
+$var wire 1 X. cOut $end
+$var wire 1 Y. Y $end
+$var wire 1 Z. X $end
+$scope module AO1 $end
+$var wire 1 O. a $end
+$var wire 1 P. b $end
+$var wire 1 Z. out $end
+$var wire 1 [. node2 $end
+$var wire 1 \. node1 $end
+$var wire 1 W. c $end
+$scope module nand1 $end
+$var wire 1 O. a $end
+$var wire 1 P. b $end
+$var wire 1 \. out $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Z. out $end
+$var wire 1 W. b $end
+$var wire 1 [. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 \. a $end
+$var wire 1 [. out $end
+$upscope $end
+$upscope $end
+$scope module AO2 $end
+$var wire 1 R. a $end
+$var wire 1 Z. c $end
+$var wire 1 V. out $end
+$var wire 1 ]. node2 $end
+$var wire 1 ^. node1 $end
+$var wire 1 Y. b $end
+$scope module nand1 $end
+$var wire 1 R. a $end
+$var wire 1 ^. out $end
+$var wire 1 Y. b $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Z. b $end
+$var wire 1 V. out $end
+$var wire 1 ]. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ^. a $end
+$var wire 1 ]. out $end
+$upscope $end
+$upscope $end
+$scope module OA1 $end
+$var wire 1 O. a $end
+$var wire 1 P. b $end
+$var wire 1 Y. out $end
+$var wire 1 _. node2 $end
+$var wire 1 `. node1 $end
+$var wire 1 W. c $end
+$scope module nand1 $end
+$var wire 1 Y. out $end
+$var wire 1 W. b $end
+$var wire 1 _. a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 O. a $end
+$var wire 1 P. b $end
+$var wire 1 `. out $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 `. a $end
+$var wire 1 _. out $end
+$upscope $end
+$upscope $end
+$scope module OA2 $end
+$var wire 1 Z. b $end
+$var wire 1 Y. c $end
+$var wire 1 T. out $end
+$var wire 1 a. node2 $end
+$var wire 1 b. node1 $end
+$var wire 1 U. a $end
+$scope module nand1 $end
+$var wire 1 Y. b $end
+$var wire 1 T. out $end
+$var wire 1 a. a $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 Z. b $end
+$var wire 1 b. out $end
+$var wire 1 U. a $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 b. a $end
+$var wire 1 a. out $end
+$upscope $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 Q. a $end
+$var wire 1 W. out $end
+$upscope $end
+$scope module not2 $end
+$var wire 1 R. a $end
+$var wire 1 U. out $end
+$upscope $end
+$scope module not3 $end
+$var wire 1 V. a $end
+$var wire 1 X. out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0b.
+1a.
+1`.
+0_.
+1^.
+0].
+1\.
+0[.
+0Z.
+1Y.
+0X.
+1W.
+1V.
+1U.
+0T.
+0S.
+0R.
+0Q.
+0P.
+0O.
+0N.
+1M.
+1L.
+0K.
+1J.
+0I.
+1H.
+0G.
+0F.
+1E.
+0D.
+1C.
+1B.
+1A.
+0@.
+0?.
+0>.
+0=.
+0<.
+0;.
+0:.
+19.
+18.
+07.
+16.
+05.
+14.
+03.
+02.
+11.
+00.
+1/.
+1..
+1-.
+0,.
+0+.
+0*.
+0).
+0(.
+0'.
+0&.
+1%.
+1$.
+0#.
+1".
+0!.
+1~-
+0}-
+0|-
+1{-
+0z-
+1y-
+1x-
+1w-
+0v-
+0u-
+0t-
+0s-
+0r-
+0q-
+0p-
+1o-
+1n-
+0m-
+1l-
+0k-
+1j-
+0i-
+0h-
+1g-
+0f-
+1e-
+1d-
+1c-
+0b-
+0a-
+0`-
+0_-
+0^-
+0]-
+0\-
+1[-
+1Z-
+0Y-
+1X-
+0W-
+1V-
+0U-
+0T-
+1S-
+0R-
+1Q-
+1P-
+1O-
+0N-
+0M-
+0L-
+0K-
+0J-
+0I-
+0H-
+1G-
+1F-
+0E-
+1D-
+0C-
+1B-
+0A-
+0@-
+1?-
+0>-
+1=-
+1<-
+1;-
+0:-
+09-
+08-
+07-
+06-
+05-
+04-
+13-
+12-
+01-
+10-
+0/-
+1.-
+0--
+0,-
+1+-
+0*-
+1)-
+1(-
+1'-
+0&-
+0%-
+0$-
+0#-
+0"-
+0!-
+0~,
+1},
+1|,
+0{,
+1z,
+0y,
+1x,
+0w,
+0v,
+1u,
+0t,
+1s,
+1r,
+1q,
+0p,
+0o,
+0n,
+0m,
+0l,
+0k,
+0j,
+1i,
+1h,
+0g,
+1f,
+0e,
+1d,
+0c,
+0b,
+1a,
+0`,
+1_,
+1^,
+1],
+0\,
+0[,
+0Z,
+0Y,
+0X,
+0W,
+0V,
+1U,
+1T,
+0S,
+1R,
+0Q,
+1P,
+0O,
+0N,
+1M,
+0L,
+1K,
+1J,
+1I,
+0H,
+0G,
+0F,
+0E,
+0D,
+0C,
+0B,
+1A,
+1@,
+0?,
+1>,
+0=,
+1<,
+0;,
+0:,
+19,
+08,
+17,
+16,
+15,
+04,
+03,
+02,
+01,
+00,
+0/,
+0.,
+1-,
+1,,
+0+,
+1*,
+0),
+1(,
+0',
+0&,
+1%,
+0$,
+1#,
+1",
+1!,
+0~+
+0}+
+0|+
+0{+
+0z+
+0y+
+0x+
+1w+
+1v+
+0u+
+1t+
+0s+
+1r+
+0q+
+0p+
+1o+
+0n+
+1m+
+1l+
+1k+
+0j+
+0i+
+0h+
+0g+
+0f+
+0e+
+0d+
+1c+
+1b+
+0a+
+1`+
+0_+
+1^+
+0]+
+0\+
+1[+
+0Z+
+1Y+
+1X+
+1W+
+0V+
+0U+
+0T+
+0S+
+0R+
+0Q+
+0P+
+1O+
+1N+
+0M+
+1L+
+0K+
+1J+
+0I+
+0H+
+1G+
+0F+
+1E+
+1D+
+1C+
+0B+
+0A+
+0@+
+0?+
+0>+
+0=+
+0<+
+1;+
+1:+
+09+
+18+
+07+
+16+
+05+
+04+
+13+
+02+
+11+
+10+
+1/+
+0.+
+0-+
+0,+
+0++
+0*+
+0)+
+0(+
+1'+
+1&+
+0%+
+1$+
+0#+
+1"+
+0!+
+0~*
+1}*
+0|*
+1{*
+1z*
+1y*
+0x*
+0w*
+0v*
+0u*
+0t*
+0s*
+0r*
+1q*
+1p*
+0o*
+1n*
+0m*
+1l*
+0k*
+0j*
+1i*
+0h*
+1g*
+1f*
+1e*
+0d*
+0c*
+0b*
+0a*
+0`*
+0_*
+0^*
+1]*
+1\*
+0[*
+1Z*
+0Y*
+1X*
+0W*
+0V*
+1U*
+0T*
+1S*
+1R*
+1Q*
+0P*
+0O*
+0N*
+0M*
+0L*
+0K*
+0J*
+1I*
+1H*
+0G*
+1F*
+0E*
+1D*
+0C*
+0B*
+1A*
+0@*
+1?*
+1>*
+1=*
+0<*
+0;*
+0:*
+09*
+08*
+07*
+06*
+15*
+14*
+03*
+12*
+01*
+10*
+0/*
+0.*
+1-*
+0,*
+1+*
+1**
+1)*
+0(*
+0'*
+0&*
+0%*
+0$*
+0#*
+0"*
+1!*
+1~)
+0})
+1|)
+0{)
+1z)
+0y)
+0x)
+1w)
+0v)
+1u)
+1t)
+1s)
+0r)
+0q)
+0p)
+0o)
+0n)
+0m)
+0l)
+1k)
+1j)
+0i)
+1h)
+0g)
+1f)
+0e)
+0d)
+1c)
+0b)
+1a)
+1`)
+1_)
+0^)
+0])
+0\)
+0[)
+0Z)
+0Y)
+0X)
+1W)
+1V)
+0U)
+1T)
+0S)
+1R)
+0Q)
+0P)
+1O)
+0N)
+1M)
+1L)
+1K)
+0J)
+0I)
+0H)
+0G)
+0F)
+0E)
+0D)
+1C)
+1B)
+0A)
+1@)
+0?)
+1>)
+0=)
+0<)
+1;)
+0:)
+19)
+18)
+17)
+06)
+05)
+04)
+03)
+02)
+01)
+00)
+1/)
+1.)
+0-)
+1,)
+0+)
+1*)
+0))
+0()
+1')
+0&)
+1%)
+1$)
+1#)
+0")
+0!)
+0~(
+0}(
+0|(
+0{(
+0z(
+1y(
+1x(
+0w(
+1v(
+0u(
+1t(
+0s(
+0r(
+1q(
+0p(
+1o(
+1n(
+1m(
+0l(
+0k(
+0j(
+0i(
+0h(
+0g(
+0f(
+1e(
+1d(
+0c(
+1b(
+0a(
+1`(
+0_(
+0^(
+1](
+0\(
+1[(
+1Z(
+1Y(
+0X(
+0W(
+0V(
+0U(
+0T(
+0S(
+0R(
+1Q(
+1P(
+0O(
+1N(
+0M(
+1L(
+0K(
+0J(
+1I(
+0H(
+1G(
+1F(
+1E(
+0D(
+0C(
+0B(
+0A(
+0@(
+0?(
+0>(
+1=(
+1<(
+0;(
+1:(
+09(
+18(
+07(
+06(
+15(
+04(
+13(
+12(
+11(
+00(
+0/(
+0.(
+0-(
+0,(
+0+(
+0*(
+1)(
+1((
+0'(
+1&(
+0%(
+1$(
+0#(
+0"(
+1!(
+0~'
+1}'
+1|'
+1{'
+0z'
+0y'
+0x'
+0w'
+0v'
+0u'
+0t'
+1s'
+1r'
+0q'
+1p'
+0o'
+1n'
+0m'
+0l'
+1k'
+0j'
+1i'
+1h'
+1g'
+0f'
+0e'
+0d'
+0c'
+0b'
+0a'
+0`'
+1_'
+1^'
+0]'
+1\'
+0['
+1Z'
+0Y'
+0X'
+1W'
+0V'
+1U'
+1T'
+1S'
+0R'
+0Q'
+0P'
+0O'
+0N'
+0M'
+0L'
+1K'
+1J'
+0I'
+1H'
+0G'
+1F'
+0E'
+0D'
+1C'
+0B'
+1A'
+1@'
+1?'
+0>'
+0='
+0<'
+0;'
+0:'
+09'
+08'
+17'
+16'
+05'
+14'
+03'
+12'
+01'
+00'
+1/'
+0.'
+1-'
+1,'
+1+'
+0*'
+0)'
+0('
+0''
+0&'
+0%'
+0$'
+1#'
+1"'
+0!'
+1~&
+0}&
+1|&
+0{&
+0z&
+1y&
+0x&
+1w&
+1v&
+1u&
+0t&
+0s&
+0r&
+0q&
+0p&
+0o&
+0n&
+1m&
+1l&
+0k&
+1j&
+0i&
+1h&
+0g&
+0f&
+1e&
+0d&
+1c&
+1b&
+1a&
+0`&
+0_&
+0^&
+0]&
+0\&
+0[&
+0Z&
+1Y&
+1X&
+0W&
+1V&
+0U&
+1T&
+0S&
+0R&
+1Q&
+0P&
+1O&
+1N&
+1M&
+0L&
+0K&
+0J&
+0I&
+0H&
+0G&
+0F&
+1E&
+1D&
+0C&
+1B&
+0A&
+1@&
+0?&
+0>&
+1=&
+0<&
+1;&
+1:&
+19&
+08&
+07&
+06&
+05&
+04&
+03&
+02&
+11&
+10&
+0/&
+1.&
+0-&
+1,&
+0+&
+0*&
+1)&
+0(&
+1'&
+1&&
+1%&
+0$&
+0#&
+0"&
+0!&
+0~%
+0}%
+0|%
+1{%
+1z%
+0y%
+1x%
+0w%
+1v%
+0u%
+0t%
+1s%
+0r%
+1q%
+1p%
+1o%
+0n%
+0m%
+0l%
+0k%
+0j%
+0i%
+0h%
+1g%
+1f%
+0e%
+1d%
+0c%
+1b%
+0a%
+0`%
+1_%
+0^%
+1]%
+1\%
+1[%
+0Z%
+0Y%
+0X%
+0W%
+0V%
+0U%
+0T%
+1S%
+1R%
+0Q%
+1P%
+0O%
+1N%
+0M%
+0L%
+1K%
+0J%
+1I%
+1H%
+1G%
+0F%
+0E%
+0D%
+0C%
+0B%
+0A%
+0@%
+1?%
+1>%
+0=%
+1<%
+0;%
+1:%
+09%
+08%
+17%
+06%
+15%
+14%
+13%
+02%
+01%
+00%
+0/%
+0.%
+0-%
+0,%
+1+%
+1*%
+0)%
+1(%
+0'%
+1&%
+0%%
+0$%
+1#%
+0"%
+1!%
+1~$
+1}$
+0|$
+0{$
+0z$
+0y$
+0x$
+0w$
+0v$
+1u$
+1t$
+0s$
+1r$
+0q$
+1p$
+0o$
+0n$
+1m$
+0l$
+1k$
+1j$
+1i$
+0h$
+0g$
+0f$
+0e$
+0d$
+0c$
+0b$
+1a$
+1`$
+0_$
+1^$
+0]$
+1\$
+0[$
+0Z$
+1Y$
+0X$
+1W$
+1V$
+1U$
+0T$
+0S$
+0R$
+0Q$
+0P$
+0O$
+0N$
+1M$
+1L$
+0K$
+1J$
+0I$
+1H$
+0G$
+0F$
+1E$
+0D$
+1C$
+1B$
+1A$
+0@$
+0?$
+0>$
+0=$
+0<$
+0;$
+0:$
+19$
+18$
+07$
+16$
+05$
+14$
+03$
+02$
+11$
+00$
+1/$
+1.$
+1-$
+0,$
+0+$
+0*$
+0)$
+0($
+0'$
+0&$
+1%$
+1$$
+0#$
+1"$
+0!$
+1~#
+0}#
+0|#
+1{#
+0z#
+1y#
+1x#
+1w#
+0v#
+0u#
+0t#
+0s#
+0r#
+0q#
+0p#
+1o#
+1n#
+0m#
+1l#
+0k#
+1j#
+0i#
+0h#
+1g#
+0f#
+1e#
+1d#
+1c#
+0b#
+0a#
+0`#
+0_#
+0^#
+0]#
+0\#
+1[#
+1Z#
+0Y#
+1X#
+0W#
+1V#
+0U#
+0T#
+1S#
+0R#
+1Q#
+1P#
+1O#
+0N#
+0M#
+0L#
+0K#
+0J#
+0I#
+0H#
+1G#
+1F#
+0E#
+1D#
+0C#
+1B#
+0A#
+0@#
+1?#
+0>#
+1=#
+1<#
+1;#
+0:#
+09#
+08#
+07#
+06#
+05#
+04#
+13#
+12#
+01#
+10#
+0/#
+1.#
+0-#
+0,#
+1+#
+0*#
+1)#
+1(#
+1'#
+0&#
+0%#
+0$#
+0##
+0"#
+0!#
+0~"
+1}"
+1|"
+0{"
+1z"
+0y"
+1x"
+0w"
+0v"
+1u"
+0t"
+1s"
+1r"
+1q"
+0p"
+0o"
+0n"
+0m"
+0l"
+0k"
+0j"
+1i"
+1h"
+0g"
+1f"
+0e"
+1d"
+0c"
+0b"
+1a"
+0`"
+1_"
+1^"
+1]"
+0\"
+0["
+0Z"
+0Y"
+0X"
+0W"
+0V"
+1U"
+0T"
+1S"
+1R"
+0Q"
+1P"
+0O"
+0N"
+0M"
+0L"
+1K"
+1J"
+1I"
+1H"
+0G"
+0F"
+0E"
+1D"
+0C"
+0B"
+1A"
+0@"
+1?"
+1>"
+0="
+1<"
+0;"
+0:"
+09"
+08"
+17"
+16"
+15"
+14"
+03"
+02"
+01"
+10"
+0/"
+1."
+0-"
+0,"
+1+"
+1*"
+0)"
+1("
+0'"
+0&"
+0%"
+0$"
+1#"
+1""
+0!"
+1~
+0}
+1|
+0{
+1z
+0y
+0x
+1w
+0v
+1u
+1t
+0s
+0r
+1q
+0p
+0o
+0n
+1m
+1l
+1k
+1j
+1i
+0h
+0g
+1f
+1e
+0d
+1c
+1b
+0a
+1`
+0_
+1^
+0]
+0\
+1[
+0Z
+1Y
+1X
+1W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+1O
+0N
+1M
+1L
+0K
+1J
+0I
+0H
+0G
+0F
+1E
+1D
+1C
+1B
+0A
+0@
+0?
+1>
+0=
+0<
+1;
+1:
+09
+18
+07
+16
+05
+04
+13
+02
+11
+10
+1/
+0.
+0-
+0,
+0+
+0*
+0)
+b10000 (
+b0 '
+b1111010 &
+b1111010 %
+b1000 $
+b1111010 #
+b1000 "
+b1111010 !
+$end
+#10
+0H"
+04"
+1V
+b11111 !
+b11111 &
+1.
+1M"
+19"
+0w
+0[
+0O
+03
+1x
+1P
+0S"
+0?"
+0q
+1]
+1a
+15
+19
+1T"
+1@"
+1r
+0k
+0^
+0b
+0C
+06
+0:
+1h
+1@
+0D"
+00"
+0f
+1R
+1*
+1U
+1Q
+b11010 (
+1-
+1)
+b10111 #
+b10111 %
+b1101 "
+b1101 $
+#20
+1j
+0o
+1m
+1~
+0g
+0)"
+0$"
+0-"
+1*"
+1""
+1."
+0%"
+0&"
+1#"
+0{
+1H"
+b0 '
+08"
+b1111111 !
+b1111111 &
+14"
+16"
+0M"
+09"
+0A"
+1w
+0c
+0="
+1B"
+0x
+1d
+1S"
+1?"
+1q
+05
+1>"
+0]
+1I
+0T"
+0@"
+0r
+16
+05"
+1k
+1^
+0W
+0J
+12"
+0h
+1T
+1D"
+10"
+0z
+1f
+0*
+1}
+1y
+0U
+0Q
+b110110 (
+1A
+1=
+b1101110 #
+b1101110 %
+b11011 "
+b11011 $
+#30
+12
+00
+14
+01
+1+
+1F
+0B
+0D
+1G
+1H
+0E
+1?
+1Z
+0V
+0X
+1[
+1\
+0Y
+1S
+1n
+0j
+0l
+1o
+1p
+0m
+0~
+1g
+1)"
+1$"
+1-"
+0*"
+0""
+0."
+1%"
+1&"
+0#"
+1{
+18"
+04"
+06"
+19"
+1:"
+07"
+11"
+1L"
+0H"
+0J"
+1M"
+1N"
+0K"
+1E"
+b11111111 '
+1`"
+1\"
+b10000000 !
+b10000000 &
+0.
+0^"
+0i"
+1A"
+1c
+1O
+13
+1e"
+1j"
+0B"
+0d
+0P
+0q
+0f"
+0I
+09
+1r
+0]"
+15"
+1W
+1J
+1C
+1:
+1Z"
+02"
+0T
+0@
+0D"
+1z
+0f
+1G"
+1C"
+0}
+0y
+0A
+0=
+b10010000 (
+0-
+0)
+b110110 #
+b110110 %
+b1001000 "
+b1001000 $
+#40
+1s
+0?"
+0t
+1@"
+0k
+1h
+00"
+0R
+b10011000 (
+1U
+1Q
+b10010 #
+b10010 %
+b1001100 "
+b1001100 $
+#50
+02
+1.
+10
+03
+04
+11
+0+
+0F
+1D
+0O
+1B
+1P
+0G
+0H
+1E
+0?
+0Z
+1X
+0c
+1V
+1d
+0[
+0\
+1Y
+0S
+0n
+1j
+1l
+0o
+0p
+b11001111 !
+b11001111 &
+1H"
+1m
+0g
+0U"
+b11100000 '
+0$"
+1V"
+1""
+0N"
+0&"
+1Q"
+1="
+0)"
+0s
+0_
+0K
+1O"
+0R"
+1?"
+0>"
+1'"
+1*"
+1t
+1`
+1L
+19
+0P"
+0I"
+0@"
+05"
+0("
+1!"
+1k
+0W
+0C
+0:
+1F"
+12"
+0|
+0h
+1T
+1@
+1D"
+1f
+1R
+0>
+13"
+1/"
+1}
+1y
+0i
+0e
+0U
+0Q
+1A
+1=
+b11100110 (
+1-
+1)
+b1011100 #
+b1011100 %
+b1110011 "
+b1110011 $
+#60
+0.
+1V
+14"
+13
+0c
+09"
+1d
+01
+0B
+1+
+17"
+0\
+1K
+1F
+1O
+01"
+0L
+0D
+0P
+0L"
+1Y
+1J"
+0S
+1G
+1H
+0n
+0Q"
+1j
+1l
+0E
+1R"
+1?
+0o
+0p
+1Z
+0M"
+1#"
+0X
+1H"
+1m
+0{
+1K"
+0g
+08"
+1_
+0E"
+0U"
+0$"
+16"
+0`
+b110 '
+0`"
+b1101100 !
+b1101100 &
+0\"
+1V"
+1""
+1^"
+0:"
+1[
+1i"
+0N"
+0&"
+0e"
+0j"
+0="
+1;"
+0a
+15
+1f"
+0O"
+1>"
+0'"
+0+"
+0<"
+1b
+06
+1]"
+1P"
+15"
+1("
+1,"
+0Z"
+02"
+10"
+0z
+0R
+1*
+0G"
+0C"
+b1000110 (
+0}
+0y
+b1101001 #
+b1101001 %
+b100011 "
+b100011 $
+#70
+0V
+1c
+0d
+1\
+0Y
+1S
+1n
+0l
+1p
+0m
+1g
+1$"
+0""
+1&"
+0.
+0#"
+13
+1{
+18"
+01
+06"
+1+
+1F
+1:"
+0B
+0D
+07"
+1G
+1H
+11"
+1L"
+0E
+0H"
+0J"
+1?
+1Z
+1M"
+1N"
+0X
+0K"
+1_
+1E"
+12
+0j
+0`
+b11111111 '
+1`"
+1\"
+b10000000 !
+b10000000 &
+04"
+00
+0^"
+1o
+1[
+0i"
+1U"
+19"
+14
+1e"
+1j"
+0V"
+0K
+0u
+1a
+0f"
+0;"
+0?"
+1L
+05
+1v
+0b
+0]"
+1I"
+1<"
+1@"
+1C
+16
+1Z"
+0F"
+0@
+0D"
+00"
+0f
+1R
+1G"
+1C"
+03"
+0/"
+b10000100 (
+0-
+0)
+b101 #
+b101 %
+b1000010 "
+b1000010 $
+#80
+02
+1.
+10
+03
+04
+11
+0+
+0F
+1D
+0H
+1E
+0?
+0Z
+b10000101 !
+b10000101 &
+1V
+1X
+0[
+0\
+1Y
+0S
+0n
+1l
+0p
+1m
+0g
+b11100000 '
+0$"
+1""
+0&"
+1="
+0_
+1?"
+0>"
+1'"
+1+"
+1`
+0M
+0@"
+05"
+0("
+0,"
+1W
+1N
+12"
+0T
+10"
+1z
+1}
+1y
+b10100000 (
+0A
+0=
+b110101 #
+b110101 %
+b1010000 "
+b1010000 $
+#90
+14"
+0A"
+b10100100 !
+b10100100 &
+0.
+1B"
+13
+0:"
+1Q"
+09
+0R"
+1;"
+1:
+0I"
+0<"
+1F"
+0*
+b11100000 (
+13"
+1/"
+b110100 #
+b110100 %
+b1110000 "
+b1110000 $
+#100
+1H
+0E
+1?
+1Z
+12
+0V
+0X
+00
+1[
+1\
+14
+0#"
+0m
+0Y
+01
+1{
+1g
+1S
+1+
+18"
+04"
+1$"
+0~
+1n
+1j
+b11111111 '
+1F
+0B
+b10001000 !
+b10001000 &
+0.
+06"
+0""
+0l
+0D
+1:"
+1G
+1A"
+1&"
+1-"
+1o
+0w
+1O
+13
+0="
+0B"
+1)"
+0."
+1s
+1x
+1K
+0P
+0;"
+1M
+1>"
+0'"
+0+"
+0*"
+1q
+1u
+0t
+0L
+19
+1<"
+0N
+15"
+1("
+1,"
+0!"
+0r
+0v
+0k
+0C
+0:
+02"
+1|
+1h
+1@
+00"
+0z
+1f
+0R
+1>
+0}
+0y
+1i
+1e
+1U
+1Q
+b11011010 (
+1-
+1)
+b1010 #
+b1010 %
+b1101101 "
+b1101101 $
+#110
+1.
+03
+11
+0+
+0F
+1D
+0K
+1L
+1~
+0G
+0%"
+1E
+1#"
+0?
+0{
+0Z
+08"
+1X
+16"
+0c
+0A"
+1V
+1d
+14"
+1B"
+0[
+0\
+09"
+0:"
+1Y
+17"
+0S
+01"
+0n
+0L"
+1l
+1J"
+0s
+0Q"
+0U"
+1t
+1H"
+1R"
+1V"
+0o
+0M"
+0N"
+1m
+1j
+1B
+1K"
+0g
+02
+0E"
+0$"
+0w
+0O
+10
+b0 '
+0`"
+b1111111 !
+b1111111 &
+0\"
+1""
+1x
+1P
+1^"
+04
+1i"
+0&"
+0p
+0H
+0e"
+0j"
+0="
+0)"
+0_
+15
+1f"
+1>"
+1'"
+1+"
+1*"
+0q
+1`
+1I
+06
+1]"
+05"
+0("
+0,"
+1!"
+1r
+0W
+0J
+0Z"
+12"
+0|
+1T
+1D"
+1z
+1*
+0G"
+0C"
+1}
+1y
+0i
+0e
+b1101110 (
+1A
+1=
+b1011011 #
+b1011011 %
+b110111 "
+b110111 $
+#120
+0.
+13
+01
+1+
+1F
+0D
+1K
+0L
+1G
+0E
+0V
+1?
+1_
+1Z
+1c
+0`
+0X
+0d
+1[
+1\
+0Y
+1S
+1n
+0l
+1s
+0t
+1o
+0m
+b1101010 !
+b1101010 &
+0~
+1g
+1)"
+1$"
+0*"
+0""
+1%"
+1&"
+0#"
+1{
+18"
+06"
+1="
+0>"
+19"
+07"
+11"
+b1111110 '
+1L"
+0J"
+1Q"
+0R"
+1M"
+1-"
+0."
+0S"
+1;"
+0'"
+1q
+1T"
+0<"
+1("
+0!"
+0r
+1|
+0D"
+10"
+0z
+b1111110 (
+1i
+1e
+b101011 #
+b101011 %
+b111111 "
+b111111 $
+#130
+0H"
+1m
+1E
+14"
+1j
+1B
+0g
+0?
+0K"
+17"
+0$"
+0Z
+12
+1E"
+01"
+0A"
+0w
+0O
+1""
+1X
+00
+1`"
+b10101010 !
+b10101010 &
+1\"
+b10101011 '
+0L"
+1B"
+1x
+1P
+0^"
+1J"
+0&"
+0\
+14
+0i"
+1M"
+1U"
+0:"
+0p
+0H
+1e"
+1j"
+0Q"
+0V"
+0)"
+0_
+1'"
+1]
+05
+0f"
+1O"
+1S"
+1R"
+0;"
+0?"
+1*"
+0q
+0u
+1`
+0I
+0M
+0("
+0^
+16
+0]"
+0P"
+0T"
+1I"
+1<"
+1@"
+1!"
+1r
+1v
+1W
+1J
+1N
+1Z"
+0F"
+0|
+0T
+1D"
+00"
+1z
+0f
+1R
+0>
+0*
+1G"
+1C"
+03"
+0/"
+0i
+0e
+b10101010 (
+0A
+0=
+b1010100 #
+b1010100 %
+b1010101 "
+b1010101 $
+#140
+0V
+0j
+1[
+1w
+0x
+02
+0Y
+04"
+0~
+1.
+10
+1S
+1p
+1n
+1:"
+1%"
+03
+04
+0l
+0m
+1K"
+07"
+0#"
+1g
+11
+1s
+0E"
+11"
+1{
+1$"
+0+
+0t
+0`"
+0\"
+1L"
+1H"
+18"
+0""
+b1111000 '
+0F
+b1000001 !
+b1000001 &
+0B
+1^"
+0J"
+06"
+1D
+1o
+1i"
+0N"
+0U"
+19"
+1A"
+1&"
+1O
+0e"
+0j"
+1Q"
+1V"
+0="
+0B"
+0K
+0P
+1u
+1f"
+0O"
+0S"
+0R"
+1?"
+1>"
+0'"
+1L
+0v
+1]"
+1P"
+1T"
+0I"
+0@"
+15"
+1("
+1C
+0Z"
+1F"
+02"
+0@
+0D"
+1f
+1*
+0G"
+0C"
+13"
+1/"
+0}
+0y
+b1001000 (
+0-
+0)
+b11101 #
+b11101 %
+b100100 "
+b100100 $
+#150
