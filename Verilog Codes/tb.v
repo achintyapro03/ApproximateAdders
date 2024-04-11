@@ -28,7 +28,6 @@ nBitRcpa2 #(.N(N)) nBitRcpa2Inst(
     .sum(sum2)
 );
 
-
 nBitRcpa3 #(.N(N)) nBitRcpa3Inst(
     .A(A3),
     .B(B3),
@@ -80,40 +79,3 @@ initial begin
 end
 
 endmodule
-
-// `timescale 1ns / 1ns 
-
-// module tb;
-
-//     reg a, b, cIn, fIn;
-//     wire fOut, s, cOut;
-//     integer i;
-
-//     rcpfa2_block adder1(
-//         .a(a),
-//         .b(b),
-//         .cIn(cIn),
-//         .fIn(fIn),
-//         .fOut(fOut),
-//         .s(s),
-//         .cOut(cOut)
-//     );
-
-//     initial begin
-//         $dumpfile("output.vcd");
-//         $dumpvars(0, tb);
-
-//         a <= 0;
-//         b <= 0;
-//         cIn <= 0;
-//         fIn <= 0;
-
-//         for(i = 0; i < 16; i = i + 1) begin
-//             {a, b, cIn, fIn} = i;
-//             #10;
-//             $display("a=%b b=%b cIn=%b fIn=%b, s=%b cOut=%b fOut=%b", a, b, cIn, fIn, s, cOut, fOut);
-//         end
-//         $finish;
-//     end
-// endmodule
-
