@@ -11,7 +11,8 @@ def generate_test_cases(num_bits, num_cases, filename):
             A_str = f"{num_bits}'b{A:{num_bits}b}"
             B_str = f"{num_bits}'b{B:{num_bits}b}"
             
-            file.write(f"\tA = {A_str}; B = {B_str}; #10;\n")
+            string = f"\tA1 = {A_str}; B1 = {B_str}; \n\tA2 = {A_str}; B2 = {B_str}; #10;\n"
+            file.write(string)
 
     print(f"Test cases written to {filename}")
 

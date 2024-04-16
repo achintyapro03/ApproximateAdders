@@ -1,18 +1,19 @@
 `timescale 1ns/1ps
 
-module nBitRippleCarryAdder #(parameter n = 4)(output[n:0] total, input[n-1:0] A, input[n-1:0] B);
+module nBitRippleCarryAdder #(parameter N = 4)(output[N-1:0] sum,output cout, input[N-1:0] A, input[N-1:0] B,input cin);
 
-    wire[n-1:0] carryMiddle, sum;
+    wire[N-1:0] carryMiddle, sum11;
 
     genvar i;
     generate
-        for(i = 0;i < n;i = i+1) begin: genAdder
+        for(i = 0;i < N;i = i+1) begin: genAdder
             if(i == 0)
-                HA f(carryMiddle[0], sum[0], A[0], B[0]);
+                FA f(carryMiddle[0], sum11[0], A[0], B[0],cin);
             else
-                FA f(carryMiddle[i], sum[i], A[i], B[i], carryMiddle[i-1]);
+                FA f(carryMiddle[i], sum11[i], A[i], B[i], carryMiddle[i-1]);
         end
     endgenerate
 
-    assign total = {carryMiddle[n-1], sum[n-1:0]};
+    assign sum = sum11[N-1:0];
+    assign cout = carryMiddle[N-1];
 endmodule
