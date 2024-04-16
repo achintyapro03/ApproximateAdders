@@ -3,13 +3,13 @@ import random
 def generate_test_cases(num_bits, num_cases, filename):
     with open(filename, 'w') as file:
         for i in range(num_cases):
-            max_value = 2**(num_bits - 1) - 1
+            max_value = 2**(num_bits - 1)
             
             A = random.randint(0, max_value)
             B = random.randint(0, max_value)
             
-            A_str = f"{num_bits}'b{A:0{num_bits}b}"
-            B_str = f"{num_bits}'b{B:0{num_bits}b}"
+            A_str = f"{num_bits}'b{A:{num_bits}b}"
+            B_str = f"{num_bits}'b{B:{num_bits}b}"
             
             string = f"\tA1 = {A_str}; B1 = {B_str}; \n\tA2 = {A_str}; B2 = {B_str};\n\tA3 = {A_str}; B3 = {B_str}; #10;\n"
             file.write(string)

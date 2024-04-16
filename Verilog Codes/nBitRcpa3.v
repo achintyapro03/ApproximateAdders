@@ -1,7 +1,8 @@
 module nBitRcpa3 #(parameter N = 8)(
     input [N-1:0] A, 
     input [N-1:0] B, 
-    output [N-1:0] sum
+    output [N-1:0] sum,
+    output fn
 );
 
 wire [N:0] carry;
@@ -9,7 +10,7 @@ wire [N:0] F;
 
 assign carry[N] = F[N];
 assign F[0] = 1'b0;
-
+assign fn = F[N];
 genvar i;
 generate
     for (i = N - 1; i >= 0; i = i - 1) begin: rcpa3Loop
