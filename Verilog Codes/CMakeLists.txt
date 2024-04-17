@@ -75,26 +75,26 @@ add_custom_target(
 )
 
 
-# add_custom_target(
-#     run_simulation
-#     COMMAND vvp ${OUTPUT_FILE}
-#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-#     COMMENT "Running simulation with VVP"
-#     DEPENDS compile_verilog1
-# )
+add_custom_target(
+    run_simulation1 ALL
+    COMMAND vvp exe/runAllAdder
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMENT "Running simulation with VVP"
+    DEPENDS compile_verilog1
+)
 
-# add_custom_target(
-#     run_simulation
-#     COMMAND vvp ${OUTPUT_FILE}
-#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-#     COMMENT "Running simulation with VVP"
-#     DEPENDS compile_verilog1
-# )
+add_custom_target(
+    run_simulation2 ALL
+    COMMAND vvp exe/runHybrid
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMENT "Running simulation with VVP"
+    DEPENDS compile_verilog2
+)
 
-# add_custom_target(
-#     run_simulation
-#     COMMAND vvp ${OUTPUT_FILE}
-#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-#     COMMENT "Running simulation with VVP"
-#     DEPENDS compile_verilog1
-# )
+add_custom_target(
+    run_simulation3 ALL
+    COMMAND vvp exe/runrca
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMENT "Running simulation with VVP"
+    DEPENDS compile_verilog3
+)

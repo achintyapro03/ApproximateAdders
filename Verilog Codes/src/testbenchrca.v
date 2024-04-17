@@ -18,7 +18,7 @@ nBitRippleCarryAdder #(.N(N)) nBitRippleCarryAdderInst(
 );
 
 initial begin
-    $dumpfile("output.vcd");
+    $dumpfile("exe/output_rca.vcd");
     $dumpvars(0, testbenchrca);
 
     // Test vectors with delays

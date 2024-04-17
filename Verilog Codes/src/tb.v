@@ -42,7 +42,7 @@ nBitRcpa3 #(.N(N)) nBitRcpa3Inst(
 
 
 initial begin
-    $dumpfile("output.vcd");
+    $dumpfile("exe/output_adder_comp.vcd");
     $dumpvars(0, tb);
 
     // A = 4'b0011; B = 4'b0110; #10;

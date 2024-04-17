@@ -2,7 +2,7 @@
 
 module testbenchhybridfa;
 
-parameter N1= 16,N2=16;
+parameter N1= 16,N2=16,addOrSub=0;
 
 reg [N1+N2-1:0] A1, B1;
 wire [N1+N2-1:0] sum1;
@@ -13,7 +13,8 @@ wire [N1+N2:0] sum2;
 
 assign sum2 = A2 + B2;
 
-HybridAdder #(.N1(N1), .N2(N2)) HybridAdderInst1(
+
+HybridAdder #(.N1(N1), .N2(N2), .addOrSub(addOrSub)) HybridAdderInst1(
     .A(A1),
     .B(B1),
     .sum(sum1),
@@ -22,9 +23,8 @@ HybridAdder #(.N1(N1), .N2(N2)) HybridAdderInst1(
 
 
 initial begin
-    $dumpfile("output_hybrid.vcd");
+    $dumpfile("exe/output_hybrid.vcd");
     $dumpvars(0, testbenchhybridfa);
-
     // Test vectors with delays
     A1 = 32'b 1010111000110010001000011000001; B1 = 32'b 1110001101111101100000001011101; 
 	A2 = 32'b 1010111000110010001000011000001; B2 = 32'b 1110001101111101100000001011101; #10;
