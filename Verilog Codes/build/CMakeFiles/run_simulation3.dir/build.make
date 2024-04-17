@@ -67,7 +67,7 @@ include CMakeFiles/run_simulation3.dir/compiler_depend.make
 include CMakeFiles/run_simulation3.dir/progress.make
 
 CMakeFiles/run_simulation3:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running simulation with VVP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running simulation 3 with VVP"
 	cd "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes" && vvp exe/runrca
 
 run_simulation3: CMakeFiles/run_simulation3

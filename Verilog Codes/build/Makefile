@@ -130,32 +130,6 @@ compile_verilog1/fast:
 .PHONY : compile_verilog1/fast
 
 #=============================================================================
-# Target rules for targets named compile_verilog2
-
-# Build rule for target.
-compile_verilog2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compile_verilog2
-.PHONY : compile_verilog2
-
-# fast build rule for target.
-compile_verilog2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog2.dir/build.make CMakeFiles/compile_verilog2.dir/build
-.PHONY : compile_verilog2/fast
-
-#=============================================================================
-# Target rules for targets named compile_verilog3
-
-# Build rule for target.
-compile_verilog3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compile_verilog3
-.PHONY : compile_verilog3
-
-# fast build rule for target.
-compile_verilog3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog3.dir/build.make CMakeFiles/compile_verilog3.dir/build
-.PHONY : compile_verilog3/fast
-
-#=============================================================================
 # Target rules for targets named run_simulation1
 
 # Build rule for target.
@@ -167,6 +141,19 @@ run_simulation1: cmake_check_build_system
 run_simulation1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation1.dir/build.make CMakeFiles/run_simulation1.dir/build
 .PHONY : run_simulation1/fast
+
+#=============================================================================
+# Target rules for targets named compile_verilog2
+
+# Build rule for target.
+compile_verilog2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compile_verilog2
+.PHONY : compile_verilog2
+
+# fast build rule for target.
+compile_verilog2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog2.dir/build.make CMakeFiles/compile_verilog2.dir/build
+.PHONY : compile_verilog2/fast
 
 #=============================================================================
 # Target rules for targets named run_simulation2
@@ -182,6 +169,19 @@ run_simulation2/fast:
 .PHONY : run_simulation2/fast
 
 #=============================================================================
+# Target rules for targets named compile_verilog3
+
+# Build rule for target.
+compile_verilog3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compile_verilog3
+.PHONY : compile_verilog3
+
+# fast build rule for target.
+compile_verilog3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog3.dir/build.make CMakeFiles/compile_verilog3.dir/build
+.PHONY : compile_verilog3/fast
+
+#=============================================================================
 # Target rules for targets named run_simulation3
 
 # Build rule for target.
@@ -194,6 +194,32 @@ run_simulation3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation3.dir/build.make CMakeFiles/run_simulation3.dir/build
 .PHONY : run_simulation3/fast
 
+#=============================================================================
+# Target rules for targets named compile_verilog4
+
+# Build rule for target.
+compile_verilog4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compile_verilog4
+.PHONY : compile_verilog4
+
+# fast build rule for target.
+compile_verilog4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog4.dir/build.make CMakeFiles/compile_verilog4.dir/build
+.PHONY : compile_verilog4/fast
+
+#=============================================================================
+# Target rules for targets named run_simulation4
+
+# Build rule for target.
+run_simulation4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_simulation4
+.PHONY : run_simulation4
+
+# fast build rule for target.
+run_simulation4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation4.dir/build.make CMakeFiles/run_simulation4.dir/build
+.PHONY : run_simulation4/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,9 +231,11 @@ help:
 	@echo "... compile_verilog1"
 	@echo "... compile_verilog2"
 	@echo "... compile_verilog3"
+	@echo "... compile_verilog4"
 	@echo "... run_simulation1"
 	@echo "... run_simulation2"
 	@echo "... run_simulation3"
+	@echo "... run_simulation4"
 .PHONY : help
 
 
