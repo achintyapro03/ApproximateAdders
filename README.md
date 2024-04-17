@@ -1,6 +1,7 @@
 # ApproximateAdders
 
-## Commands to run
+## Steps to run
 
-- To compile: make -C ./build/
-- To get gtkWave: gtkwave exe/{filename}
+- CHange directory to "Verilog Codes" : **cd "Verilog Codes"**
+- To compile: **make -C ./build/**
+- To get gtkWave: **gtkwave exe/{filename}**
