@@ -2,6 +2,6 @@
 
 ## Steps to run
 
-- CHange directory to "Verilog Codes" : **cd "Verilog Codes"**
-- To compile: **make -C ./build/**
-- To get gtkWave: **gtkwave exe/{filename}**
+- Change directory to "Verilog Codes" : **cd "Verilog Codes"**
+- To compile and get exe: **make -C ./build/**
+- To run gtkWave: **gtkwave exe/{filename}**
