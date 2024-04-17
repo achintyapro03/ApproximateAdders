@@ -3,54 +3,54 @@ cmake_minimum_required(VERSION 3.10)
 project(VerilogProject)
 
 set(AllAdderCompFiles
-    runAllAdder
-    tb.v
-    andOr.v
-    orAnd.v
-    gates.v
-    FA.v
-    HybridAdder.v
-    nbitrca.v
-    nBitRcpa1.v
-    nBitRcpa2.v
-    nBitRcpa3.v
-    rcpfa1.v
-    rcpfa2.v
-    rcpfa3.v
+    exe/runAllAdder
+    src/tb.v
+    src/andOr.v
+    src/orAnd.v
+    src/gates.v
+    src/FA.v
+    src/HybridAdder.v
+    src/nbitrca.v
+    src/nBitRcpa1.v
+    src/nBitRcpa2.v
+    src/nBitRcpa3.v
+    src/rcpfa1.v
+    src/rcpfa2.v
+    src/rcpfa3.v
 )
 
 set(HybridAdderFiles
-    runHybrid
-    testbenchhybridfa.v
-    andOr.v
-    orAnd.v
-    gates.v
-    FA.v
-    HybridAdder.v
-    nbitrca.v
-    nBitRcpa1.v
-    nBitRcpa2.v
-    nBitRcpa3.v
-    rcpfa1.v
-    rcpfa2.v
-    rcpfa3.v
+    exe/runHybrid
+    src/testbenchhybridfa.v
+    src/andOr.v
+    src/orAnd.v
+    src/gates.v
+    src/FA.v
+    src/HybridAdder.v
+    src/nbitrca.v
+    src/nBitRcpa1.v
+    src/nBitRcpa2.v
+    src/nBitRcpa3.v
+    src/rcpfa1.v
+    src/rcpfa2.v
+    src/rcpfa3.v
 )
 
 set(RippleCarryFiles
-    runrca
-    testbenchrca.v
-    andOr.v
-    orAnd.v
-    gates.v
-    FA.v
-    HybridAdder.v
-    nbitrca.v
-    nBitRcpa1.v
-    nBitRcpa2.v
-    nBitRcpa3.v
-    rcpfa1.v
-    rcpfa2.v
-    rcpfa3.v
+    exe/runrca
+    src/testbenchrca.v
+    src/andOr.v
+    src/orAnd.v
+    src/gates.v
+    src/FA.v
+    src/HybridAdder.v
+    src/nbitrca.v
+    src/nBitRcpa1.v
+    src/nBitRcpa2.v
+    src/nBitRcpa3.v
+    src/rcpfa1.v
+    src/rcpfa2.v
+    src/rcpfa3.v
 )
 
 add_custom_target(

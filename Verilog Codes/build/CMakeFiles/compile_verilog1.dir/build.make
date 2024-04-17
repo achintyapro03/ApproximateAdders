@@ -68,7 +68,7 @@ include CMakeFiles/compile_verilog1.dir/progress.make
 
 CMakeFiles/compile_verilog1:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Compiling Verilog files 1 with Icarus Verilog"
-	cd "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes" && iverilog -o runAllAdder tb.v andOr.v orAnd.v gates.v FA.v HybridAdder.v nbitrca.v nBitRcpa1.v nBitRcpa2.v nBitRcpa3.v rcpfa1.v rcpfa2.v rcpfa3.v
+	cd "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes" && iverilog -o exe/runAllAdder src/tb.v src/andOr.v src/orAnd.v src/gates.v src/FA.v src/HybridAdder.v src/nbitrca.v src/nBitRcpa1.v src/nBitRcpa2.v src/nBitRcpa3.v src/rcpfa1.v src/rcpfa2.v src/rcpfa3.v
 
 compile_verilog1: CMakeFiles/compile_verilog1
 compile_verilog1: CMakeFiles/compile_verilog1.dir/build.make
