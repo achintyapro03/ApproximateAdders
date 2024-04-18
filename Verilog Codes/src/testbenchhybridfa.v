@@ -4,12 +4,12 @@ module testbenchhybridfa;
 
 parameter N1= 16,N2=16,addOrSub=0;
 
-reg [N1+N2-1:0] A1, B1;
-wire [N1+N2-1:0] sum1;
+reg signed [N1+N2-1:0] A1, B1;
+wire signed [N1+N2-1:0] sum1;
 wire cout1;
 
-reg [N1+N2-1:0] A2, B2;
-wire [N1+N2:0] sum2;
+reg signed [N1+N2-1:0] A2, B2;
+wire signed [N1+N2:0] sum2;
 
 assign sum2 = A2 + B2;
 
