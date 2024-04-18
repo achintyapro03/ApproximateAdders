@@ -9,8 +9,7 @@ module dct1d #(parameter n=8)(
 		output reg [n-1:0]data_out                                           //	n-bit data output
 	);
 
-	reg [7:0]x[n-1:0];	
-
+	reg [2*n - 1:0] x [7:0];
 	/*WRITING DATA TO MEMORY***********************/
 	always @( posedge clk) 
 	begin
@@ -24,7 +23,7 @@ module dct1d #(parameter n=8)(
 
 
 	//first stage
-	wire signed [2*n:0] x01,x11,x21,x31,x41,x51,x61,x71;		            //	 wire for 1-stage butterfly
+	wire signed [2*n - 1:0] x01,x11,x21,x31,x41,x51,x61,x71;		            //	 wire for 1-stage butterfly
 
 	HybridAdder #(.N1(n),.N2(n),.addOrSub(0)) HybridAdderInst1(
 		.A(x[0]),
