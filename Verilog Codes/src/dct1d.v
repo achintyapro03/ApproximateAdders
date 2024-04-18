@@ -20,13 +20,9 @@ module dct1d #(parameter n=16)(
 	x[add]= data_in;
 	end
 
-
-
 	wire [7:0] cout_1;
 	wire [11:0] cout_2;
 	wire [7:0] cout_3;
-
-
 
 	real c0 = 0.35369;
 	real c1 = 0.49040;
@@ -36,7 +32,6 @@ module dct1d #(parameter n=16)(
 	real c5 = 0.27799;
 	real c6 = 0.19162;
 	real c7 = 0.09789;
-
 
 	wire signed [2*n - 1:0] x0_1,x1_1,x2_1,x3_1,x4_1,x5_1,x6_1,x7_1;		            //	 wire for 1-stage butterfly
 	wire signed [2*n - 1:0] x0_2,x1_2,x2_2,x3_2,x4_2,x5_2,x6_2,x7_2,x8_2,x9_2,x10_2,x11_2;		            //	 wire for 1-stage butterfly
