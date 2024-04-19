@@ -3,9 +3,9 @@ module dct1d #(parameter N=16)(
         input clk,			                           	   //	input clock
 		input reset,		  	                           //	reset
 		input wr,		                                   //	writing data to memory
-		input data_in,                              //	N-bit data input
-		// input [2:0]add,                                    //	3-bit address for data input
-		output reg [N-1:0]data_out                         //	N-bit data output
+		input data_in,                              	   //	N-bit data input
+		// input [2:0]add,                                 //	3-bit address for data input
+		output data_out                         //	N-bit data output
 	);
 
 	reg [N - 1:0] x [7:0];
