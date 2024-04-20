@@ -136,15 +136,15 @@ module dct1d #(parameter N=16)(
 	);
 
 	HybridAdder #(.N1(N/2),.N2(N/2),.addOrSub(0)) HybridAdderLayer2_3(
-		.A(x4_1 * c3),
-		.B(x6_1 * c5),
+		.A(x5_1 * c3),
+		.B(x7_1 * c5),
 		.sum(x2_2),
 		.cout(cout_3[2])
 	);
 
 	HybridAdder #(.N1(N/2),.N2(N/2),.addOrSub(1)) HybridAdderLayer2_4(
-		.A(x4_1 * c5),
-		.B(x6_1 * c3),
+		.A(x5_1 * c5),
+		.B(x7_1 * c3),
 		.sum(x3_2),
 		.cout(cout_3[3])
 	);
@@ -164,15 +164,15 @@ module dct1d #(parameter N=16)(
 	);
 
 	HybridAdder #(.N1(N/2),.N2(N/2),.addOrSub(0)) HybridAdderLayer2_7(
-		.A(x4_1 * c7),
-		.B(x6_1 * c1),
+		.A(x5_1 * c7),
+		.B(x7_1 * c1),
 		.sum(x6_2),
 		.cout(cout_2[6])
 	);
 	
 	HybridAdder #(.N1(N/2),.N2(N/2),.addOrSub(1)) HybridAdderLayer2_8(
-		.A(x4_1 * c1),
-		.B(x6_1 * c7),
+		.A(x5_1 * c1),
+		.B(x7_1 * c7),
 		.sum(x7_2),
 		.cout(cout_2[7])
 	);
@@ -193,14 +193,14 @@ module dct1d #(parameter N=16)(
 
 	HybridAdder #(.N1(N/2),.N2(N/2),.addOrSub(0)) HybridAdderLayer2_11(
 		.A(x4_1),
-		.B(x5_1),
+		.B(x6_1),
 		.sum(x10_2),
 		.cout(cout_2[10])
 	);
 
 	HybridAdder #(.N1(N/2),.N2(N/2),.addOrSub(1)) HybridAdderLayer2_12(
 		.A(x4_1),
-		.B(x5_1),
+		.B(x6_1),
 		.sum(x11_2),
 		.cout(cout_2[11])
 	);
