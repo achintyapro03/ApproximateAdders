@@ -68,7 +68,7 @@ include CMakeFiles/run_simulation4.dir/progress.make
 
 CMakeFiles/run_simulation4:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running simulation 4 with VVP"
-	cd "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes" && vvp exe/runrca
+	cd "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes" && vvp exe/runDct
 
 run_simulation4: CMakeFiles/run_simulation4
 run_simulation4: CMakeFiles/run_simulation4.dir/build.make

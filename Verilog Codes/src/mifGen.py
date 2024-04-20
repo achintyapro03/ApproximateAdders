@@ -10,9 +10,14 @@ gray_array = np.array(gray_image)
 
 gray_values = gray_array.flatten()
 
-output_file = "out.txt"
+output_file = "in.txt"
+length = 16
 with open(output_file, "w") as file:
     for value in gray_values:
-        file.write(f"{bin(value)[2:]}\n")
+        s = str(bin(value)[2:])
+        l = len(s)
+        for i in range(0, length - l):
+            s = "0" + s
+        file.write(f"{s}\n")
 
 print(f"Grayscale pixel values saved to {output_file}.")
