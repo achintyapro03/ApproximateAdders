@@ -39,7 +39,6 @@ module dct1d #(parameter N=16)(
 
 	assign X0 = tempX0 * c4;
 	assign X4 = tempX4 * c4;
- 	reg [N-1:0] split_array [7:0];
 
 	// always @* begin
 	assign data_out = {X0, X1, X2, X3, X4, X5, X6, X7};
@@ -48,6 +47,7 @@ module dct1d #(parameter N=16)(
 
 	integer i;
 
+ 	reg [N-1:0] split_array [7:0];
 	always @* begin
 		for (i = 0; i < 8; i = i + 1) begin
 			split_array[7 - i] = data_in[i*N +: N];

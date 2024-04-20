@@ -70,7 +70,7 @@ set(DCTFiles
     src/rcpfa3.v
     src/dct1d.v
     src/dct2d.v
-
+    src/TrasnposeMatrix.v
 )
 
 
@@ -139,34 +139,34 @@ set(DCT1dFiles
 # )
 ##############################################################
 
-# add_custom_target(
-#     compile_verilog4 ALL
-#     COMMAND iverilog -o ${DCTFiles}
-#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-#     COMMENT "Compiling Verilog files 4 with Icarus Verilog"
-# )
+add_custom_target(
+    compile_verilog4 ALL
+    COMMAND iverilog -o ${DCTFiles}
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMENT "Compiling Verilog files 4 with Icarus Verilog"
+)
 
-# add_custom_target(
-#     run_simulation4 ALL
-#     COMMAND vvp exe/runDct
-#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-#     COMMENT "Running simulation 4 with VVP"
-#     DEPENDS compile_verilog4
-# )
+add_custom_target(
+    run_simulation4 ALL
+    COMMAND vvp exe/runDct
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMENT "Running simulation 4 with VVP"
+    DEPENDS compile_verilog4
+)
 ##############################################################
 
-add_custom_target(
-    compile_verilog5 ALL
-    COMMAND iverilog -o ${DCT1dFiles}
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-    COMMENT "Compiling Verilog files 5 with Icarus Verilog"
-)
+# add_custom_target(
+#     compile_verilog5 ALL
+#     COMMAND iverilog -o ${DCT1dFiles}
+#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+#     COMMENT "Compiling Verilog files 5 with Icarus Verilog"
+# )
 
-add_custom_target(
-    run_simulation5 ALL
-    COMMAND vvp exe/runDct1d
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-    COMMENT "Running simulation 5 with VVP"
-    DEPENDS compile_verilog5
-)
+# add_custom_target(
+#     run_simulation5 ALL
+#     COMMAND vvp exe/runDct1d
+#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+#     COMMENT "Running simulation 5 with VVP"
+#     DEPENDS compile_verilog5
+# )
 ##############################################################

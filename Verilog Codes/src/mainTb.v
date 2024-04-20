@@ -24,6 +24,8 @@ module mainTb;
     );
 
     initial begin
+        $dumpfile("exe/output_mainTb.vcd");
+        $dumpvars(0, mainTb);    
         $readmemb("src/in.txt", pixelReg);
         
         // for (i = 0; i < 128; i = i + 1) begin

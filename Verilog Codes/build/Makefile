@@ -117,30 +117,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named compile_verilog5
+# Target rules for targets named compile_verilog4
 
 # Build rule for target.
-compile_verilog5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compile_verilog5
-.PHONY : compile_verilog5
+compile_verilog4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compile_verilog4
+.PHONY : compile_verilog4
 
 # fast build rule for target.
-compile_verilog5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog5.dir/build.make CMakeFiles/compile_verilog5.dir/build
-.PHONY : compile_verilog5/fast
+compile_verilog4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog4.dir/build.make CMakeFiles/compile_verilog4.dir/build
+.PHONY : compile_verilog4/fast
 
 #=============================================================================
-# Target rules for targets named run_simulation5
+# Target rules for targets named run_simulation4
 
 # Build rule for target.
-run_simulation5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_simulation5
-.PHONY : run_simulation5
+run_simulation4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_simulation4
+.PHONY : run_simulation4
 
 # fast build rule for target.
-run_simulation5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation5.dir/build.make CMakeFiles/run_simulation5.dir/build
-.PHONY : run_simulation5/fast
+run_simulation4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation4.dir/build.make CMakeFiles/run_simulation4.dir/build
+.PHONY : run_simulation4/fast
 
 # Help Target
 help:
@@ -150,8 +150,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... compile_verilog5"
-	@echo "... run_simulation5"
+	@echo "... compile_verilog4"
+	@echo "... run_simulation4"
 .PHONY : help
 
 
