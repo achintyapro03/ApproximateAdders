@@ -1,6 +1,6 @@
 module mainTb;
     integer i, j, m, n, k;
-    parameter N = 10;  
+    parameter N = 16;  
     parameter BITS = N * 128 * 128 - 1;
 
 
@@ -41,7 +41,7 @@ module mainTb;
                 linear_index = 0;
                 for (m = 8 * i; m < 8 * (i + 1); m = m + 1) begin
                     for (n = 8 * j; n < 8 * (j + 1); n = n + 1) begin
-                        windowIn[(linear_index * N) +: N] = pixelReg[m][n];
+                        windowIn[(linear_index * N) +: N] = pixelReg[7 - m][7 - n];
                         $display("%d", windowIn[(linear_index * N) +: N]);
                         linear_index = linear_index + 1;
                     end
