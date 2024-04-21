@@ -36,8 +36,10 @@ module mainTb;
         //     end
         // end
         $display("hello");
-        for (i = 0; i < 4; i = i + 1) begin
-            for (j = 0; j < 4; j = j + 1) begin
+        for (i = 0; i < 16; i = i + 1) begin
+            for (j = 0; j < 16; j = j + 1) begin
+                $display("i : %d, j : %d", i, j);
+
                 linear_index = 63;
                 for (m = 8 * i; m < 8 * (i + 1); m = m + 1) begin
                     for (n = 8 * j; n < 8 * (j + 1); n = n + 1) begin
@@ -50,14 +52,14 @@ module mainTb;
                 // $display("\n\n\n");
 
 
-                for (k = 0; k < N * 8 * 8; k = k + N) begin
-                    $write("%d", windowIn[k +: N]);
-                    if (k % N * 8 == 0) begin
-                        $write("\n");
-                    end else begin
-                        $write("\t");
-                    end
-                end
+                // for (k = 0; k < N * 8 * 8; k = k + N) begin
+                //     $write("%d", windowIn[k +: N]);
+                //     if (k % N * 8 == 0) begin
+                //         $write("\n");
+                //     end else begin
+                //         $write("\t");
+                //     end
+                // end
                 $display("\n\n\n");
 
                 // #20;
@@ -77,30 +79,31 @@ module mainTb;
                         linear_index = linear_index + 1;
                     end
                 end
-                for (m = 0; m < 8; m = m + 1) begin
-                    for (n = 0; n < 8; n = n + 1) begin
-                        $write("%d ", windowOut[m][n]);
-                    end
-                    $write("\n");
-                end
+                // for (m = 0; m < 8; m = m + 1) begin
+                //     for (n = 0; n < 8; n = n + 1) begin
+                //         $write("%d", windowOut[m][n]);
+                //     end
+                //     $write("\n");
+                // end
                 for (m = 8 * i; m < 8 * (i + 1); m = m + 1) begin
                     for (n = 8 * j; n < 8 * (j + 1); n = n + 1) begin
-                        pixelOut[7 - m][7 - n] = windowOut[m][n];
+                        // $write("%d", windowOut[m - 8 * i][n - 8 * j]);
+                        pixelOut[m][n] = windowOut[m - 8 * i][n - 8 * j];
+                        // $write("%d", pixelOut[m][n]);
                     end
+                    // $write("\n");
                 end
             end
         end
-        linear_index = 0;
+        #10;
+
+        outFile = $fopen("src/out.txt", "w");
         for (i = 0; i < 128; i = i + 1) begin
             for (j = 0; j < 128; j = j + 1) begin
-                linear_index = i * 128 + j;
-                reg_offset = linear_index * N;
-                linearPixelOut[reg_offset +: N] = pixelOut[i][j];
+            $fwrite(outFile,"%d\n",pixelOut[i][j]);          
             end
         end
-        outFile = $fopen("src/out.txt", "wb");
         #10;
-        $fwrite(outFile,"%b",linearPixelOut);        #10;
         $fclose(outFile); 
         $finish;
     end

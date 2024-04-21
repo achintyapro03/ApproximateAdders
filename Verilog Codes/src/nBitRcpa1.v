@@ -9,7 +9,7 @@ wire [N:0] carry;
 wire [N:0] F;
 
 assign carry[N] = F[N];
-assign F[0] = 1'b0;
+assign F[0] = 1'b1;
 assign fn = F[N];
 genvar i;
 generate

@@ -1,18 +1,12 @@
-import random
+import math
+import numpy as np
 
-def generate_test_cases(num_bits, num_cases, filename):
-    with open(filename, 'w') as file:
-        for i in range(num_cases):
-            max_value = 2**(num_bits - 1)
-            
-            A = random.randint(0, max_value)
-            B = random.randint(0, max_value)
-            
-            A_str = f"{num_bits}'b{A:{num_bits}b}"
-            B_str = f"{num_bits}'b{B:{num_bits}b}"
-            
-            file.write(f"\tA = {A_str}; B = {B_str}; #10;\n")
+def myTrunc(li):
+    mask = li < -1
 
-    print(f"Test cases written to {filename}")
+    li[mask] = np.floor(li[mask])
+    li[~mask] = np.trunc(li[~mask])
 
-generate_test_cases(int(input("Enter number of bits : ")), int(input("Enter number of test cases : ")), 'test_cases.txt')
+    return li
+
+print(myTrunc(np.array([1.4232, -10.32323, -0.52323, -1.23232, -0.9423232, 10.233])))

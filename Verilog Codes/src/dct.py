@@ -1,5 +1,15 @@
 import math
 import numpy as np
+
+def myTrunc(li):
+    mask = li < -1
+
+    li[mask] = np.floor(li[mask])
+    li[~mask] = np.trunc(li[~mask])
+
+    return li
+
+
 # dct_array = eval(input("Enter DCT List: "))
 def read_inputfile(filename):
     list = []
@@ -71,7 +81,7 @@ def oned_dct(dct_array = [100,102,103,103,103,104,103,104]):
     # print(s2)
     print("kk", end=" .. ")
     print(s2)
-    s2 = np.trunc(s2)
+    s2 = myTrunc(np.array(s2))
     print(s2)
     s3 = []
     s3.append((s2[8]+s2[10])*c4)
@@ -82,7 +92,7 @@ def oned_dct(dct_array = [100,102,103,103,103,104,103,104]):
     s3.append(s2[4]-s2[7])
     s3.append(s2[9]*c6-s2[11]*c2)
     s3.append(s2[1]-s2[3])
-    s3 = np.trunc(s3)
+    s3 = myTrunc(np.array(s3))
     # print(s3)
 
     return s3
@@ -91,7 +101,7 @@ def oned_dct(dct_array = [100,102,103,103,103,104,103,104]):
 #     list = eval(input("Enter List: "))
 #     return_list = oned_dct()
 #     s1_dct.append(return_list)
-returned_list = read_inputfile("src/in.txt")
+returned_list = read_inputfile("in.txt")
 # print(returned_list[0].shape)
 val1 = (returned_list.shape[0]//8)-1
 val2 = (returned_list.shape[1]//8)-1
