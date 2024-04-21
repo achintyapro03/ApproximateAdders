@@ -35,7 +35,7 @@ module mainTb;
         //         linearPixelReg[reg_offset +: N] = pixelReg[i][j];
         //     end
         // end
-        $display("hello");
+        // $display("hello");
         for (i = 0; i < 16; i = i + 1) begin
             for (j = 0; j < 16; j = j + 1) begin
                 $display("i : %d, j : %d", i, j);
@@ -97,7 +97,7 @@ module mainTb;
         end
         #10;
 
-        outFile = $fopen("src/out.txt", "w");
+        outFile = $fopen("src/out2.txt", "w");
         for (i = 0; i < 128; i = i + 1) begin
             for (j = 0; j < 128; j = j + 1) begin
             $fwrite(outFile,"%d\n",pixelOut[i][j]);          

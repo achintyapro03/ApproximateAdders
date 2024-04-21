@@ -92,20 +92,20 @@ set(DCT1dFiles
     src/dct1d.v
 )
 #############################################################
-add_custom_target(
-    compile_verilog1 ALL
-    COMMAND iverilog -o  ${AllAdderCompFiles}
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-    COMMENT "Compiling Verilog files 1 with Icarus Verilog"
-)
+# add_custom_target(
+#     compile_verilog1 ALL
+#     COMMAND iverilog -o  ${AllAdderCompFiles}
+#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+#     COMMENT "Compiling Verilog files 1 with Icarus Verilog"
+# )
 
-add_custom_target(
-    run_simulation1 ALL
-    COMMAND vvp exe/runAllAdder
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-    COMMENT "Running simulation 1 with VVP"
-    DEPENDS compile_verilog1
-)
+# add_custom_target(
+#     run_simulation1 ALL
+#     COMMAND vvp exe/runAllAdder
+#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+#     COMMENT "Running simulation 1 with VVP"
+#     DEPENDS compile_verilog1
+# )
 # #############################################################
 # add_custom_target(
 #     compile_verilog2 ALL
@@ -139,20 +139,20 @@ add_custom_target(
 # )
 ##############################################################
 
-# add_custom_target(
-#     compile_verilog4 ALL
-#     COMMAND iverilog -o ${DCTFiles}
-#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-#     COMMENT "Compiling Verilog files 4 with Icarus Verilog"
-# )
+add_custom_target(
+    compile_verilog4 ALL
+    COMMAND iverilog -o ${DCTFiles}
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMENT "Compiling Verilog files 4 with Icarus Verilog"
+)
 
-# add_custom_target(
-#     run_simulation4 ALL
-#     COMMAND vvp exe/runDct
-#     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-#     COMMENT "Running simulation 4 with VVP"
-#     DEPENDS compile_verilog4
-# )
+add_custom_target(
+    run_simulation4 ALL
+    COMMAND vvp exe/runDct
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMENT "Running simulation 4 with VVP"
+    DEPENDS compile_verilog4
+)
 #############################################################
 
 # add_custom_target(

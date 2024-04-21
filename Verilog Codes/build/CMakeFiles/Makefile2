@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdder
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/compile_verilog1.dir/all
-all: CMakeFiles/run_simulation1.dir/all
+all: CMakeFiles/compile_verilog4.dir/all
+all: CMakeFiles/run_simulation4.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,61 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/compile_verilog1.dir/clean
-clean: CMakeFiles/run_simulation1.dir/clean
+clean: CMakeFiles/compile_verilog4.dir/clean
+clean: CMakeFiles/run_simulation4.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/compile_verilog1.dir
+# Target rules for target CMakeFiles/compile_verilog4.dir
 
 # All Build rule for target.
-CMakeFiles/compile_verilog1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog1.dir/build.make CMakeFiles/compile_verilog1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog1.dir/build.make CMakeFiles/compile_verilog1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=1 "Built target compile_verilog1"
-.PHONY : CMakeFiles/compile_verilog1.dir/all
+CMakeFiles/compile_verilog4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog4.dir/build.make CMakeFiles/compile_verilog4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog4.dir/build.make CMakeFiles/compile_verilog4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=1 "Built target compile_verilog4"
+.PHONY : CMakeFiles/compile_verilog4.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compile_verilog1.dir/rule: cmake_check_build_system
+CMakeFiles/compile_verilog4.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/compile_verilog1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/compile_verilog4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" 0
-.PHONY : CMakeFiles/compile_verilog1.dir/rule
+.PHONY : CMakeFiles/compile_verilog4.dir/rule
 
 # Convenience name for target.
-compile_verilog1: CMakeFiles/compile_verilog1.dir/rule
-.PHONY : compile_verilog1
+compile_verilog4: CMakeFiles/compile_verilog4.dir/rule
+.PHONY : compile_verilog4
 
 # clean rule for target.
-CMakeFiles/compile_verilog1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog1.dir/build.make CMakeFiles/compile_verilog1.dir/clean
-.PHONY : CMakeFiles/compile_verilog1.dir/clean
+CMakeFiles/compile_verilog4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog4.dir/build.make CMakeFiles/compile_verilog4.dir/clean
+.PHONY : CMakeFiles/compile_verilog4.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/run_simulation1.dir
+# Target rules for target CMakeFiles/run_simulation4.dir
 
 # All Build rule for target.
-CMakeFiles/run_simulation1.dir/all: CMakeFiles/compile_verilog1.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation1.dir/build.make CMakeFiles/run_simulation1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation1.dir/build.make CMakeFiles/run_simulation1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=2 "Built target run_simulation1"
-.PHONY : CMakeFiles/run_simulation1.dir/all
+CMakeFiles/run_simulation4.dir/all: CMakeFiles/compile_verilog4.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation4.dir/build.make CMakeFiles/run_simulation4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation4.dir/build.make CMakeFiles/run_simulation4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=2 "Built target run_simulation4"
+.PHONY : CMakeFiles/run_simulation4.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/run_simulation1.dir/rule: cmake_check_build_system
+CMakeFiles/run_simulation4.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_simulation1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_simulation4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles" 0
-.PHONY : CMakeFiles/run_simulation1.dir/rule
+.PHONY : CMakeFiles/run_simulation4.dir/rule
 
 # Convenience name for target.
-run_simulation1: CMakeFiles/run_simulation1.dir/rule
-.PHONY : run_simulation1
+run_simulation4: CMakeFiles/run_simulation4.dir/rule
+.PHONY : run_simulation4
 
 # clean rule for target.
-CMakeFiles/run_simulation1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation1.dir/build.make CMakeFiles/run_simulation1.dir/clean
-.PHONY : CMakeFiles/run_simulation1.dir/clean
+CMakeFiles/run_simulation4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation4.dir/build.make CMakeFiles/run_simulation4.dir/clean
+.PHONY : CMakeFiles/run_simulation4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

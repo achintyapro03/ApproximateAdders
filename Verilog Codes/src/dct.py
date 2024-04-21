@@ -1,5 +1,6 @@
 import math
 import numpy as np
+from sklearn.linear_model import LinearRegression
 
 def myTrunc(li):
     mask = li < -1
@@ -20,18 +21,14 @@ def read_inputfile(filename):
             for i in range(128):
                 list_128.append(int(line[:-1], 2))
                 line = f.readline()
-            # print(len(list_128))
             list.append(list_128)
     list = np.array(list,dtype="int")
-    # print(list.shape)
     return list
 
 def two_dct(data_list):
     single_answer = []
-    # print(len(data_list))
     for i in range(8):
         input_list = data_list[i][:8]
-        # print(input_list)
         input_list = list(input_list)
         single_answer.append(oned_dct(input_list))
         if(i==1):
@@ -42,17 +39,13 @@ def two_dprint(data_list):
         for j in range(len(data_list[i])):
             print(int(data_list[i][j]),end=" ")
         print()
-def oned_dct(dct_array = [100,102,103,103,103,104,103,104]):
-    # dct_array = [100,102,103,103,103,104,103,104]
+def oned_dct(dct_array):
     s1 = []
-    # print(type(dct_array))
     s1.extend([dct_array[0]+dct_array[7],dct_array[0]-dct_array[7]])
     s1.extend([dct_array[4]+dct_array[1],dct_array[4]-dct_array[1]])
     s1.extend([dct_array[6]+dct_array[2],dct_array[6]-dct_array[2]])
     s1.extend([dct_array[5]+dct_array[3],dct_array[5]-dct_array[3]])
 
-    # print(s1)
-    # print(s1)
     c0 = 0.35369
     c1 = 0.49040
     c2 = 0.46198
@@ -75,14 +68,6 @@ def oned_dct(dct_array = [100,102,103,103,103,104,103,104]):
     s2.append(s1[4]+s1[6])
     s2.append(s1[4]-s1[6])
 
-
-    # for i in range(len(s2)):
-    #     s2[i] = math.trunc(s2[i])
-    # print(s2)
-    print("kk", end=" .. ")
-    print(s2)
-    s2 = myTrunc(np.array(s2))
-    print(s2)
     s3 = []
     s3.append((s2[8]+s2[10])*c4)
     s3.append(s2[0]+s2[2])
@@ -92,39 +77,36 @@ def oned_dct(dct_array = [100,102,103,103,103,104,103,104]):
     s3.append(s2[4]-s2[7])
     s3.append(s2[9]*c6-s2[11]*c2)
     s3.append(s2[1]-s2[3])
-    s3 = myTrunc(np.array(s3))
-    # print(s3)
+
 
     return s3
-# s1_dct = []
-# for i in range(8):
-#     list = eval(input("Enter List: "))
-#     return_list = oned_dct()
-#     s1_dct.append(return_list)
-returned_list = read_inputfile("in.txt")
-# print(returned_list[0].shape)
-val1 = (returned_list.shape[0]//8)-1
-val2 = (returned_list.shape[1]//8)-1
-# print(returned_list.shape[1]//8)
-val1 = int(input("Enter row index: "))
-val2 = int(input("Enter column index: "))
-for i in range(val1,val1+1):
-    for j in range(val2,val2+1):
-        input_list = returned_list[i*8:(i+1)*8,j*8:(j+1)*8]
-        print()
-        print("Input List")
-        print(input_list)
-        stage2_rl = two_dct(input_list)
-        # print(type(returned_list))
-        stage2_rl = np.transpose(stage2_rl)
-        # print(stage2_rl)
-        stage3_rl = two_dct(stage2_rl)
-        stage3_rl = np.transpose(stage3_rl)
-        print()
-        print("Output List")
-        two_dprint(stage3_rl)
-        print()
 
-    
+x_list = []
+y_list = []
 
+for i in range(128):
+    vector_in = np.random.rand(8)*10
+    vector_out = oned_dct(vector_in)
+    x_list.append(vector_in)
+    y_list.append(vector_out)
 
+X = np.array(x_list)
+Y = np.array(y_list)
+
+model = LinearRegression(fit_intercept=False)
+model.fit(X, Y)
+
+# Transformation matrix is the coefficients of the model
+A = model.coef_
+
+# A = np.linalg.inv(A)
+# print(A)
+v = np.array([100,102,103,103,103,104,103,104])
+test = np.dot(A, v.T).astype(np.int64)
+print(test)
+invA = np.linalg.inv(A)
+C = []
+for i in invA:
+    C.append(list(i))
+
+print(C)
