@@ -10,7 +10,8 @@ module mainTb;
     wire signed [N - 1:0] pixelOut [127:0][127:0];
     reg signed [N * 128 * 128 - 1:0] linearPixelReg; 
     reg signed [N * 8 * 8 - 1:0] windowIn;
-    wire signed [N * 8 * 8 - 1:0] windowOut;
+    wire signed [N * 8 * 8 - 1:0] tempWindowOut;
+    reg signed [N - 1:0] windowOut [7:0][7:0];
     integer linear_index;
     integer reg_offset = 0;
 
@@ -20,7 +21,7 @@ module mainTb;
     dct2d #(.N(N)) dct2dinst(
         .clk(clk),
         .data_in(windowIn),
-        .data_out(windowOut)
+        .data_out(tempWindowOut)
     );
 
     initial begin
@@ -62,8 +63,19 @@ module mainTb;
                 //     end
                 // end
                 #100;
-                for (k = 0; k < N * 8 * 8; k = k + N) begin
-                    $display("%d", windowOut[k +: N]);
+                linear_index = 0;
+                for (m = 0; m < 8; m = m + 1) begin
+                    for (n = 0; n < 8; n = n + 1) begin
+                        $write("%d\n", tempWindowOut[linear_index * N +: N]);
+                        windowOut[7 - m][7 - n] = tempWindowOut[linear_index * N +: N];
+                        linear_index = linear_index + 1;
+                    end
+                end
+                for (m = 0; m < 8; m = m + 1) begin
+                    for (n = 0; n < 8; n = n + 1) begin
+                        $write("%d ", windowOut[m][n]);
+                    end
+                    $write("\n");
                 end
 
             end

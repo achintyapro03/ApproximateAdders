@@ -27,7 +27,12 @@ module dct2d #(parameter N = 16)(
                 .clk(clk),
                 .data_in(split_array1[7 - i]),
                 // .data_out(data_out[i * N * 8 +: N * 8])
-                .data_out(data_out[(7 - i) * N * 8 +: N * 8])
+                .data_out(stage1[(7 - i) * N * 8 +: N * 8]) // 8 * 8 box
+                // A element in array is of 16 bits
+                // One row is made up of N(=16)*128
+                // You have to take elements 8*N(=16) and then for next row 128*N(=16) to (128+8)*N(=16)
+                // 127 126 125 .. 1 0
+                // MSB -> LSB
             );
         end
     endgenerate
@@ -43,30 +48,30 @@ module dct2d #(parameter N = 16)(
     //     end
     // endgenerate
 
-    // transpose #(.N(8), .DATA_WIDTH(N)) transposeInst1(
-    //     .matrix1d(stage1),
-    //     .transposed_matrix1d(stage2)
-    // );
+    transpose #(.N(8), .DATA_WIDTH(N)) transposeInst1(
+        .matrix1d(stage1),
+        .transposed_matrix1d(stage2)
+    );
 
 
- 	// reg [8*N-1:0] split_array2 [7:0];
-	// always @* begin
-	// 	for (p = 0; p < 8; p = p + 1) begin
-    //         split_array2[p] = stage2[p*N*8 +: 8*N];
-	// 	end
-	// end
+ 	reg [8*N-1:0] split_array2 [7:0];
+	always @* begin
+		for (p = 0; p < 8; p = p + 1) begin
+            split_array2[p] = stage2[p*N*8 +: 8*N];
+		end
+	end
 
-    // genvar j;
-    // generate
-    //     for (j = 0; j < 8; j = j + 1) begin: dct1dloop2
-    //         dct1d #(.N(N)) dct1dinst(
-    //             .clk(clk),
-    //             .data_in(split_array2[j]),
-    //             // .data_out(data_out[j * N * 8 +: N * 8])
-    //             .data_out(stage3[j * N * 8 +: N * 8])
-    //         );
-    //     end
-    // endgenerate
+    genvar j;
+    generate
+        for (j = 0; j < 8; j = j + 1) begin: dct1dloop2
+            dct1d #(.N(N)) dct1dinst(
+                .clk(clk),
+                .data_in(split_array2[j]),
+                // .data_out(data_out[j * N * 8 +: N * 8])
+                .data_out(stage3[j * N * 8 +: N * 8])
+            );
+        end
+    endgenerate
 
     transpose #(.N(8), .DATA_WIDTH(N)) transposeInst2(
         .matrix1d(stage3),
