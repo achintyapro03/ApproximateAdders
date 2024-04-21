@@ -11,7 +11,7 @@ gray_array = np.array(gray_image)
 gray_values = gray_array.flatten()
 
 output_file = "in.txt"
-length = 16
+length = 12
 # with open(output_file, "w") as file:
 #     for i in range(0, 128 * 128):
 #         s = str(bin(i)[2:])
