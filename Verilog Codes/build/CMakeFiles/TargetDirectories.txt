@@ -1,4 +1,3 @@
-/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles/compile_verilog4.dir
-/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles/run_simulation4.dir
-/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles/edit_cache.dir
-/home/achintya/Software/Sem6/VlArch/Project/ApproximateAdders/Verilog Codes/build/CMakeFiles/rebuild_cache.dir
+/Users/nitheezkantr/ApproximateAdders/Verilog Codes/build/CMakeFiles/compile_verilog1.dir
+/Users/nitheezkantr/ApproximateAdders/Verilog Codes/build/CMakeFiles/edit_cache.dir
+/Users/nitheezkantr/ApproximateAdders/Verilog Codes/build/CMakeFiles/rebuild_cache.dir
