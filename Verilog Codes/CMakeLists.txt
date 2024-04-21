@@ -99,13 +99,13 @@ set(DCT1dFiles
      COMMENT "Compiling Verilog files 1 with Icarus Verilog"
  )
 
-#add_custom_target(
-#    run_simulation1 ALL
-#    COMMAND vvp exe/runAllAdder
-#    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-#    COMMENT "Running simulation 1 with VVP"
-#    DEPENDS compile_verilog1
-# )
+add_custom_target(
+    run_simulation1 ALL
+    COMMAND vvp exe/runAllAdder
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMENT "Running simulation 1 with VVP"
+    DEPENDS compile_verilog1
+ )
 # #############################################################
 # add_custom_target(
 #     compile_verilog2 ALL

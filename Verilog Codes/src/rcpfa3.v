@@ -15,7 +15,7 @@ module rcpfa3_block (
     wire notCOut;
 
 
-    nand_gate nand1(notFOut, a, b);
+    nor_gate nor1(notFOut, a, b);
     not_gate not1(fOut, notFOut);
     
     not_gate not2(notCIn, cIn);

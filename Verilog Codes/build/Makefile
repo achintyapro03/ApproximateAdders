@@ -129,6 +129,19 @@ compile_verilog1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog1.dir/build.make CMakeFiles/compile_verilog1.dir/build
 .PHONY : compile_verilog1/fast
 
+#=============================================================================
+# Target rules for targets named run_simulation1
+
+# Build rule for target.
+run_simulation1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_simulation1
+.PHONY : run_simulation1
+
+# fast build rule for target.
+run_simulation1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation1.dir/build.make CMakeFiles/run_simulation1.dir/build
+.PHONY : run_simulation1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +151,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... compile_verilog1"
+	@echo "... run_simulation1"
 .PHONY : help
 
 

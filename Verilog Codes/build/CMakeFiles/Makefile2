@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = "/Users/nitheezkantr/ApproximateAdders/Verilog Codes/build"
 
 # The main recursive "all" target.
 all: CMakeFiles/compile_verilog1.dir/all
+all: CMakeFiles/run_simulation1.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/compile_verilog1.dir/clean
+clean: CMakeFiles/run_simulation1.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +101,32 @@ compile_verilog1: CMakeFiles/compile_verilog1.dir/rule
 CMakeFiles/compile_verilog1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_verilog1.dir/build.make CMakeFiles/compile_verilog1.dir/clean
 .PHONY : CMakeFiles/compile_verilog1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/run_simulation1.dir
+
+# All Build rule for target.
+CMakeFiles/run_simulation1.dir/all: CMakeFiles/compile_verilog1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation1.dir/build.make CMakeFiles/run_simulation1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation1.dir/build.make CMakeFiles/run_simulation1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/nitheezkantr/ApproximateAdders/Verilog Codes/build/CMakeFiles" --progress-num=2 "Built target run_simulation1"
+.PHONY : CMakeFiles/run_simulation1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/run_simulation1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nitheezkantr/ApproximateAdders/Verilog Codes/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_simulation1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nitheezkantr/ApproximateAdders/Verilog Codes/build/CMakeFiles" 0
+.PHONY : CMakeFiles/run_simulation1.dir/rule
+
+# Convenience name for target.
+run_simulation1: CMakeFiles/run_simulation1.dir/rule
+.PHONY : run_simulation1
+
+# clean rule for target.
+CMakeFiles/run_simulation1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_simulation1.dir/build.make CMakeFiles/run_simulation1.dir/clean
+.PHONY : CMakeFiles/run_simulation1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
