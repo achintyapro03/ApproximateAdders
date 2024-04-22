@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 list = np.zeros((128, 128), dtype=float)
 
-with open('out.txt', 'r') as file:
+with open('out2.txt', 'r') as file:
     data = file.read()
     numbers = data.split()
     list = np.array(numbers, dtype=float).reshape(128, 128)

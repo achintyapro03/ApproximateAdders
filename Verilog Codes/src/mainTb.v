@@ -26,7 +26,7 @@ module mainTb;
     initial begin
         $dumpfile("exe/output_mainTb.vcd");
         $dumpvars(0, mainTb);    
-        $readmemb("src/in.txt", pixelReg);
+        $readmemb("src/red.txt", pixelReg);
         
         // for (i = 0; i < 128; i = i + 1) begin
         //     for (j = 0; j < 128; j = j + 1) begin
@@ -60,7 +60,7 @@ module mainTb;
                 //         $write("\t");
                 //     end
                 // end
-                $display("\n\n\n");
+                // $display("\n\n\n");
 
                 // #20;
                 // linear_index = 0;
@@ -97,7 +97,7 @@ module mainTb;
         end
         #10;
 
-        outFile = $fopen("src/out2.txt", "w");
+        outFile = $fopen("src/outRed.txt", "w");
         for (i = 0; i < 128; i = i + 1) begin
             for (j = 0; j < 128; j = j + 1) begin
             $fwrite(outFile,"%d\n",pixelOut[i][j]);          
