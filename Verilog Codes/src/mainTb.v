@@ -1,3 +1,4 @@
+`timescale 1ps/1ps
 module mainTb;
     integer i, j, m, n, k;
     parameter N = 16;  
@@ -26,7 +27,7 @@ module mainTb;
     initial begin
         $dumpfile("exe/output_mainTb.vcd");
         $dumpvars(0, mainTb);    
-        $readmemb("src/red.txt", pixelReg);
+        $readmemb("src/blue.txt", pixelReg);
         
         // for (i = 0; i < 128; i = i + 1) begin
         //     for (j = 0; j < 128; j = j + 1) begin
@@ -97,7 +98,7 @@ module mainTb;
         end
         #10;
 
-        outFile = $fopen("src/outRed.txt", "w");
+        outFile = $fopen("src/outBlue.txt", "w");
         for (i = 0; i < 128; i = i + 1) begin
             for (j = 0; j < 128; j = j + 1) begin
             $fwrite(outFile,"%d\n",pixelOut[i][j]);          
