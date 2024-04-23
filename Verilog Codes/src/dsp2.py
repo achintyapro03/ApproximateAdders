@@ -3,10 +3,48 @@ from scipy.fft import dct, idct
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from PIL import Image
+from skimage.metrics import structural_similarity
+import cv2
+
+def fun(f1, f2):
+    before = cv2.imread(f1)
+    after = cv2.imread(f2)
+
+    # Convert images to grayscale
+    before_gray = cv2.cvtColor(before, cv2.COLOR_BGR2GRAY)
+    after_gray = cv2.cvtColor(after, cv2.COLOR_BGR2GRAY)
+
+    # Compute SSIM between two images
+    (score, diff) = structural_similarity(before_gray, after_gray, full=True)
+
+    diff = (diff * 255).astype("uint8")
+    thresh = cv2.threshold(diff, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
+    contours = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    contours = contours[0] if len(contours) == 2 else contours[1]
+
+    mask = np.zeros(before.shape, dtype='uint8')
+    filled_after = after.copy()
+
+    for c in contours:
+        area = cv2.contourArea(c)
+        if area > 40:
+            x,y,w,h = cv2.boundingRect(c)
+            cv2.rectangle(before, (x, y), (x + w, y + h), (36,255,12), 2)
+            cv2.rectangle(after, (x, y), (x + w, y + h), (36,255,12), 2)
+            cv2.drawContours(mask, [c], 0, (0,255,0), -1)
+            cv2.drawContours(filled_after, [c], 0, (0,255,0), -1)
+
+    # cv2.imshow('before', before)
+    # cv2.imshow('after', after)
+    # cv2.imshow('diff',diff)
+    # cv2.imshow('mask',mask)
+    # cv2.imshow('filled after',filled_after)
+    cv2.waitKey(0)
+    return score
 
 red = np.zeros((128, 128), dtype=float)
 
-with open('outRed.txt', 'r') as file:
+with open('out4_r.txt', 'r') as file:
     data = file.read()
     numbers = data.split()
     red = np.array(numbers, dtype=float).reshape(128, 128)
@@ -14,7 +52,7 @@ with open('outRed.txt', 'r') as file:
 
 green = np.zeros((128, 128), dtype=float)
 
-with open('outGreen.txt', 'r') as file:
+with open('out4_g.txt', 'r') as file:
     data = file.read()
     numbers = data.split()
     green = np.array(numbers, dtype=float).reshape(128, 128)
@@ -22,12 +60,16 @@ with open('outGreen.txt', 'r') as file:
 
 blue = np.zeros((128, 128), dtype=float)
 
-with open('outBlue.txt', 'r') as file:
+with open('out4_b.txt', 'r') as file:
     data = file.read()
     numbers = data.split()
     blue = np.array(numbers, dtype=float).reshape(128, 128)
 
-inpImg = mpimg.imread('f1.jpg')
+
+f1 = "Im4_r1.jpg"
+f2 = "modi2.jpg"
+
+inpImg = mpimg.imread(f1)
 
 # quant_table = np.array([
 #     [16,  11,  10,  16,  24, 40, 51, 61],
@@ -50,7 +92,7 @@ quant_table = np.array([
     [20, 26, 31, 35, 41, 48, 48, 40],
     [29, 37, 38, 39, 45, 40, 41, 40]
 ])
-quant_table = quant_table
+quant_table = quant_table * 3
 
 idct_matrix = np.array([[0.35341683395063966, 0.4902357603574083, 0.46171452375250455, 0.41585984518107744, 0.35341683395063506, 0.2774638687951855, 0.19150988579907113, 0.0973885117086323], 
                [0.3534168339506351, -0.09738851170863172, -0.461714523752504, 0.2774638687951856, 0.35341683395063517, -0.4158598451810763, -0.19150988579907113, 0.49023576035740796], 
@@ -88,15 +130,40 @@ for k in range(3):
 
             outArray[k] = outArray[k].astype(np.int64)    
 
+# rgb_image = np.stack((outArray[0], outArray[1], outArray[2]), axis=-1)
+
+# imageOut = Image.fromarray(rgb_image)
+
+# imageOut.save("f1Out.jpg")
+
+# fig, axes = plt.subplots(1, 2)
+
+# axes[0].imshow(inpImg)
+# axes[0].set_title('Input Image')
+
+# axes[1].imshow(rgb_image)
+# axes[1].set_title('Compressed Image')
+
+# # Show the plot
+# plt.show()
+
+# Convert pixel values to unsigned 8-bit integers
+outArray[0] = np.clip(outArray[0], 0, 255).astype(np.uint8)
+outArray[1] = np.clip(outArray[1], 0, 255).astype(np.uint8)
+outArray[2] = np.clip(outArray[2], 0, 255).astype(np.uint8)
+
+# Stack the arrays to form the RGB image
 rgb_image = np.stack((outArray[0], outArray[1], outArray[2]), axis=-1)
 
-fig, axes = plt.subplots(1, 2)
+# Create PIL image
+imageOut = Image.fromarray(rgb_image)
 
-axes[0].imshow(inpImg)
-axes[0].set_title('Input Image')
+# Save the image
+imageOut.save(f2)
 
-axes[1].imshow(rgb_image)
-axes[1].set_title('Compressed Image')
+print(fun(f1, f2))
 
-# Show the plot
+# Display the image
+plt.imshow(rgb_image)
+plt.title('Compressed Image')
 plt.show()
